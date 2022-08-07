@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>34EE5CB6-45B4-437E-8481-94B7677E9ADF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>34EE5CB6-45B4-437E-8481-94B7677E9ADF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>681587460.39517903</real>
+			<key>timeStoppedRecording</key>
+			<real>681587460.95885003</real>
+			<key>title</key>
+			<string>Build PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>34EE5CB6-45B4-437E-8481-94B7677E9ADF</string>
+		</dict>
+		<key>B5F09645-AA03-4682-B7F2-95EB365238DD</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B5F09645-AA03-4682-B7F2-95EB365238DD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>681502871.89234102</real>
+			<key>timeStoppedRecording</key>
+			<real>681502873.59796798</real>
+			<key>title</key>
+			<string>Build PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>B5F09645-AA03-4682-B7F2-95EB365238DD</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

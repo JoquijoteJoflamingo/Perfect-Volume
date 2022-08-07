@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>E70AB45C-44CC-44FD-8125-9A0475142AAB</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>E70AB45C-44CC-44FD-8125-9A0475142AAB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>681502873.599347</real>
+			<key>timeStoppedRecording</key>
+			<real>681502880.34027505</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>E70AB45C-44CC-44FD-8125-9A0475142AAB</string>
+		</dict>
+		<key>E8A5C5DC-A90A-4F1B-B42C-BE38E9218FDA</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>E8A5C5DC-A90A-4F1B-B42C-BE38E9218FDA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>681587460.96157098</real>
+			<key>timeStoppedRecording</key>
+			<real>681587466.85108805</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>E8A5C5DC-A90A-4F1B-B42C-BE38E9218FDA</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

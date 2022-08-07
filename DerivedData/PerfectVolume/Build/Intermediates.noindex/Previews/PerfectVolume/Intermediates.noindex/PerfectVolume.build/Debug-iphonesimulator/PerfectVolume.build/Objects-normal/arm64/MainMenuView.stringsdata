@@ -1,0 +1,20 @@
+{
+  "source": "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Muscle Groups"
+      },
+      {
+        "comment": "",
+        "key": "Workout Notes"
+      },
+      {
+        "comment": "",
+        "key": "Error"
+      }
+    ]
+  },
+  "version": 1
+}

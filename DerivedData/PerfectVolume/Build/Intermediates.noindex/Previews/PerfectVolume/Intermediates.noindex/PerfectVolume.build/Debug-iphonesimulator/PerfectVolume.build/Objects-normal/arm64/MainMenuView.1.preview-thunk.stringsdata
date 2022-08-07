@@ -1,0 +1,20 @@
+{
+  "source": "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/DerivedData/PerfectVolume/Build/Intermediates.noindex/Previews/PerfectVolume/Intermediates.noindex/PerfectVolume.build/Debug-iphonesimulator/PerfectVolume.build/Objects-normal/arm64/MainMenuView.1.preview-thunk.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Muscle Groups"
+      },
+      {
+        "comment": "",
+        "key": "Workout Notes"
+      },
+      {
+        "comment": "",
+        "key": "Error"
+      }
+    ]
+  },
+  "version": 1
+}

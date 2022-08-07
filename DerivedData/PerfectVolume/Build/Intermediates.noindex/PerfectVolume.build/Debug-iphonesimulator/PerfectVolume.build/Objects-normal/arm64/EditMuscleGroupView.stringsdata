@@ -1,0 +1,24 @@
+{
+  "source": "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/EditMuscleGroupView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "%@"
+      },
+      {
+        "comment": "",
+        "key": "Minimum Target Sets: %lld"
+      },
+      {
+        "comment": "",
+        "key": "Maximum Target Sets: %lld"
+      },
+      {
+        "comment": "",
+        "key": "SAVE"
+      }
+    ]
+  },
+  "version": 1
+}

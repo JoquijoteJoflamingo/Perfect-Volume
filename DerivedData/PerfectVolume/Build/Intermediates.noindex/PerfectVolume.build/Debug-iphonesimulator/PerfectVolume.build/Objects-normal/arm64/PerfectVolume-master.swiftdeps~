@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "7c210285ad91bfaec743ad1cdc75c0a36a39d4994ee93a2203d801d0d6081829"
+build_start_time: [1659152688, 348866939]
+build_end_time: [1659152688, 930841922]
+inputs:
+  "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/DataModel/DataController.swift": [1659124992, 766679286]
+  "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Model/MuscleGroupEntity.swift": [1659124992, 785576820]
+  "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateMuscleGroupView.swift": [1659152629, 928030729]
+  "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/EditMuscleGroupView.swift": [1659131830, 706355571]
+  "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift": [1659131978, 331794738]
+  "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolumeApp.swift": [1659122321, 548834800]

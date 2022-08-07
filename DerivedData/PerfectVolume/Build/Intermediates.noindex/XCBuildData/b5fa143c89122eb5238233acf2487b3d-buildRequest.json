@@ -1,0 +1,104 @@
+{
+  "_buildCommand2" : {
+    "command" : "preview"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "616a5d14ed09f5d04b7d89551bfd1e2a260103abcdd7a2d74e4c8275a2fb1214",
+      "parameters" : {
+        "action" : "build",
+        "activeArchitecture" : "arm64",
+        "activeRunDestination" : {
+          "disableOnlyActiveArch" : false,
+          "platform" : "iphonesimulator",
+          "sdk" : "iphonesimulator15.5",
+          "sdkVariant" : "iphonesimulator",
+          "supportedArchitectures" : [
+            "arm64",
+            "x86_64"
+          ],
+          "targetArchitecture" : "arm64"
+        },
+        "arenaInfo" : {
+          "buildIntermediatesPath" : "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/DerivedData/PerfectVolume/Build/Intermediates.noindex",
+          "buildProductsPath" : "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/DerivedData/PerfectVolume/Build/Products",
+          "derivedDataPath" : "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/DerivedData",
+          "indexDataStoreFolderPath" : "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/DerivedData/PerfectVolume/Index/DataStore",
+          "indexEnableDataStore" : true,
+          "indexPCHPath" : "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/DerivedData/PerfectVolume/Index/PrecompiledHeaders",
+          "pchPath" : "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/DerivedData/PerfectVolume/Build/Intermediates.noindex/PrecompiledHeaders"
+        },
+        "configurationName" : "Debug",
+        "overrides" : {
+          "synthesized" : {
+            "table" : {
+              "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "",
+              "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "",
+              "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+              "DSTROOT" : "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/DerivedData/PerfectVolume/Build/Intermediates.noindex/Previews/PerfectVolume/ReleaseProducts",
+              "ENABLE_ONLY_ACTIVE_RESOURCES" : "NO",
+              "ENABLE_PREVIEWS" : "YES",
+              "OBJROOT" : "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/DerivedData/PerfectVolume/Build/Intermediates.noindex/Previews/PerfectVolume/Intermediates.noindex",
+              "SYMROOT" : "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/DerivedData/PerfectVolume/Build/Intermediates.noindex/Previews/PerfectVolume/Products",
+              "TARGET_DEVICE_IDENTIFIER" : "45578081-B426-4625-BE38-35BB93C3D31A",
+              "TARGET_DEVICE_MODEL" : "iPhone14,3",
+              "TARGET_DEVICE_OS_VERSION" : "15.5",
+              "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "containerPath" : "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator15.5",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/DerivedData/PerfectVolume/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/DerivedData/PerfectVolume/Build/Products",
+      "derivedDataPath" : "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/DerivedData/PerfectVolume/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/DerivedData/PerfectVolume/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/DerivedData/PerfectVolume/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone14,3",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "15.5",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "TARGET_DEVICE_IDENTIFIER" : "45578081-B426-4625-BE38-35BB93C3D31A",
+          "TARGET_DEVICE_MODEL" : "iPhone14,3",
+          "TARGET_DEVICE_OS_VERSION" : "15.5",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

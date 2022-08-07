@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>C8F9E646-D190-4D85-9587-96E856260A38</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>C8F9E646-D190-4D85-9587-96E856260A38.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>PerfectVolume-dlhrcxnxizrffqdpbdblynqbczpu</string>
+			<key>timeStartedRecording</key>
+			<real>681502871.96958399</real>
+			<key>timeStoppedRecording</key>
+			<real>681502873.59437001</real>
+			<key>title</key>
+			<string>Build target PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>C8F9E646-D190-4D85-9587-96E856260A38</string>
+		</dict>
+	</dict>
+	<key>preserveOldLogs</key>
+	<true/>
+</dict>
+</plist>
