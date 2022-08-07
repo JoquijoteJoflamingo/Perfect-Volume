@@ -16,6 +16,8 @@ struct EditNoteView: View {
     @State var exercises : [ExerciseEntity] = []
     @State var exerciseName : String = ""
     @State var exerciseNumSets : Double = 0
+    @State var date: Date = Date()
+
     var body: some View {
         NavigationView {
             VStack {
@@ -25,7 +27,7 @@ struct EditNoteView: View {
                     .onAppear {
                         title = note.title ?? ""
                         exercises = note.exercises!.allObjects as! [ExerciseEntity]
-                        
+                        date = note.date ?? Date()
                     }
                 
                 Spacer()
@@ -35,20 +37,21 @@ struct EditNoteView: View {
                         secondarySystem
                         List {
                             ForEach(exercises) { exercise in
-                                HStack {
-                                    Text(exercise.name ?? "")
-                                    Spacer()
-                                    Text(String(exercise.numSets) + " sets").padding()
-                                    
-                                    Button(action: {
-                                        // IMPLEMENT
-                                    }, label: {
-                                        Image(systemName: "info.circle.fill").font(.system(size: 25)).padding()
-                                    })
+                                
+                                NavigationLink(destination: ExerciseDetailView(exercise: exercise)) {
+                                    HStack {
+                                        Text(exercise.name ?? "")
+                                        Spacer()
+                                        Text(String(exercise.numSets) + " sets").padding()
+
+                                        Button(action: {
+
+                                        }, label: {
+                                            Image(systemName: "info.circle.fill").font(.system(size: 25)).padding()
+                                        })
+                                    }
                                 }
                             }
-//                            .listRowBackground(secondarySystem)
-                            
                         }
                     }
                 }
@@ -91,7 +94,11 @@ struct EditNoteView: View {
                     }
 
                 }
+                ToolbarItemGroup(placement: .navigationBarTrailing) {
+                    DatePicker("", selection: $date, displayedComponents: [.date]).labelsHidden().background(secondarySystem).accentColor(Color("Mint Green"))
+                }
             }
+            
             .navigationBarTitle("", displayMode: .inline)
 
         }
@@ -105,7 +112,7 @@ struct EditNoteView: View {
     }
     
     func saveEditedNote() {
-        DataController().editNote(note: note, title: title, exercises: exercises, context: managedObjContext)
+        DataController().editNote(note: note, title: title, date: date, exercises: exercises, context: managedObjContext)
         self.presentationMode.wrappedValue.dismiss()
     }
 }

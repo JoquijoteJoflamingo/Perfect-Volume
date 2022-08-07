@@ -70,6 +70,7 @@ struct MainMenuView: View {
                                     HStack {
                                         Text(note.title ?? "")
                                         Spacer()
+                                        Text(dateFormatter.string(from: note.date ?? Date())).padding(.trailing, 10.0)
                                     }
                                 }
                                 .listRowBackground(secondarySystem)

@@ -17,19 +17,19 @@ extension CreateMuscleGroupView {
         VStack {
             Form {
                 Section {
-                    TextField(__designTimeString("#5238.[1].[7].property.[0].[0].arg[0].value.[0].arg[0].value.[0].arg[0].value.[0].arg[0].value", fallback: "Muscle group name"), text: $name)
+                    TextField(__designTimeString("#8592.[1].[7].property.[0].[0].arg[0].value.[0].arg[0].value.[0].arg[0].value.[0].arg[0].value", fallback: "Muscle group name"), text: $name)
                 }.listRowBackground(secondarySystem)
                 Section {
                     VStack {
                         Text("Minimum Target Sets: \(Int(minTargetSets))")
-                        Slider(value: $minTargetSets, in: __designTimeInteger("#5238.[1].[7].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[0].arg[0].value.[1].arg[1].value.[0]", fallback: 0)...__designTimeInteger("#5238.[1].[7].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[0].arg[0].value.[1].arg[1].value.[1]", fallback: 30), step: __designTimeInteger("#5238.[1].[7].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[0].arg[0].value.[1].arg[2].value", fallback: 1))
+                        Slider(value: $minTargetSets, in: __designTimeInteger("#8592.[1].[7].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[0].arg[0].value.[1].arg[1].value.[0]", fallback: 0)...__designTimeInteger("#8592.[1].[7].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[0].arg[0].value.[1].arg[1].value.[1]", fallback: 30), step: __designTimeInteger("#8592.[1].[7].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[0].arg[0].value.[1].arg[2].value", fallback: 1))
                     }
                     .padding()
                     .listRowBackground(secondarySystem)
                     
                     VStack {
                         Text("Maximum Target Sets: \(Int(maxTargetSets))")
-                        Slider(value: $maxTargetSets, in: __designTimeInteger("#5238.[1].[7].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[1].arg[0].value.[1].arg[1].value.[0]", fallback: 0)...__designTimeInteger("#5238.[1].[7].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[1].arg[0].value.[1].arg[1].value.[1]", fallback: 30), step: __designTimeInteger("#5238.[1].[7].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[1].arg[0].value.[1].arg[2].value", fallback: 1))
+                        Slider(value: $maxTargetSets, in: __designTimeInteger("#8592.[1].[7].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[1].arg[0].value.[1].arg[1].value.[0]", fallback: 0)...__designTimeInteger("#8592.[1].[7].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[1].arg[0].value.[1].arg[1].value.[1]", fallback: 30), step: __designTimeInteger("#8592.[1].[7].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[1].arg[0].value.[1].arg[2].value", fallback: 1))
                     }
                     .padding()
                     .listRowBackground(secondarySystem)
@@ -48,15 +48,15 @@ extension CreateMuscleGroupView {
                     }, label: {
                         HStack {
                             Spacer()
-                            Text(__designTimeString("#5238.[1].[7].property.[0].[0].arg[0].value.[0].arg[0].value.[2].arg[0].value.[0].arg[1].value.[0].arg[0].value.[1].arg[0].value", fallback: "SAVE"))
+                            Text(__designTimeString("#8592.[1].[7].property.[0].[0].arg[0].value.[0].arg[0].value.[2].arg[0].value.[0].arg[1].value.[0].arg[0].value.[1].arg[0].value", fallback: "SAVE"))
                                 .foregroundColor(Color.white)
                             .font(.headline)
                             Spacer()
                         }
                     })
                 }
-                .padding(__designTimeInteger("#5238.[1].[7].property.[0].[0].arg[0].value.[0].arg[0].value.[2].modifier[0].arg[0].value", fallback: 15))
-                .listRowBackground(textValid(name: name, minTarget: Int(minTargetSets), maxTarget: Int(maxTargetSets)) ? Color(__designTimeString("#5238.[1].[7].property.[0].[0].arg[0].value.[0].arg[0].value.[2].modifier[1].arg[0].value.then.arg[0].value", fallback: "Mint Green")) : Color.gray)
+                .padding(__designTimeInteger("#8592.[1].[7].property.[0].[0].arg[0].value.[0].arg[0].value.[2].modifier[0].arg[0].value", fallback: 15))
+                .listRowBackground(textValid(name: name, minTarget: Int(minTargetSets), maxTarget: Int(maxTargetSets)) ? Color(__designTimeString("#8592.[1].[7].property.[0].[0].arg[0].value.[0].arg[0].value.[2].modifier[1].arg[0].value.then.arg[0].value", fallback: "Mint Green")) : Color.gray)
                 
             }
             

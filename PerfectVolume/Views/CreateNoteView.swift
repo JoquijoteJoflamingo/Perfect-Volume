@@ -15,6 +15,8 @@ struct CreateNoteView: View {
     @State var exercises : [ExerciseEntity] = []
     @State var exerciseName : String = ""
     @State var exerciseNumSets : Double = 0
+    @State var date : Date = Date()
+    
     var body: some View {
         NavigationView {
             VStack {
@@ -29,17 +31,21 @@ struct CreateNoteView: View {
                         secondarySystem
                         List {
                             ForEach(exercises) { exercise in
-                                HStack {
-                                    Text(exercise.name ?? "")
-                                    Spacer()
-                                    Text(String(exercise.numSets) + " sets").padding()
-                                    
-                                    Button(action: {
-                                        // IMPLEMENT
-                                    }, label: {
-                                        Image(systemName: "info.circle.fill").font(.system(size: 25)).padding()
-                                    })
+                                NavigationLink(destination: ExerciseDetailView(exercise: exercise)) {
+                                    HStack {
+                                        Text(exercise.name ?? "")
+                                        Spacer()
+                                        Text(String(exercise.numSets) + " sets").padding()
+
+                                        Button(action: {
+
+                                        }, label: {
+                                            Image(systemName: "info.circle.fill").font(.system(size: 25)).padding()
+                                        })
+                                    }
                                 }
+
+
                             }
 //                            .listRowBackground(secondarySystem)
                         }
@@ -89,8 +95,13 @@ struct CreateNoteView: View {
                     })
                 }
                 
+                ToolbarItemGroup(placement: .navigationBarTrailing) {
+                    DatePicker("", selection: $date, displayedComponents: [.date]).labelsHidden().background(secondarySystem).accentColor(Color("Mint Green"))
+                }
+                
             }
             .navigationBarTitle("", displayMode: .inline)
+            
         }
         .navigationBarTitle("", displayMode: .inline)
         .navigationBarBackButtonHidden(true)
@@ -105,7 +116,7 @@ struct CreateNoteView: View {
     func saveNote() {
         
         if  title != "" || !exercises.isEmpty {
-            DataController().addNote(title: title, exercises: exercises, context: managedObjContext)
+            DataController().addNote(title: title, exercises: exercises, date: date, context: managedObjContext)
         }
         self.presentationMode.wrappedValue.dismiss()
     }

@@ -4,6 +4,7 @@
         <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
         <attribute name="name" attributeType="String"/>
         <attribute name="numSets" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="sets" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="SetDetailEntity"/>
     </entity>
     <entity name="MuscleGroupEntity" representedClassName="MuscleGroupEntity" syncable="YES">
         <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
@@ -14,13 +15,19 @@
         <attribute name="setsWorked" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
     </entity>
     <entity name="NoteEntity" representedClassName="NoteEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
         <attribute name="title" attributeType="String"/>
         <relationship name="exercises" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ExerciseEntity"/>
     </entity>
+    <entity name="SetDetailEntity" representedClassName="SetDetailEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="reps" attributeType="String"/>
+        <attribute name="weight" attributeType="String"/>
+    </entity>
     <elements>
-        <element name="ExerciseEntity" positionX="-27" positionY="63" width="128" height="74"/>
+        <element name="ExerciseEntity" positionX="-27" positionY="63" width="128" height="89"/>
         <element name="MuscleGroupEntity" positionX="-27" positionY="18" width="128" height="119"/>
-        <element name="NoteEntity" positionX="-27" positionY="63" width="128" height="74"/>
+        <element name="NoteEntity" positionX="-27" positionY="63" width="128" height="89"/>
+        <element name="SetDetailEntity" positionX="18" positionY="108" width="128" height="59"/>
     </elements>
 </model>

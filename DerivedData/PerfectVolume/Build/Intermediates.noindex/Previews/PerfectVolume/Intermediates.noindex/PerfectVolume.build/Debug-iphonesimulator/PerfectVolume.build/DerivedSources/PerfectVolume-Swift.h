@@ -222,6 +222,16 @@ SWIFT_CLASS_NAMED("ExerciseEntity")
 @end
 
 
+@class SetDetailEntity;
+@class NSSet;
+
+@interface ExerciseEntity (SWIFT_EXTENSION(PerfectVolume))
+- (void)addSetsObject:(SetDetailEntity * _Nonnull)value;
+- (void)removeSetsObject:(SetDetailEntity * _Nonnull)value;
+- (void)addSets:(NSSet * _Nonnull)values;
+- (void)removeSets:(NSSet * _Nonnull)values;
+@end
+
 @class NSUUID;
 @class NSString;
 
@@ -229,6 +239,7 @@ SWIFT_CLASS_NAMED("ExerciseEntity")
 @property (nonatomic, copy) NSUUID * _Nullable id;
 @property (nonatomic, copy) NSString * _Nullable name;
 @property (nonatomic) int64_t numSets;
+@property (nonatomic, strong) NSSet * _Nullable sets;
 @end
 
 
@@ -254,7 +265,6 @@ SWIFT_CLASS_NAMED("NoteEntity")
 @end
 
 
-@class NSSet;
 
 @interface NoteEntity (SWIFT_EXTENSION(PerfectVolume))
 - (void)addExercisesObject:(ExerciseEntity * _Nonnull)value;
@@ -263,11 +273,26 @@ SWIFT_CLASS_NAMED("NoteEntity")
 - (void)removeExercises:(NSSet * _Nonnull)values;
 @end
 
+@class NSDate;
 
 @interface NoteEntity (SWIFT_EXTENSION(PerfectVolume))
+@property (nonatomic, copy) NSDate * _Nullable date;
 @property (nonatomic, copy) NSUUID * _Nullable id;
 @property (nonatomic, copy) NSString * _Nullable title;
 @property (nonatomic, strong) NSSet * _Nullable exercises;
+@end
+
+
+SWIFT_CLASS_NAMED("SetDetailEntity")
+@interface SetDetailEntity : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+@interface SetDetailEntity (SWIFT_EXTENSION(PerfectVolume))
+@property (nonatomic, copy) NSString * _Nullable reps;
+@property (nonatomic, copy) NSString * _Nullable weight;
 @end
 
 #if __has_attribute(external_source_symbol)

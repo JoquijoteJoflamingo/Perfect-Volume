@@ -61,14 +61,22 @@ class DataController: ObservableObject {
         exercise.id = UUID()
         exercise.name = name
         exercise.numSets = Int64(numSets)
-        
+        exercise.sets = []
+//        exercise.muscleGroup = MuscleGroupEntity(context: context)
+        for _ in 0..<10 {
+            let blankSet = SetDetailEntity(context: context)
+            blankSet.weight = ""
+            blankSet.reps = ""
+            exercise.addToSets(blankSet)
+        }
         return exercise
     }
     
-    func addNote(title: String, exercises: [ExerciseEntity], context: NSManagedObjectContext) {
+    func addNote(title: String, exercises: [ExerciseEntity], date: Date, context: NSManagedObjectContext) {
         let note = NoteEntity(context: context)
         note.id = UUID()
         note.title = title
+        note.date = date
 //        note.addToExercises(exercises[0])
 //        note.exercises?.addingObjects(from: exercises)
 //        note.exercises?.addingObjects(from: exercises)
@@ -79,7 +87,7 @@ class DataController: ObservableObject {
         
     }
     
-    func editNote(note: NoteEntity, title: String, exercises: [ExerciseEntity], context: NSManagedObjectContext) {
+    func editNote(note: NoteEntity, title: String, date: Date, exercises: [ExerciseEntity], context: NSManagedObjectContext) {
         note.title = title
         note.exercises = []
         for exercise in exercises {
