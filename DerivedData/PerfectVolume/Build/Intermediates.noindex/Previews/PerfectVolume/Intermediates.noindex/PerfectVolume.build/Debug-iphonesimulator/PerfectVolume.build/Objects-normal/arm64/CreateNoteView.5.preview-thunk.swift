@@ -4,7 +4,7 @@ import SwiftUI
 
 extension CreateNoteView_Previews {
     @_dynamicReplacement(for: previews) private static var __preview__previews: some View {
-        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 150)
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 138)
         __designTimeSelection(CreateNoteView(), "#8962.[2].[0].property.[0].[0]")
     #sourceLocation()
     }
@@ -12,7 +12,7 @@ extension CreateNoteView_Previews {
 
 extension CreateNoteView {
     @_dynamicReplacement(for: saveNote()) private func __preview__saveNote() {
-        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 140)
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 128)
         
         if  title != "" || !exercises.isEmpty {
             __designTimeSelection(DataController().addNote(title: __designTimeSelection(title, "#8962.[1].[12].[0].[0].[0].modifier[0].arg[0].value"), exercises: __designTimeSelection(exercises, "#8962.[1].[12].[0].[0].[0].modifier[0].arg[1].value"), date: __designTimeSelection(date, "#8962.[1].[12].[0].[0].[0].modifier[0].arg[2].value"), context: __designTimeSelection(managedObjContext, "#8962.[1].[12].[0].[0].[0].modifier[0].arg[3].value")), "#8962.[1].[12].[0].[0].[0]")
@@ -24,7 +24,7 @@ extension CreateNoteView {
 
 extension CreateNoteView {
     @_dynamicReplacement(for: addToNote(muscleGroup:)) private func __preview__addToNote(muscleGroup: MuscleGroupEntity) {
-        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 135)
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 123)
         __designTimeSelection(exercises.append(__designTimeSelection(DataController().addExercise(name: __designTimeSelection(exerciseName, "#8962.[1].[11].[0].modifier[0].arg[0].value.modifier[0].arg[0].value"), numSets: __designTimeSelection(Int(__designTimeSelection(exerciseNumSets, "#8962.[1].[11].[0].modifier[0].arg[0].value.modifier[0].arg[1].value.arg[0].value")), "#8962.[1].[11].[0].modifier[0].arg[0].value.modifier[0].arg[1].value"), muscleGroup: __designTimeSelection(muscleGroup.name, "#8962.[1].[11].[0].modifier[0].arg[0].value.modifier[0].arg[2].value"), context: __designTimeSelection(managedObjContext, "#8962.[1].[11].[0].modifier[0].arg[0].value.modifier[0].arg[3].value")), "#8962.[1].[11].[0].modifier[0].arg[0].value")), "#8962.[1].[11].[0]")
         __designTimeSelection(resetInput(), "#8962.[1].[11].[1]")
     #sourceLocation()
@@ -33,7 +33,7 @@ extension CreateNoteView {
 
 extension CreateNoteView {
     @_dynamicReplacement(for: resetInput()) private func __preview__resetInput() {
-        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 130)
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 118)
         exerciseName = __designTimeString("#8962.[1].[10].[0].[0]", fallback: "")
         exerciseNumSets = __designTimeInteger("#8962.[1].[10].[1].[0]", fallback: 0)
     #sourceLocation()
@@ -106,18 +106,6 @@ extension CreateNoteView {
 
                 }, "#8962.[1].[9].property.[0].[0].arg[0].value.[0].modifier[1].arg[0].value.[0]")
                 __designTimeSelection(ToolbarItemGroup(placement: .bottomBar) {
-//                    Button(action: {
-//                        if exerciseValid(name: exerciseName, numSets: Int(exerciseNumSets)) {
-//                            exercises.append(DataController().addExercise(name: exerciseName, numSets: Int(exerciseNumSets), muscleGroup: "Legs", context: managedObjContext))
-//                            resetInput()
-//                        }
-//
-//                    }, label: {
-//                        Image(systemName: "plus.app.fill")
-//                            .font(.system(size: 40, weight: .bold))
-//                            .foregroundColor(exerciseValid(name: exerciseName, numSets: Int(exerciseNumSets)) ? Color("Mint Green") : Color.gray)
-//                            .padding()
-//                    })
                     __designTimeSelection(Menu {
                         if exerciseValid(name: exerciseName, numSets: Int(exerciseNumSets)) {
                             __designTimeSelection(ForEach(__designTimeSelection(muscleGroups, "#8962.[1].[9].property.[0].[0].arg[0].value.[0].modifier[1].arg[0].value.[1].arg[1].value.[0].arg[0].value.[0].[0].[0].arg[0].value")) { muscle in

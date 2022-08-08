@@ -3168,6 +3168,345 @@
     },
     {
       "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "PerfectVolume"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "FractionText",
+      "printedName": "FractionText",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "numerator",
+          "printedName": "numerator",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13PerfectVolume12FractionTextV9numeratorSivp",
+          "mangledName": "$s13PerfectVolume12FractionTextV9numeratorSivp",
+          "moduleName": "PerfectVolume",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13PerfectVolume12FractionTextV9numeratorSivg",
+              "mangledName": "$s13PerfectVolume12FractionTextV9numeratorSivg",
+              "moduleName": "PerfectVolume",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13PerfectVolume12FractionTextV9numeratorSivs",
+              "mangledName": "$s13PerfectVolume12FractionTextV9numeratorSivs",
+              "moduleName": "PerfectVolume",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13PerfectVolume12FractionTextV9numeratorSivM",
+              "mangledName": "$s13PerfectVolume12FractionTextV9numeratorSivM",
+              "moduleName": "PerfectVolume",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "denominator",
+          "printedName": "denominator",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13PerfectVolume12FractionTextV11denominatorSivp",
+          "mangledName": "$s13PerfectVolume12FractionTextV11denominatorSivp",
+          "moduleName": "PerfectVolume",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13PerfectVolume12FractionTextV11denominatorSivg",
+              "mangledName": "$s13PerfectVolume12FractionTextV11denominatorSivg",
+              "moduleName": "PerfectVolume",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13PerfectVolume12FractionTextV11denominatorSivs",
+              "mangledName": "$s13PerfectVolume12FractionTextV11denominatorSivs",
+              "moduleName": "PerfectVolume",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13PerfectVolume12FractionTextV11denominatorSivM",
+              "mangledName": "$s13PerfectVolume12FractionTextV11denominatorSivM",
+              "moduleName": "PerfectVolume",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13PerfectVolume12FractionTextV4bodyQrvp",
+          "mangledName": "$s13PerfectVolume12FractionTextV4bodyQrvp",
+          "moduleName": "PerfectVolume",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13PerfectVolume12FractionTextV4bodyQrvg",
+              "mangledName": "$s13PerfectVolume12FractionTextV4bodyQrvg",
+              "moduleName": "PerfectVolume",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(numerator:denominator:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FractionText",
+              "printedName": "PerfectVolume.FractionText",
+              "usr": "s:13PerfectVolume12FractionTextV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:13PerfectVolume12FractionTextV9numerator11denominatorACSi_Sitcfc",
+          "mangledName": "$s13PerfectVolume12FractionTextV9numerator11denominatorACSi_Sitcfc",
+          "moduleName": "PerfectVolume",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:13PerfectVolume12FractionTextV",
+      "mangledName": "$s13PerfectVolume12FractionTextV",
+      "moduleName": "PerfectVolume",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "PerfectVolume",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
       "name": "CoreData",
       "printedName": "CoreData",
       "declKind": "Import",
@@ -5719,6 +6058,7 @@
           "mangledName": "$s13PerfectVolume12EditNoteViewV17managedObjContextSo015NSManagedObjectH0Cvp",
           "moduleName": "PerfectVolume",
           "declAttributes": [
+            "Custom",
             "Custom"
           ],
           "accessors": [
@@ -5770,6 +6110,7 @@
           "implicit": true,
           "isInternal": true,
           "declAttributes": [
+            "Custom",
             "HasInitialValue",
             "HasStorage"
           ],
@@ -5801,6 +6142,7 @@
           "mangledName": "$s13PerfectVolume12EditNoteViewV16presentationMode7SwiftUI7BindingVyAE012PresentationG0VGvp",
           "moduleName": "PerfectVolume",
           "declAttributes": [
+            "Custom",
             "Custom"
           ],
           "accessors": [
@@ -5868,10 +6210,162 @@
           "implicit": true,
           "isInternal": true,
           "declAttributes": [
+            "Custom",
             "HasInitialValue",
             "HasStorage"
           ],
           "fixedbinaryorder": 1,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "muscleGroups",
+          "printedName": "muscleGroups",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FetchedResults",
+              "printedName": "SwiftUI.FetchedResults<PerfectVolume.MuscleGroupEntity>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "MuscleGroupEntity",
+                  "printedName": "PerfectVolume.MuscleGroupEntity",
+                  "usr": "c:@M@PerfectVolume@objc(cs)MuscleGroupEntity"
+                }
+              ],
+              "usr": "s:7SwiftUI14FetchedResultsV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13PerfectVolume12EditNoteViewV12muscleGroups7SwiftUI14FetchedResultsVyAA17MuscleGroupEntityCGvp",
+          "mangledName": "$s13PerfectVolume12EditNoteViewV12muscleGroups7SwiftUI14FetchedResultsVyAA17MuscleGroupEntityCGvp",
+          "moduleName": "PerfectVolume",
+          "declAttributes": [
+            "Custom",
+            "ProjectedValueProperty",
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "FetchedResults",
+                  "printedName": "SwiftUI.FetchedResults<PerfectVolume.MuscleGroupEntity>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "MuscleGroupEntity",
+                      "printedName": "PerfectVolume.MuscleGroupEntity",
+                      "usr": "c:@M@PerfectVolume@objc(cs)MuscleGroupEntity"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI14FetchedResultsV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13PerfectVolume12EditNoteViewV12muscleGroups7SwiftUI14FetchedResultsVyAA17MuscleGroupEntityCGvg",
+              "mangledName": "$s13PerfectVolume12EditNoteViewV12muscleGroups7SwiftUI14FetchedResultsVyAA17MuscleGroupEntityCGvg",
+              "moduleName": "PerfectVolume",
+              "implicit": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$muscleGroups",
+          "printedName": "$muscleGroups",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Binding",
+              "printedName": "SwiftUI.Binding<SwiftUI.FetchRequest<PerfectVolume.MuscleGroupEntity>.Configuration>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Configuration",
+                  "printedName": "SwiftUI.FetchRequest<PerfectVolume.MuscleGroupEntity>.Configuration",
+                  "usr": "s:7SwiftUI12FetchRequestV13ConfigurationV"
+                }
+              ],
+              "usr": "s:7SwiftUI7BindingV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13PerfectVolume12EditNoteViewV13$muscleGroups7SwiftUI7BindingVyAE12FetchRequestV13ConfigurationVyAA17MuscleGroupEntityC_GGvp",
+          "mangledName": "$s13PerfectVolume12EditNoteViewV13$muscleGroups7SwiftUI7BindingVyAE12FetchRequestV13ConfigurationVyAA17MuscleGroupEntityC_GGvp",
+          "moduleName": "PerfectVolume",
+          "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Binding",
+                  "printedName": "SwiftUI.Binding<SwiftUI.FetchRequest<PerfectVolume.MuscleGroupEntity>.Configuration>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Configuration",
+                      "printedName": "SwiftUI.FetchRequest<PerfectVolume.MuscleGroupEntity>.Configuration",
+                      "usr": "s:7SwiftUI12FetchRequestV13ConfigurationV"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI7BindingV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13PerfectVolume12EditNoteViewV13$muscleGroups7SwiftUI7BindingVyAE12FetchRequestV13ConfigurationVyAA17MuscleGroupEntityC_GGvg",
+              "mangledName": "$s13PerfectVolume12EditNoteViewV13$muscleGroups7SwiftUI7BindingVyAE12FetchRequestV13ConfigurationVyAA17MuscleGroupEntityC_GGvg",
+              "moduleName": "PerfectVolume",
+              "implicit": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_muscleGroups",
+          "printedName": "_muscleGroups",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FetchRequest",
+              "printedName": "SwiftUI.FetchRequest<PerfectVolume.MuscleGroupEntity>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "MuscleGroupEntity",
+                  "printedName": "PerfectVolume.MuscleGroupEntity",
+                  "usr": "c:@M@PerfectVolume@objc(cs)MuscleGroupEntity"
+                }
+              ],
+              "usr": "s:7SwiftUI12FetchRequestV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13PerfectVolume12EditNoteViewV13_muscleGroups33_DA1AA5680E5CA75C0D9119EF34A13733LL7SwiftUI12FetchRequestVyAA17MuscleGroupEntityCGvp",
+          "mangledName": "$s13PerfectVolume12EditNoteViewV13_muscleGroups33_DA1AA5680E5CA75C0D9119EF34A13733LL7SwiftUI12FetchRequestVyAA17MuscleGroupEntityCGvp",
+          "moduleName": "PerfectVolume",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
           "hasStorage": true
         },
         {
@@ -5891,9 +6385,10 @@
           "mangledName": "$s13PerfectVolume12EditNoteViewV4noteAA0D6EntityCvp",
           "moduleName": "PerfectVolume",
           "declAttributes": [
+            "Custom",
             "HasStorage"
           ],
-          "fixedbinaryorder": 2,
+          "fixedbinaryorder": 3,
           "hasStorage": true,
           "accessors": [
             {
@@ -5985,10 +6480,11 @@
           "mangledName": "$s13PerfectVolume12EditNoteViewV15secondarySystem7SwiftUI5ColorVvp",
           "moduleName": "PerfectVolume",
           "declAttributes": [
+            "Custom",
             "HasInitialValue",
             "HasStorage"
           ],
-          "fixedbinaryorder": 3,
+          "fixedbinaryorder": 4,
           "isLet": true,
           "hasStorage": true,
           "accessors": [
@@ -6033,6 +6529,7 @@
           "mangledName": "$s13PerfectVolume12EditNoteViewV5titleSSvp",
           "moduleName": "PerfectVolume",
           "declAttributes": [
+            "Custom",
             "ProjectedValueProperty",
             "Custom"
           ],
@@ -6125,6 +6622,9 @@
           "mangledName": "$s13PerfectVolume12EditNoteViewV6$title7SwiftUI7BindingVySSGvp",
           "moduleName": "PerfectVolume",
           "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
           "accessors": [
             {
               "kind": "Accessor",
@@ -6182,10 +6682,11 @@
           "implicit": true,
           "isInternal": true,
           "declAttributes": [
+            "Custom",
             "HasInitialValue",
             "HasStorage"
           ],
-          "fixedbinaryorder": 4,
+          "fixedbinaryorder": 5,
           "hasStorage": true
         },
         {
@@ -6213,6 +6714,7 @@
           "mangledName": "$s13PerfectVolume12EditNoteViewV9exercisesSayAA14ExerciseEntityCGvp",
           "moduleName": "PerfectVolume",
           "declAttributes": [
+            "Custom",
             "ProjectedValueProperty",
             "Custom"
           ],
@@ -6329,6 +6831,9 @@
           "mangledName": "$s13PerfectVolume12EditNoteViewV10$exercises7SwiftUI7BindingVySayAA14ExerciseEntityCGGvp",
           "moduleName": "PerfectVolume",
           "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
           "accessors": [
             {
               "kind": "Accessor",
@@ -6402,10 +6907,11 @@
           "implicit": true,
           "isInternal": true,
           "declAttributes": [
+            "Custom",
             "HasInitialValue",
             "HasStorage"
           ],
-          "fixedbinaryorder": 5,
+          "fixedbinaryorder": 6,
           "hasStorage": true
         },
         {
@@ -6425,6 +6931,7 @@
           "mangledName": "$s13PerfectVolume12EditNoteViewV12exerciseNameSSvp",
           "moduleName": "PerfectVolume",
           "declAttributes": [
+            "Custom",
             "ProjectedValueProperty",
             "Custom"
           ],
@@ -6517,6 +7024,9 @@
           "mangledName": "$s13PerfectVolume12EditNoteViewV13$exerciseName7SwiftUI7BindingVySSGvp",
           "moduleName": "PerfectVolume",
           "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
           "accessors": [
             {
               "kind": "Accessor",
@@ -6574,10 +7084,11 @@
           "implicit": true,
           "isInternal": true,
           "declAttributes": [
+            "Custom",
             "HasInitialValue",
             "HasStorage"
           ],
-          "fixedbinaryorder": 6,
+          "fixedbinaryorder": 7,
           "hasStorage": true
         },
         {
@@ -6597,6 +7108,7 @@
           "mangledName": "$s13PerfectVolume12EditNoteViewV15exerciseNumSetsSdvp",
           "moduleName": "PerfectVolume",
           "declAttributes": [
+            "Custom",
             "ProjectedValueProperty",
             "Custom"
           ],
@@ -6689,6 +7201,9 @@
           "mangledName": "$s13PerfectVolume12EditNoteViewV16$exerciseNumSets7SwiftUI7BindingVySdGvp",
           "moduleName": "PerfectVolume",
           "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
           "accessors": [
             {
               "kind": "Accessor",
@@ -6746,10 +7261,11 @@
           "implicit": true,
           "isInternal": true,
           "declAttributes": [
+            "Custom",
             "HasInitialValue",
             "HasStorage"
           ],
-          "fixedbinaryorder": 7,
+          "fixedbinaryorder": 8,
           "hasStorage": true
         },
         {
@@ -6769,6 +7285,7 @@
           "mangledName": "$s13PerfectVolume12EditNoteViewV4date10Foundation4DateVvp",
           "moduleName": "PerfectVolume",
           "declAttributes": [
+            "Custom",
             "ProjectedValueProperty",
             "Custom"
           ],
@@ -6861,6 +7378,9 @@
           "mangledName": "$s13PerfectVolume12EditNoteViewV5$date7SwiftUI7BindingVy10Foundation4DateVGvp",
           "moduleName": "PerfectVolume",
           "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
           "accessors": [
             {
               "kind": "Accessor",
@@ -6918,10 +7438,11 @@
           "implicit": true,
           "isInternal": true,
           "declAttributes": [
+            "Custom",
             "HasInitialValue",
             "HasStorage"
           ],
-          "fixedbinaryorder": 8,
+          "fixedbinaryorder": 9,
           "hasStorage": true
         },
         {
@@ -6993,6 +7514,35 @@
           "usr": "s:13PerfectVolume12EditNoteViewV10resetInputyyF",
           "mangledName": "$s13PerfectVolume12EditNoteViewV10resetInputyyF",
           "moduleName": "PerfectVolume",
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "addToNote",
+          "printedName": "addToNote(muscleGroup:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "MuscleGroupEntity",
+              "printedName": "PerfectVolume.MuscleGroupEntity",
+              "usr": "c:@M@PerfectVolume@objc(cs)MuscleGroupEntity"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:13PerfectVolume12EditNoteViewV05addToD011muscleGroupyAA06MuscleI6EntityC_tF",
+          "mangledName": "$s13PerfectVolume12EditNoteViewV05addToD011muscleGroupyAA06MuscleI6EntityC_tF",
+          "moduleName": "PerfectVolume",
+          "declAttributes": [
+            "Custom"
+          ],
           "funcSelfKind": "NonMutating"
         },
         {
@@ -7010,12 +7560,15 @@
           "usr": "s:13PerfectVolume12EditNoteViewV010saveEditedD0yyF",
           "mangledName": "$s13PerfectVolume12EditNoteViewV010saveEditedD0yyF",
           "moduleName": "PerfectVolume",
+          "declAttributes": [
+            "Custom"
+          ],
           "funcSelfKind": "NonMutating"
         },
         {
           "kind": "Constructor",
           "name": "init",
-          "printedName": "init(managedObjContext:presentationMode:note:title:exercises:exerciseName:exerciseNumSets:date:)",
+          "printedName": "init(managedObjContext:presentationMode:muscleGroups:note:title:exercises:exerciseName:exerciseNumSets:date:)",
           "children": [
             {
               "kind": "TypeNominal",
@@ -7060,6 +7613,21 @@
               ],
               "hasDefaultArg": true,
               "usr": "s:7SwiftUI11EnvironmentV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "FetchRequest",
+              "printedName": "SwiftUI.FetchRequest<PerfectVolume.MuscleGroupEntity>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "MuscleGroupEntity",
+                  "printedName": "PerfectVolume.MuscleGroupEntity",
+                  "usr": "c:@M@PerfectVolume@objc(cs)MuscleGroupEntity"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:7SwiftUI12FetchRequestV"
             },
             {
               "kind": "TypeNominal",
@@ -7112,10 +7680,13 @@
             }
           ],
           "declKind": "Constructor",
-          "usr": "s:13PerfectVolume12EditNoteViewV17managedObjContext16presentationMode4note5title9exercises12exerciseName0N7NumSets4dateAC7SwiftUI11EnvironmentVySo015NSManagedObjectH0CG_ANyAL7BindingVyAL012PresentationJ0VGGAA0D6EntityCSSSayAA08ExerciseZ0CGSSSd10Foundation4DateVtcfc",
-          "mangledName": "$s13PerfectVolume12EditNoteViewV17managedObjContext16presentationMode4note5title9exercises12exerciseName0N7NumSets4dateAC7SwiftUI11EnvironmentVySo015NSManagedObjectH0CG_ANyAL7BindingVyAL012PresentationJ0VGGAA0D6EntityCSSSayAA08ExerciseZ0CGSSSd10Foundation4DateVtcfc",
+          "usr": "s:13PerfectVolume12EditNoteViewV17managedObjContext16presentationMode12muscleGroups4note5title9exercises12exerciseName0P7NumSets4dateAC7SwiftUI11EnvironmentVySo015NSManagedObjectH0CG_AOyAM7BindingVyAM012PresentationJ0VGGAM12FetchRequestVyAA17MuscleGroupEntityCGAA0D6EntityCSSSayAA14ExerciseEntityCGSSSd10Foundation4DateVtcfc",
+          "mangledName": "$s13PerfectVolume12EditNoteViewV17managedObjContext16presentationMode12muscleGroups4note5title9exercises12exerciseName0P7NumSets4dateAC7SwiftUI11EnvironmentVySo015NSManagedObjectH0CG_AOyAM7BindingVyAM012PresentationJ0VGGAM12FetchRequestVyAA17MuscleGroupEntityCGAA0D6EntityCSSSayAA14ExerciseEntityCGSSSd10Foundation4DateVtcfc",
           "moduleName": "PerfectVolume",
           "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
           "init_kind": "Designated"
         }
       ],
@@ -7123,6 +7694,9 @@
       "usr": "s:13PerfectVolume12EditNoteViewV",
       "mangledName": "$s13PerfectVolume12EditNoteViewV",
       "moduleName": "PerfectVolume",
+      "declAttributes": [
+        "Custom"
+      ],
       "conformances": [
         {
           "kind": "Conformance",

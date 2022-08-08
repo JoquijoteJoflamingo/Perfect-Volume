@@ -44,6 +44,7 @@ struct MainMenuView: View {
                                         HStack {
                                             Text(muscle.name)
                                             Spacer()
+                                            FractionText(numerator: Int(muscle.setsWorked), denominator: Int(muscle.maxTargetSets))
                                         }
                                     }
                                 }

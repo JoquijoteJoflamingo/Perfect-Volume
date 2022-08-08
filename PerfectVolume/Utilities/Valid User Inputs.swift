@@ -21,3 +21,4 @@ func exerciseValid(name: String, numSets: Int) -> Bool {
     }
     return true
 }
+

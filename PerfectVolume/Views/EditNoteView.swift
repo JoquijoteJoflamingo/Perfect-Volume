@@ -10,6 +10,7 @@ import SwiftUI
 struct EditNoteView: View {
     @Environment(\.managedObjectContext) var managedObjContext
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
+    @FetchRequest(sortDescriptors: [SortDescriptor(\.name, order: .reverse)]) var muscleGroups : FetchedResults<MuscleGroupEntity>
     var note : FetchedResults<NoteEntity>.Element
     let secondarySystem = Color(UIColor.secondarySystemBackground)
     @State var title : String = ""
@@ -65,21 +66,7 @@ struct EditNoteView: View {
                         
                         
                         Text("Number of sets: \(Int(exerciseNumSets))")
-                        Slider(value: $exerciseNumSets, in: 0...10, step: 1)
-                        
-                        Button(action: {
-                            if exerciseValid(name: exerciseName, numSets: Int(exerciseNumSets)) {
-                                exercises.append(DataController().addExercise(name: exerciseName, numSets: Int(exerciseNumSets), muscleGroup: "Legs", context: managedObjContext))
-                                resetInput()
-                            }
-                        }, label: {
-                            Image(systemName: "plus.app.fill")
-                                .font(.system(size: 40, weight: .bold))
-                                .foregroundColor(exerciseValid(name: exerciseName, numSets: Int(exerciseNumSets)) ? Color("Mint Green") : Color.gray)
-                                .padding()
-                        })
-                        
-                        
+                        Slider(value: $exerciseNumSets, in: 0...10, step: 1)    
                     }
             }
             .padding(25)
@@ -97,6 +84,25 @@ struct EditNoteView: View {
                 ToolbarItemGroup(placement: .navigationBarTrailing) {
                     DatePicker("", selection: $date, displayedComponents: [.date]).labelsHidden().background(secondarySystem).accentColor(Color("Mint Green"))
                 }
+                
+                ToolbarItemGroup(placement: .bottomBar) {
+                    Menu {
+                        if exerciseValid(name: exerciseName, numSets: Int(exerciseNumSets)) {
+                            ForEach(muscleGroups) { muscle in
+                                Button {
+                                    addToNote(muscleGroup: muscle)
+                                } label: {
+                                    Text(muscle.name)
+                                }
+                            }
+                        }
+                    } label: {
+                        Image(systemName: "plus.app.fill")
+                            .font(.system(size: 40, weight: .bold))
+                            .foregroundColor(exerciseValid(name: exerciseName, numSets: Int(exerciseNumSets)) ? Color("Mint Green") : Color.gray)
+                            .padding()
+                    }
+                }
             }
             
             .navigationBarTitle("", displayMode: .inline)
@@ -109,6 +115,11 @@ struct EditNoteView: View {
     func resetInput() {
         exerciseName = ""
         exerciseNumSets = 0
+    }
+    
+    func addToNote(muscleGroup: MuscleGroupEntity) {
+        exercises.append(DataController().addExercise(name: exerciseName, numSets: Int(exerciseNumSets), muscleGroup: muscleGroup.name, context: managedObjContext))
+        resetInput()
     }
     
     func saveEditedNote() {

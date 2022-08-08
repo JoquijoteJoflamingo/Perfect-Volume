@@ -4,7 +4,7 @@ import SwiftUI
 
 extension CreateNoteView_Previews {
     @_dynamicReplacement(for: previews) private static var __preview__previews: some View {
-        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 150)
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 138)
         CreateNoteView()
     #sourceLocation()
     }
@@ -12,7 +12,7 @@ extension CreateNoteView_Previews {
 
 extension CreateNoteView {
     @_dynamicReplacement(for: saveNote()) private func __preview__saveNote() {
-        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 140)
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 128)
         
         if  title != "" || !exercises.isEmpty {
             DataController().addNote(title: title, exercises: exercises, date: date, context: managedObjContext)
@@ -24,7 +24,7 @@ extension CreateNoteView {
 
 extension CreateNoteView {
     @_dynamicReplacement(for: addToNote(muscleGroup:)) private func __preview__addToNote(muscleGroup: MuscleGroupEntity) {
-        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 135)
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 123)
         exercises.append(DataController().addExercise(name: exerciseName, numSets: Int(exerciseNumSets), muscleGroup: muscleGroup.name, context: managedObjContext))
         resetInput()
     #sourceLocation()
@@ -33,7 +33,7 @@ extension CreateNoteView {
 
 extension CreateNoteView {
     @_dynamicReplacement(for: resetInput()) private func __preview__resetInput() {
-        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 130)
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 118)
         exerciseName = __designTimeString("#8962.[1].[10].[0].[0]", fallback: "")
         exerciseNumSets = __designTimeInteger("#8962.[1].[10].[1].[0]", fallback: 0)
     #sourceLocation()
@@ -106,18 +106,6 @@ extension CreateNoteView {
 
                 }
                 ToolbarItemGroup(placement: .bottomBar) {
-//                    Button(action: {
-//                        if exerciseValid(name: exerciseName, numSets: Int(exerciseNumSets)) {
-//                            exercises.append(DataController().addExercise(name: exerciseName, numSets: Int(exerciseNumSets), muscleGroup: "Legs", context: managedObjContext))
-//                            resetInput()
-//                        }
-//
-//                    }, label: {
-//                        Image(systemName: "plus.app.fill")
-//                            .font(.system(size: 40, weight: .bold))
-//                            .foregroundColor(exerciseValid(name: exerciseName, numSets: Int(exerciseNumSets)) ? Color("Mint Green") : Color.gray)
-//                            .padding()
-//                    })
                     Menu {
                         if exerciseValid(name: exerciseName, numSets: Int(exerciseNumSets)) {
                             ForEach(muscleGroups) { muscle in

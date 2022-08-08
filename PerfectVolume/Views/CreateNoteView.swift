@@ -82,18 +82,6 @@ struct CreateNoteView: View {
 
                 }
                 ToolbarItemGroup(placement: .bottomBar) {
-//                    Button(action: {
-//                        if exerciseValid(name: exerciseName, numSets: Int(exerciseNumSets)) {
-//                            exercises.append(DataController().addExercise(name: exerciseName, numSets: Int(exerciseNumSets), muscleGroup: "Legs", context: managedObjContext))
-//                            resetInput()
-//                        }
-//
-//                    }, label: {
-//                        Image(systemName: "plus.app.fill")
-//                            .font(.system(size: 40, weight: .bold))
-//                            .foregroundColor(exerciseValid(name: exerciseName, numSets: Int(exerciseNumSets)) ? Color("Mint Green") : Color.gray)
-//                            .padding()
-//                    })
                     Menu {
                         if exerciseValid(name: exerciseName, numSets: Int(exerciseNumSets)) {
                             ForEach(muscleGroups) { muscle in
