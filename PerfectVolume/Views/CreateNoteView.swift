@@ -10,6 +10,7 @@ import SwiftUI
 struct CreateNoteView: View {
     @Environment(\.managedObjectContext) var managedObjContext
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
+    @FetchRequest(sortDescriptors: [SortDescriptor(\.name, order: .reverse)]) var muscleGroups : FetchedResults<MuscleGroupEntity>
     let secondarySystem = Color(UIColor.secondarySystemBackground)
     @State var title : String = ""
     @State var exercises : [ExerciseEntity] = []
@@ -81,18 +82,35 @@ struct CreateNoteView: View {
 
                 }
                 ToolbarItemGroup(placement: .bottomBar) {
-                    Button(action: {
+//                    Button(action: {
+//                        if exerciseValid(name: exerciseName, numSets: Int(exerciseNumSets)) {
+//                            exercises.append(DataController().addExercise(name: exerciseName, numSets: Int(exerciseNumSets), muscleGroup: "Legs", context: managedObjContext))
+//                            resetInput()
+//                        }
+//
+//                    }, label: {
+//                        Image(systemName: "plus.app.fill")
+//                            .font(.system(size: 40, weight: .bold))
+//                            .foregroundColor(exerciseValid(name: exerciseName, numSets: Int(exerciseNumSets)) ? Color("Mint Green") : Color.gray)
+//                            .padding()
+//                    })
+                    Menu {
                         if exerciseValid(name: exerciseName, numSets: Int(exerciseNumSets)) {
-                            exercises.append(DataController().addExercise(name: exerciseName, numSets: Int(exerciseNumSets), context: managedObjContext))
-                            resetInput()
+                            ForEach(muscleGroups) { muscle in
+                                Button {
+                                    addToNote(muscleGroup: muscle)
+                                } label: {
+                                    Text(muscle.name)
+                                }
+                            }
                         }
-                        
-                    }, label: {
+                    } label: {
                         Image(systemName: "plus.app.fill")
                             .font(.system(size: 40, weight: .bold))
                             .foregroundColor(exerciseValid(name: exerciseName, numSets: Int(exerciseNumSets)) ? Color("Mint Green") : Color.gray)
                             .padding()
-                    })
+                    }
+
                 }
                 
                 ToolbarItemGroup(placement: .navigationBarTrailing) {
@@ -111,6 +129,11 @@ struct CreateNoteView: View {
     func resetInput() {
         exerciseName = ""
         exerciseNumSets = 0
+    }
+    
+    func addToNote(muscleGroup: MuscleGroupEntity) {
+        exercises.append(DataController().addExercise(name: exerciseName, numSets: Int(exerciseNumSets), muscleGroup: muscleGroup.name, context: managedObjContext))
+        resetInput()
     }
     
     func saveNote() {

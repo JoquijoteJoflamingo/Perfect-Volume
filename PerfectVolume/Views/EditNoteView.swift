@@ -69,7 +69,7 @@ struct EditNoteView: View {
                         
                         Button(action: {
                             if exerciseValid(name: exerciseName, numSets: Int(exerciseNumSets)) {
-                                exercises.append(DataController().addExercise(name: exerciseName, numSets: Int(exerciseNumSets), context: managedObjContext))
+                                exercises.append(DataController().addExercise(name: exerciseName, numSets: Int(exerciseNumSets), muscleGroup: "Legs", context: managedObjContext))
                                 resetInput()
                             }
                         }, label: {

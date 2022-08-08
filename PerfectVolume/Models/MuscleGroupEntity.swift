@@ -10,7 +10,7 @@ import CoreData
 import SwiftUI
 
 @objc(MuscleGroupEntity)
-class MuscleGroupEntity: NSManagedObject {
+public class MuscleGroupEntity: NSManagedObject {
     
     
     

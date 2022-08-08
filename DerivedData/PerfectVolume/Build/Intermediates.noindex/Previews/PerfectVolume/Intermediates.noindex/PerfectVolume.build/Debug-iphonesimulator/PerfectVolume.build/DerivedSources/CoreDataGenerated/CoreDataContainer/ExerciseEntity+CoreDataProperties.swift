@@ -18,6 +18,7 @@ extension ExerciseEntity {
     }
 
     @NSManaged public var id: UUID?
+    @NSManaged public var muscleGroupName: String?
     @NSManaged public var name: String?
     @NSManaged public var numSets: Int64
     @NSManaged public var sets: NSSet?

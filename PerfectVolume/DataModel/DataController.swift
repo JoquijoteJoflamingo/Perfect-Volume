@@ -7,6 +7,7 @@
 
 import Foundation
 import CoreData
+import SwiftUI
 
 class DataController: ObservableObject {
     let container = NSPersistentContainer(name: "CoreDataContainer")
@@ -56,13 +57,13 @@ class DataController: ObservableObject {
         
     }
     
-    func addExercise(name: String, numSets: Int, context: NSManagedObjectContext) -> ExerciseEntity {
+    func addExercise(name: String, numSets: Int, muscleGroup: String, context: NSManagedObjectContext) -> ExerciseEntity {
         let exercise = ExerciseEntity(context: context)
         exercise.id = UUID()
         exercise.name = name
         exercise.numSets = Int64(numSets)
         exercise.sets = []
-//        exercise.muscleGroup = MuscleGroupEntity(context: context)
+        exercise.muscleGroupName = muscleGroup
         for _ in 0..<10 {
             let blankSet = SetDetailEntity(context: context)
             blankSet.weight = ""

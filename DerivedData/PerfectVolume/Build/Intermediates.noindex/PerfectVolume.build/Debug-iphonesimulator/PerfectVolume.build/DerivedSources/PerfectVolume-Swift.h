@@ -237,6 +237,7 @@ SWIFT_CLASS_NAMED("ExerciseEntity")
 
 @interface ExerciseEntity (SWIFT_EXTENSION(PerfectVolume))
 @property (nonatomic, copy) NSUUID * _Nullable id;
+@property (nonatomic, copy) NSString * _Nullable muscleGroupName;
 @property (nonatomic, copy) NSString * _Nullable name;
 @property (nonatomic) int64_t numSets;
 @property (nonatomic, strong) NSSet * _Nullable sets;
@@ -293,6 +294,18 @@ SWIFT_CLASS_NAMED("SetDetailEntity")
 @interface SetDetailEntity (SWIFT_EXTENSION(PerfectVolume))
 @property (nonatomic, copy) NSString * _Nullable reps;
 @property (nonatomic, copy) NSString * _Nullable weight;
+@end
+
+
+SWIFT_CLASS_NAMED("Test")
+@interface Test : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+@interface Test (SWIFT_EXTENSION(PerfectVolume))
+@property (nonatomic, copy) NSString * _Nullable name;
 @end
 
 #if __has_attribute(external_source_symbol)
