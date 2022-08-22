@@ -234,12 +234,13 @@ SWIFT_CLASS_NAMED("ExerciseEntity")
 
 @class NSUUID;
 @class NSString;
+@class MuscleGroupEntity;
 
 @interface ExerciseEntity (SWIFT_EXTENSION(PerfectVolume))
 @property (nonatomic, copy) NSUUID * _Nullable id;
-@property (nonatomic, copy) NSString * _Nullable muscleGroupName;
 @property (nonatomic, copy) NSString * _Nullable name;
 @property (nonatomic) int64_t numSets;
+@property (nonatomic, strong) MuscleGroupEntity * _Nullable muscleGroup;
 @property (nonatomic, strong) NSSet * _Nullable sets;
 @end
 

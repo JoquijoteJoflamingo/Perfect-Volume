@@ -2,7 +2,7 @@
 //  ExerciseEntity+CoreDataProperties.swift
 //  
 //
-//  Created by Joseph Schaubroeck on 8/7/22.
+//  Created by Joseph Schaubroeck on 8/14/22.
 //
 //  This file was automatically generated and should not be edited.
 //
@@ -18,9 +18,9 @@ extension ExerciseEntity {
     }
 
     @NSManaged public var id: UUID?
-    @NSManaged public var muscleGroupName: String?
     @NSManaged public var name: String?
     @NSManaged public var numSets: Int64
+    @NSManaged public var muscleGroup: MuscleGroupEntity?
     @NSManaged public var sets: NSSet?
 
 }

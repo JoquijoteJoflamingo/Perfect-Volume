@@ -5,7 +5,7 @@ import SwiftUI
 
 extension MainMenuView_Previews {
     @_dynamicReplacement(for: previews) private static var __preview__previews: some View {
-        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift", line: 136)
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift", line: 137)
         MainMenuView()
     #sourceLocation()
     }
@@ -13,7 +13,7 @@ extension MainMenuView_Previews {
 
 extension MainMenuView {
     @_dynamicReplacement(for: deleteNote(offsets:)) private func __preview__deleteNote(offsets: IndexSet) {
-        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift", line: 127)
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift", line: 128)
         withAnimation {
             offsets.map { notes[$0] }.forEach(managedObjContext.delete)
             DataController().save(context: managedObjContext)
@@ -24,7 +24,7 @@ extension MainMenuView {
 
 extension MainMenuView {
     @_dynamicReplacement(for: deleteMuscle(offsets:)) private func __preview__deleteMuscle(offsets: IndexSet) {
-        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift", line: 120)
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift", line: 121)
         withAnimation {
             offsets.map { muscleGroups[$0] }.forEach(managedObjContext.delete)
             DataController().save(context: managedObjContext)
@@ -51,6 +51,7 @@ extension MainMenuView {
                                         HStack {
                                             Text(muscle.name)
                                             Spacer()
+                                            FractionText(numerator: Int(muscle.setsWorked), denominator: Int(muscle.maxTargetSets))
                                         }
                                     }
                                 }

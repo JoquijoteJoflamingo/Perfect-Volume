@@ -57,19 +57,20 @@ class DataController: ObservableObject {
         
     }
     
-    func addExercise(name: String, numSets: Int, muscleGroup: String, context: NSManagedObjectContext) -> ExerciseEntity {
+    func addExercise(name: String, numSets: Int, muscleGroup: MuscleGroupEntity, context: NSManagedObjectContext) -> ExerciseEntity {
         let exercise = ExerciseEntity(context: context)
         exercise.id = UUID()
         exercise.name = name
         exercise.numSets = Int64(numSets)
         exercise.sets = []
-        exercise.muscleGroupName = muscleGroup
+        exercise.muscleGroup = muscleGroup
         for _ in 0..<10 {
             let blankSet = SetDetailEntity(context: context)
             blankSet.weight = ""
             blankSet.reps = ""
             exercise.addToSets(blankSet)
         }
+
         return exercise
     }
     
@@ -83,7 +84,9 @@ class DataController: ObservableObject {
 //        note.exercises?.addingObjects(from: exercises)
         for exercise in exercises {
             note.addToExercises(exercise)
+            exercise.muscleGroup?.setsWorked += exercise.numSets
         }
+        
         save(context: context)
         
     }

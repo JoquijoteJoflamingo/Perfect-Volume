@@ -3773,9 +3773,9 @@
             },
             {
               "kind": "TypeNominal",
-              "name": "String",
-              "printedName": "Swift.String",
-              "usr": "s:SS"
+              "name": "MuscleGroupEntity",
+              "printedName": "PerfectVolume.MuscleGroupEntity",
+              "usr": "c:@M@PerfectVolume@objc(cs)MuscleGroupEntity"
             },
             {
               "kind": "TypeNominal",
@@ -3785,8 +3785,8 @@
             }
           ],
           "declKind": "Func",
-          "usr": "s:13PerfectVolume14DataControllerC11addExercise4name7numSets11muscleGroup7contextAA0F6EntityCSS_SiSSSo22NSManagedObjectContextCtF",
-          "mangledName": "$s13PerfectVolume14DataControllerC11addExercise4name7numSets11muscleGroup7contextAA0F6EntityCSS_SiSSSo22NSManagedObjectContextCtF",
+          "usr": "s:13PerfectVolume14DataControllerC11addExercise4name7numSets11muscleGroup7contextAA0F6EntityCSS_SiAA06MusclekM0CSo22NSManagedObjectContextCtF",
+          "mangledName": "$s13PerfectVolume14DataControllerC11addExercise4name7numSets11muscleGroup7contextAA0F6EntityCSS_SiAA06MusclekM0CSo22NSManagedObjectContextCtF",
           "moduleName": "PerfectVolume",
           "isOpen": true,
           "funcSelfKind": "NonMutating"
@@ -8938,109 +8938,6 @@
         },
         {
           "kind": "Var",
-          "name": "muscleGroupName",
-          "printedName": "muscleGroupName",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "Optional",
-              "printedName": "Swift.String?",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "String",
-                  "printedName": "Swift.String",
-                  "usr": "s:SS"
-                }
-              ],
-              "usr": "s:Sq"
-            }
-          ],
-          "declKind": "Var",
-          "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(py)muscleGroupName",
-          "mangledName": "$s13PerfectVolume14ExerciseEntityC15muscleGroupNameSSSgvp",
-          "moduleName": "PerfectVolume",
-          "isOpen": true,
-          "declAttributes": [
-            "Dynamic",
-            "AccessControl",
-            "NSManaged",
-            "ObjC"
-          ],
-          "accessors": [
-            {
-              "kind": "Accessor",
-              "name": "Get",
-              "printedName": "Get()",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "Optional",
-                  "printedName": "Swift.String?",
-                  "children": [
-                    {
-                      "kind": "TypeNominal",
-                      "name": "String",
-                      "printedName": "Swift.String",
-                      "usr": "s:SS"
-                    }
-                  ],
-                  "usr": "s:Sq"
-                }
-              ],
-              "declKind": "Accessor",
-              "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(im)muscleGroupName",
-              "mangledName": "$s13PerfectVolume14ExerciseEntityC15muscleGroupNameSSSgvg",
-              "moduleName": "PerfectVolume",
-              "implicit": true,
-              "isOpen": true,
-              "declAttributes": [
-                "Dynamic",
-                "ObjC"
-              ],
-              "accessorKind": "get"
-            },
-            {
-              "kind": "Accessor",
-              "name": "Set",
-              "printedName": "Set()",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "Void",
-                  "printedName": "()"
-                },
-                {
-                  "kind": "TypeNominal",
-                  "name": "Optional",
-                  "printedName": "Swift.String?",
-                  "children": [
-                    {
-                      "kind": "TypeNominal",
-                      "name": "String",
-                      "printedName": "Swift.String",
-                      "usr": "s:SS"
-                    }
-                  ],
-                  "usr": "s:Sq"
-                }
-              ],
-              "declKind": "Accessor",
-              "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(im)setMuscleGroupName:",
-              "mangledName": "$s13PerfectVolume14ExerciseEntityC15muscleGroupNameSSSgvs",
-              "moduleName": "PerfectVolume",
-              "implicit": true,
-              "isOpen": true,
-              "declAttributes": [
-                "Dynamic",
-                "ObjC"
-              ],
-              "accessorKind": "set"
-            }
-          ]
-        },
-        {
-          "kind": "Var",
           "name": "name",
           "printedName": "name",
           "children": [
@@ -9210,6 +9107,109 @@
               "declKind": "Accessor",
               "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(im)setNumSets:",
               "mangledName": "$s13PerfectVolume14ExerciseEntityC7numSetss5Int64Vvs",
+              "moduleName": "PerfectVolume",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "muscleGroup",
+          "printedName": "muscleGroup",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "PerfectVolume.MuscleGroupEntity?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "MuscleGroupEntity",
+                  "printedName": "PerfectVolume.MuscleGroupEntity",
+                  "usr": "c:@M@PerfectVolume@objc(cs)MuscleGroupEntity"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(py)muscleGroup",
+          "mangledName": "$s13PerfectVolume14ExerciseEntityC11muscleGroupAA06MusclefD0CSgvp",
+          "moduleName": "PerfectVolume",
+          "isOpen": true,
+          "declAttributes": [
+            "Dynamic",
+            "AccessControl",
+            "NSManaged",
+            "ObjC"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "PerfectVolume.MuscleGroupEntity?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "MuscleGroupEntity",
+                      "printedName": "PerfectVolume.MuscleGroupEntity",
+                      "usr": "c:@M@PerfectVolume@objc(cs)MuscleGroupEntity"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(im)muscleGroup",
+              "mangledName": "$s13PerfectVolume14ExerciseEntityC11muscleGroupAA06MusclefD0CSgvg",
+              "moduleName": "PerfectVolume",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "PerfectVolume.MuscleGroupEntity?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "MuscleGroupEntity",
+                      "printedName": "PerfectVolume.MuscleGroupEntity",
+                      "usr": "c:@M@PerfectVolume@objc(cs)MuscleGroupEntity"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(im)setMuscleGroup:",
+              "mangledName": "$s13PerfectVolume14ExerciseEntityC11muscleGroupAA06MusclefD0CSgvs",
               "moduleName": "PerfectVolume",
               "implicit": true,
               "isOpen": true,

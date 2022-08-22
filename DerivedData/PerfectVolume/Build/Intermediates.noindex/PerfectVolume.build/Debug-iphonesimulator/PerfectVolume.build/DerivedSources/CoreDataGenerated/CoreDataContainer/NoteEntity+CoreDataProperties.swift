@@ -2,7 +2,7 @@
 //  NoteEntity+CoreDataProperties.swift
 //  
 //
-//  Created by Joseph Schaubroeck on 8/8/22.
+//  Created by Joseph Schaubroeck on 8/21/22.
 //
 //  This file was automatically generated and should not be edited.
 //

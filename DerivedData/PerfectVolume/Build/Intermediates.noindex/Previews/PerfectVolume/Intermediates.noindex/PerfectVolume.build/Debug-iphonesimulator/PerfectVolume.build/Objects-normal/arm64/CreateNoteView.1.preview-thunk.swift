@@ -25,7 +25,7 @@ extension CreateNoteView {
 extension CreateNoteView {
     @_dynamicReplacement(for: addToNote(muscleGroup:)) private func __preview__addToNote(muscleGroup: MuscleGroupEntity) {
         #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 123)
-        exercises.append(DataController().addExercise(name: exerciseName, numSets: Int(exerciseNumSets), muscleGroup: muscleGroup.name, context: managedObjContext))
+        exercises.append(DataController().addExercise(name: exerciseName, numSets: Int(exerciseNumSets), muscleGroup: muscleGroup, context: managedObjContext))
         resetInput()
     #sourceLocation()
     }

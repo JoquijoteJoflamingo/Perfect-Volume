@@ -5,7 +5,7 @@ import SwiftUI
 
 extension MainMenuView_Previews {
     @_dynamicReplacement(for: previews) private static var __preview__previews: some View {
-        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift", line: 136)
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift", line: 137)
         __designTimeSelection(MainMenuView(), "#8606.[3].[0].property.[0].[0]")
     #sourceLocation()
     }
@@ -13,7 +13,7 @@ extension MainMenuView_Previews {
 
 extension MainMenuView {
     @_dynamicReplacement(for: deleteNote(offsets:)) private func __preview__deleteNote(offsets: IndexSet) {
-        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift", line: 127)
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift", line: 128)
         __designTimeSelection(withAnimation {
             __designTimeSelection(offsets.map { __designTimeSelection(notes[__designTimeSelection($0, "#8606.[2].[10].[0].arg[0].value.[0].modifier[0].arg[0].value.[0].[0].value")], "#8606.[2].[10].[0].arg[0].value.[0].modifier[0].arg[0].value.[0]") }.forEach(__designTimeSelection(managedObjContext.delete, "#8606.[2].[10].[0].arg[0].value.[0].modifier[1].arg[0].value")), "#8606.[2].[10].[0].arg[0].value.[0]")
             __designTimeSelection(DataController().save(context: __designTimeSelection(managedObjContext, "#8606.[2].[10].[0].arg[0].value.[1].modifier[0].arg[0].value")), "#8606.[2].[10].[0].arg[0].value.[1]")
@@ -24,7 +24,7 @@ extension MainMenuView {
 
 extension MainMenuView {
     @_dynamicReplacement(for: deleteMuscle(offsets:)) private func __preview__deleteMuscle(offsets: IndexSet) {
-        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift", line: 120)
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift", line: 121)
         __designTimeSelection(withAnimation {
             __designTimeSelection(offsets.map { __designTimeSelection(muscleGroups[__designTimeSelection($0, "#8606.[2].[9].[0].arg[0].value.[0].modifier[0].arg[0].value.[0].[0].value")], "#8606.[2].[9].[0].arg[0].value.[0].modifier[0].arg[0].value.[0]") }.forEach(__designTimeSelection(managedObjContext.delete, "#8606.[2].[9].[0].arg[0].value.[0].modifier[1].arg[0].value")), "#8606.[2].[9].[0].arg[0].value.[0]")
             __designTimeSelection(DataController().save(context: __designTimeSelection(managedObjContext, "#8606.[2].[9].[0].arg[0].value.[1].modifier[0].arg[0].value")), "#8606.[2].[9].[0].arg[0].value.[1]")
@@ -51,6 +51,7 @@ extension MainMenuView {
                                         __designTimeSelection(HStack {
                                             __designTimeSelection(Text(__designTimeSelection(muscle.name, "#8606.[2].[8].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[0].[0].[0].arg[0].value.[0].arg[1].value.[0].arg[0].value.[0].arg[1].value.[0].arg[0].value.[0].arg[0].value")), "#8606.[2].[8].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[0].[0].[0].arg[0].value.[0].arg[1].value.[0].arg[0].value.[0].arg[1].value.[0].arg[0].value.[0]")
                                             __designTimeSelection(Spacer(), "#8606.[2].[8].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[0].[0].[0].arg[0].value.[0].arg[1].value.[0].arg[0].value.[0].arg[1].value.[0].arg[0].value.[1]")
+                                            __designTimeSelection(FractionText(numerator: __designTimeSelection(Int(__designTimeSelection(muscle.setsWorked, "#8606.[2].[8].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[0].[0].[0].arg[0].value.[0].arg[1].value.[0].arg[0].value.[0].arg[1].value.[0].arg[0].value.[2].arg[0].value.arg[0].value")), "#8606.[2].[8].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[0].[0].[0].arg[0].value.[0].arg[1].value.[0].arg[0].value.[0].arg[1].value.[0].arg[0].value.[2].arg[0].value"), denominator: __designTimeSelection(Int(__designTimeSelection(muscle.maxTargetSets, "#8606.[2].[8].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[0].[0].[0].arg[0].value.[0].arg[1].value.[0].arg[0].value.[0].arg[1].value.[0].arg[0].value.[2].arg[1].value.arg[0].value")), "#8606.[2].[8].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[0].[0].[0].arg[0].value.[0].arg[1].value.[0].arg[0].value.[0].arg[1].value.[0].arg[0].value.[2].arg[1].value")), "#8606.[2].[8].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[0].[0].[0].arg[0].value.[0].arg[1].value.[0].arg[0].value.[0].arg[1].value.[0].arg[0].value.[2]")
                                         }, "#8606.[2].[8].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[0].[0].[0].arg[0].value.[0].arg[1].value.[0].arg[0].value.[0].arg[1].value.[0]")
                                     }, "#8606.[2].[8].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[0].[0].[0].arg[0].value.[0].arg[1].value.[0].arg[0].value.[0]")
                                 }
