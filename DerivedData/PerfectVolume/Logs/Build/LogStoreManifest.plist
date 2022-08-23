@@ -108,6 +108,40 @@
 			<key>uniqueIdentifier</key>
 			<string>412F4A82-C208-4761-A066-6D12C993E9EF</string>
 		</dict>
+		<key>4BFC47FE-94DD-4DB6-BBBD-DD2C9FF58346</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4BFC47FE-94DD-4DB6-BBBD-DD2C9FF58346.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>682913693.22379994</real>
+			<key>timeStoppedRecording</key>
+			<real>682913694.50850797</real>
+			<key>title</key>
+			<string>Build PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>4BFC47FE-94DD-4DB6-BBBD-DD2C9FF58346</string>
+		</dict>
 		<key>5924FA54-40C2-4A02-95AD-6C074A4ACE62</key>
 		<dict>
 			<key>className</key>
@@ -175,6 +209,40 @@
 			<string>Build PerfectVolume</string>
 			<key>uniqueIdentifier</key>
 			<string>5B7CA675-4D4C-4C05-96FE-07CFADC0F294</string>
+		</dict>
+		<key>7A35FEF7-2183-4328-92B0-7F88319C654E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7A35FEF7-2183-4328-92B0-7F88319C654E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build for Previews PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>682914016.08057404</real>
+			<key>timeStoppedRecording</key>
+			<real>682914017.233446</real>
+			<key>title</key>
+			<string>Build for Previews PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>7A35FEF7-2183-4328-92B0-7F88319C654E</string>
 		</dict>
 		<key>7C1749C4-0CF5-489D-8FDB-5B0370F195C4</key>
 		<dict>
@@ -311,6 +379,74 @@
 			<string>Build PerfectVolume</string>
 			<key>uniqueIdentifier</key>
 			<string>ACADC656-EDA0-406C-93A2-26297D5B7AA6</string>
+		</dict>
+		<key>ADB3F195-CF34-4E2A-99DA-E1FBA07593BF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>ADB3F195-CF34-4E2A-99DA-E1FBA07593BF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>682913991.44248998</real>
+			<key>timeStoppedRecording</key>
+			<real>682913991.96721995</real>
+			<key>title</key>
+			<string>Build PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>ADB3F195-CF34-4E2A-99DA-E1FBA07593BF</string>
+		</dict>
+		<key>B77CCC7A-0C85-4532-9F50-119E74A7833E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B77CCC7A-0C85-4532-9F50-119E74A7833E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build for Previews PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>682913541.73475003</real>
+			<key>timeStoppedRecording</key>
+			<real>682913543.47279406</real>
+			<key>title</key>
+			<string>Build for Previews PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>B77CCC7A-0C85-4532-9F50-119E74A7833E</string>
 		</dict>
 	</dict>
 </dict>

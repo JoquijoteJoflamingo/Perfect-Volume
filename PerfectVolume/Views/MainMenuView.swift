@@ -48,7 +48,7 @@ struct MainMenuView: View {
                                         }
                                     }
                                 }
-                                .listRowBackground(Color.red)
+                                .listRowBackground(muscle.rowColor)
                             }
                             .onDelete(perform: deleteMuscle)
                         }
