@@ -70,6 +70,7 @@ class DataController: ObservableObject {
             blankSet.reps = ""
             exercise.addToSets(blankSet)
         }
+        muscleGroup.setsWorked += Int64(numSets)
 
         return exercise
     }
@@ -79,12 +80,12 @@ class DataController: ObservableObject {
         note.id = UUID()
         note.title = title
         note.date = date
-//        note.addToExercises(exercises[0])
-//        note.exercises?.addingObjects(from: exercises)
-//        note.exercises?.addingObjects(from: exercises)
+
+        
+        // CHANGE + IMPLEMENT FOR EDIT NOTE
         for exercise in exercises {
             note.addToExercises(exercise)
-            exercise.muscleGroup?.setsWorked += exercise.numSets
+//            exercise.muscleGroup?.setsWorked += exercise.numSets
         }
         
         save(context: context)

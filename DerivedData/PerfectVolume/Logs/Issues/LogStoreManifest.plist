@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>93F15959-D984-4D01-8486-51A5A9542DF1</key>
+		<key>64B30951-4A52-49B6-AB7E-FD10F592EA46</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,24 +15,24 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>93F15959-D984-4D01-8486-51A5A9542DF1.xcactivitylog</string>
+			<string>64B30951-4A52-49B6-AB7E-FD10F592EA46.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>S</string>
+				<string>W</string>
 			</dict>
 			<key>signature</key>
 			<string>PerfectVolume-dlhrcxnxizrffqdpbdblynqbczpu</string>
 			<key>timeStartedRecording</key>
-			<real>682832065.15853405</real>
+			<real>682913412.79630494</real>
 			<key>timeStoppedRecording</key>
-			<real>682832066.18843305</real>
+			<real>682913413.540061</real>
 			<key>title</key>
 			<string>Build target PerfectVolume</string>
 			<key>uniqueIdentifier</key>
-			<string>93F15959-D984-4D01-8486-51A5A9542DF1</string>
+			<string>64B30951-4A52-49B6-AB7E-FD10F592EA46</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>
