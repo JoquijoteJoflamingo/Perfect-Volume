@@ -5,7 +5,7 @@ import SwiftUI
 
 extension MainMenuView_Previews {
     @_dynamicReplacement(for: previews) private static var __preview__previews: some View {
-        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift", line: 137)
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift", line: 138)
         __designTimeSelection(MainMenuView(), "#11679.[3].[0].property.[0].[0]")
     #sourceLocation()
     }
@@ -13,7 +13,7 @@ extension MainMenuView_Previews {
 
 extension MainMenuView {
     @_dynamicReplacement(for: deleteNote(offsets:)) private func __preview__deleteNote(offsets: IndexSet) {
-        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift", line: 128)
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift", line: 129)
         __designTimeSelection(withAnimation {
             __designTimeSelection(offsets.map { __designTimeSelection(notes[__designTimeSelection($0, "#11679.[2].[10].[0].arg[0].value.[0].modifier[0].arg[0].value.[0].[0].value")], "#11679.[2].[10].[0].arg[0].value.[0].modifier[0].arg[0].value.[0]") }.forEach(__designTimeSelection(managedObjContext.delete, "#11679.[2].[10].[0].arg[0].value.[0].modifier[1].arg[0].value")), "#11679.[2].[10].[0].arg[0].value.[0]")
             __designTimeSelection(DataController().save(context: __designTimeSelection(managedObjContext, "#11679.[2].[10].[0].arg[0].value.[1].modifier[0].arg[0].value")), "#11679.[2].[10].[0].arg[0].value.[1]")
@@ -24,7 +24,7 @@ extension MainMenuView {
 
 extension MainMenuView {
     @_dynamicReplacement(for: deleteMuscle(offsets:)) private func __preview__deleteMuscle(offsets: IndexSet) {
-        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift", line: 121)
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift", line: 122)
         __designTimeSelection(withAnimation {
             __designTimeSelection(offsets.map { __designTimeSelection(muscleGroups[__designTimeSelection($0, "#11679.[2].[9].[0].arg[0].value.[0].modifier[0].arg[0].value.[0].[0].value")], "#11679.[2].[9].[0].arg[0].value.[0].modifier[0].arg[0].value.[0]") }.forEach(__designTimeSelection(managedObjContext.delete, "#11679.[2].[9].[0].arg[0].value.[0].modifier[1].arg[0].value")), "#11679.[2].[9].[0].arg[0].value.[0]")
             __designTimeSelection(DataController().save(context: __designTimeSelection(managedObjContext, "#11679.[2].[9].[0].arg[0].value.[1].modifier[0].arg[0].value")), "#11679.[2].[9].[0].arg[0].value.[1]")
@@ -120,7 +120,8 @@ extension MainMenuView {
                     }, "#11679.[2].[8].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[0].value.[2]")
                 }, "#11679.[2].[8].property.[0].[0].arg[0].value.[0].arg[0].value.[1]")
             }, "#11679.[2].[8].property.[0].[0].arg[0].value.[0]")
-        }, "#11679.[2].[8].property.[0].[0]")
+        }
+        .preferredColorScheme(__designTimeSelection(ColorScheme.light, "#11679.[2].[8].property.[0].[0].modifier[0].arg[0].value")), "#11679.[2].[8].property.[0].[0]")
     #sourceLocation()
     }
 }

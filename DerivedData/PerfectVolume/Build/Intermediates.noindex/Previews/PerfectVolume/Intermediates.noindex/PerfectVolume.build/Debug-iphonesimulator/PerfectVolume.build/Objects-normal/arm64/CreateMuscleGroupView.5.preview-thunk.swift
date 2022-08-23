@@ -4,7 +4,7 @@ import SwiftUI
 
 extension CreateMuscleGroupView_Previews {
     @_dynamicReplacement(for: previews) private static var __preview__previews: some View {
-        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateMuscleGroupView.swift", line: 82)
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateMuscleGroupView.swift", line: 83)
         __designTimeSelection(CreateMuscleGroupView(), "#8987.[2].[0].property.[0].[0]")
     #sourceLocation()
     }
@@ -63,7 +63,8 @@ extension CreateMuscleGroupView {
             
             
             __designTimeSelection(Spacer(), "#8987.[1].[7].property.[0].[0].arg[0].value.[1]")
-        }, "#8987.[1].[7].property.[0].[0]")
+        }
+        .preferredColorScheme(__designTimeSelection(ColorScheme.light, "#8987.[1].[7].property.[0].[0].modifier[0].arg[0].value")), "#8987.[1].[7].property.[0].[0]")
         
     #sourceLocation()
     }

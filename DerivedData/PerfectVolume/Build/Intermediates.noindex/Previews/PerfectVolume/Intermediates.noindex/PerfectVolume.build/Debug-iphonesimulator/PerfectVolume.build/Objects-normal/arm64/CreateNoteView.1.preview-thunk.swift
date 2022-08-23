@@ -4,7 +4,7 @@ import SwiftUI
 
 extension CreateNoteView_Previews {
     @_dynamicReplacement(for: previews) private static var __preview__previews: some View {
-        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 138)
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 152)
         CreateNoteView()
     #sourceLocation()
     }
@@ -12,7 +12,7 @@ extension CreateNoteView_Previews {
 
 extension CreateNoteView {
     @_dynamicReplacement(for: saveNote()) private func __preview__saveNote() {
-        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 128)
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 142)
         
         if  title != "" || !exercises.isEmpty {
             DataController().addNote(title: title, exercises: exercises, date: date, context: managedObjContext)
@@ -24,7 +24,7 @@ extension CreateNoteView {
 
 extension CreateNoteView {
     @_dynamicReplacement(for: addToNote(muscleGroup:)) private func __preview__addToNote(muscleGroup: MuscleGroupEntity) {
-        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 123)
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 137)
         exercises.append(DataController().addExercise(name: exerciseName, numSets: Int(exerciseNumSets), muscleGroup: muscleGroup, context: managedObjContext))
         resetInput()
     #sourceLocation()
@@ -33,9 +33,27 @@ extension CreateNoteView {
 
 extension CreateNoteView {
     @_dynamicReplacement(for: resetInput()) private func __preview__resetInput() {
-        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 118)
-        exerciseName = __designTimeString("#11263.[1].[10].[0].[0]", fallback: "")
-        exerciseNumSets = __designTimeInteger("#11263.[1].[10].[1].[0]", fallback: 0)
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 132)
+        exerciseName = __designTimeString("#11263.[1].[11].[0].[0]", fallback: "")
+        exerciseNumSets = __designTimeInteger("#11263.[1].[11].[1].[0]", fallback: 0)
+    #sourceLocation()
+    }
+}
+
+extension CreateNoteView {
+    @_dynamicReplacement(for: deleteExercise(offsets:)) private func __preview__deleteExercise(offsets: IndexSet) {
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 119)
+        
+        offsets.forEach { (i) in
+            exercises[i].muscleGroup?.setsWorked -= exercises[i].numSets
+        }
+        exercises.remove(atOffsets: offsets)
+        
+        // IMPLEMENT
+//        withAnimation {
+//            offsets.map { muscleGroups[$0] }.forEach(managedObjContext.delete)
+//            DataController().save(context: managedObjContext)
+//        }
     #sourceLocation()
     }
 }
@@ -72,6 +90,7 @@ extension CreateNoteView {
 
 
                             }
+                            .onDelete(perform: deleteExercise)
 //                            .listRowBackground(secondarySystem)
                         }
                     }
@@ -135,6 +154,7 @@ extension CreateNoteView {
         }
         .navigationBarTitle(__designTimeString("#11263.[1].[9].property.[0].[0].modifier[0].arg[0].value", fallback: ""), displayMode: .inline)
         .navigationBarBackButtonHidden(__designTimeBoolean("#11263.[1].[9].property.[0].[0].modifier[1].arg[0].value", fallback: true))
+        .preferredColorScheme(ColorScheme.light)
         
     #sourceLocation()
     }

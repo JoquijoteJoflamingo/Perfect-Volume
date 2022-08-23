@@ -46,6 +46,7 @@ struct ExerciseDetailView: View {
             .navigationBarTitle(exercise.name ?? "", displayMode: .inline)
 
         }
+        .preferredColorScheme(ColorScheme.light)
         
     }
 }

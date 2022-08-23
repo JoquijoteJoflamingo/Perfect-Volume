@@ -10,7 +10,7 @@ import CoreData
 
 struct MainMenuView: View {
     @Environment(\.managedObjectContext) var managedObjContext
-    @FetchRequest(sortDescriptors: [SortDescriptor(\.name, order: .reverse)]) var muscleGroups : FetchedResults<MuscleGroupEntity>
+    @FetchRequest(sortDescriptors: [SortDescriptor(\.setsWorked)]) var muscleGroups : FetchedResults<MuscleGroupEntity>
     
     @FetchRequest(sortDescriptors: [SortDescriptor(\.title, order: .reverse)]) var notes : FetchedResults<NoteEntity>
     
@@ -114,6 +114,7 @@ struct MainMenuView: View {
                 }
             }
         }
+        .preferredColorScheme(ColorScheme.light)
     }
     
     

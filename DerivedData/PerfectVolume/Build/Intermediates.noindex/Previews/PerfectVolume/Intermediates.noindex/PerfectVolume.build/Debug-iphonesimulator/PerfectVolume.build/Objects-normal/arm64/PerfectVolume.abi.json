@@ -4406,6 +4406,33 @@
         },
         {
           "kind": "Function",
+          "name": "deleteExercise",
+          "printedName": "deleteExercise(offsets:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "IndexSet",
+              "printedName": "Foundation.IndexSet",
+              "usr": "s:10Foundation8IndexSetV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:13PerfectVolume14CreateNoteViewV14deleteExercise7offsetsy10Foundation8IndexSetV_tF",
+          "mangledName": "$s13PerfectVolume14CreateNoteViewV14deleteExercise7offsetsy10Foundation8IndexSetV_tF",
+          "moduleName": "PerfectVolume",
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
           "name": "resetInput",
           "printedName": "resetInput()",
           "children": [
@@ -11074,6 +11101,33 @@
               "accessorKind": "get"
             }
           ]
+        },
+        {
+          "kind": "Function",
+          "name": "deleteExercise",
+          "printedName": "deleteExercise(offsets:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "IndexSet",
+              "printedName": "Foundation.IndexSet",
+              "usr": "s:10Foundation8IndexSetV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:13PerfectVolume12EditNoteViewV14deleteExercise7offsetsy10Foundation8IndexSetV_tF",
+          "mangledName": "$s13PerfectVolume12EditNoteViewV14deleteExercise7offsetsy10Foundation8IndexSetV_tF",
+          "moduleName": "PerfectVolume",
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "funcSelfKind": "NonMutating"
         },
         {
           "kind": "Function",

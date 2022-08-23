@@ -48,6 +48,7 @@ struct CreateNoteView: View {
 
 
                             }
+                            .onDelete(perform: deleteExercise)
 //                            .listRowBackground(secondarySystem)
                         }
                     }
@@ -111,9 +112,17 @@ struct CreateNoteView: View {
         }
         .navigationBarTitle("", displayMode: .inline)
         .navigationBarBackButtonHidden(true)
+        .preferredColorScheme(ColorScheme.light)
         
     }
-    
+    func deleteExercise(offsets: IndexSet) {
+        
+        offsets.forEach { (i) in
+            exercises[i].muscleGroup?.setsWorked -= exercises[i].numSets
+        }
+        exercises.remove(atOffsets: offsets)
+        
+    }
     func resetInput() {
         exerciseName = ""
         exerciseNumSets = 0

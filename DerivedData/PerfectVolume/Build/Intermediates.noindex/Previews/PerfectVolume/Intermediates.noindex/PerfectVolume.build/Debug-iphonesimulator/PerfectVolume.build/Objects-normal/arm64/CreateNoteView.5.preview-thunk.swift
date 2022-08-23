@@ -4,7 +4,7 @@ import SwiftUI
 
 extension CreateNoteView_Previews {
     @_dynamicReplacement(for: previews) private static var __preview__previews: some View {
-        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 138)
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 152)
         __designTimeSelection(CreateNoteView(), "#11263.[2].[0].property.[0].[0]")
     #sourceLocation()
     }
@@ -12,30 +12,48 @@ extension CreateNoteView_Previews {
 
 extension CreateNoteView {
     @_dynamicReplacement(for: saveNote()) private func __preview__saveNote() {
-        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 128)
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 142)
         
         if  title != "" || !exercises.isEmpty {
-            __designTimeSelection(DataController().addNote(title: __designTimeSelection(title, "#11263.[1].[12].[0].[0].[0].modifier[0].arg[0].value"), exercises: __designTimeSelection(exercises, "#11263.[1].[12].[0].[0].[0].modifier[0].arg[1].value"), date: __designTimeSelection(date, "#11263.[1].[12].[0].[0].[0].modifier[0].arg[2].value"), context: __designTimeSelection(managedObjContext, "#11263.[1].[12].[0].[0].[0].modifier[0].arg[3].value")), "#11263.[1].[12].[0].[0].[0]")
+            __designTimeSelection(DataController().addNote(title: __designTimeSelection(title, "#11263.[1].[13].[0].[0].[0].modifier[0].arg[0].value"), exercises: __designTimeSelection(exercises, "#11263.[1].[13].[0].[0].[0].modifier[0].arg[1].value"), date: __designTimeSelection(date, "#11263.[1].[13].[0].[0].[0].modifier[0].arg[2].value"), context: __designTimeSelection(managedObjContext, "#11263.[1].[13].[0].[0].[0].modifier[0].arg[3].value")), "#11263.[1].[13].[0].[0].[0]")
         }
-        __designTimeSelection(self.presentationMode.wrappedValue.dismiss(), "#11263.[1].[12].[1]")
+        __designTimeSelection(self.presentationMode.wrappedValue.dismiss(), "#11263.[1].[13].[1]")
     #sourceLocation()
     }
 }
 
 extension CreateNoteView {
     @_dynamicReplacement(for: addToNote(muscleGroup:)) private func __preview__addToNote(muscleGroup: MuscleGroupEntity) {
-        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 123)
-        __designTimeSelection(exercises.append(__designTimeSelection(DataController().addExercise(name: __designTimeSelection(exerciseName, "#11263.[1].[11].[0].modifier[0].arg[0].value.modifier[0].arg[0].value"), numSets: __designTimeSelection(Int(__designTimeSelection(exerciseNumSets, "#11263.[1].[11].[0].modifier[0].arg[0].value.modifier[0].arg[1].value.arg[0].value")), "#11263.[1].[11].[0].modifier[0].arg[0].value.modifier[0].arg[1].value"), muscleGroup: __designTimeSelection(muscleGroup, "#11263.[1].[11].[0].modifier[0].arg[0].value.modifier[0].arg[2].value"), context: __designTimeSelection(managedObjContext, "#11263.[1].[11].[0].modifier[0].arg[0].value.modifier[0].arg[3].value")), "#11263.[1].[11].[0].modifier[0].arg[0].value")), "#11263.[1].[11].[0]")
-        __designTimeSelection(resetInput(), "#11263.[1].[11].[1]")
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 137)
+        __designTimeSelection(exercises.append(__designTimeSelection(DataController().addExercise(name: __designTimeSelection(exerciseName, "#11263.[1].[12].[0].modifier[0].arg[0].value.modifier[0].arg[0].value"), numSets: __designTimeSelection(Int(__designTimeSelection(exerciseNumSets, "#11263.[1].[12].[0].modifier[0].arg[0].value.modifier[0].arg[1].value.arg[0].value")), "#11263.[1].[12].[0].modifier[0].arg[0].value.modifier[0].arg[1].value"), muscleGroup: __designTimeSelection(muscleGroup, "#11263.[1].[12].[0].modifier[0].arg[0].value.modifier[0].arg[2].value"), context: __designTimeSelection(managedObjContext, "#11263.[1].[12].[0].modifier[0].arg[0].value.modifier[0].arg[3].value")), "#11263.[1].[12].[0].modifier[0].arg[0].value")), "#11263.[1].[12].[0]")
+        __designTimeSelection(resetInput(), "#11263.[1].[12].[1]")
     #sourceLocation()
     }
 }
 
 extension CreateNoteView {
     @_dynamicReplacement(for: resetInput()) private func __preview__resetInput() {
-        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 118)
-        exerciseName = __designTimeString("#11263.[1].[10].[0].[0]", fallback: "")
-        exerciseNumSets = __designTimeInteger("#11263.[1].[10].[1].[0]", fallback: 0)
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 132)
+        exerciseName = __designTimeString("#11263.[1].[11].[0].[0]", fallback: "")
+        exerciseNumSets = __designTimeInteger("#11263.[1].[11].[1].[0]", fallback: 0)
+    #sourceLocation()
+    }
+}
+
+extension CreateNoteView {
+    @_dynamicReplacement(for: deleteExercise(offsets:)) private func __preview__deleteExercise(offsets: IndexSet) {
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 119)
+        
+        __designTimeSelection(offsets.forEach { (i) in
+            exercises[i].muscleGroup?.setsWorked -= exercises[i].numSets
+        }, "#11263.[1].[10].[0]")
+        __designTimeSelection(exercises.remove(atOffsets: __designTimeSelection(offsets, "#11263.[1].[10].[1].modifier[0].arg[0].value")), "#11263.[1].[10].[1]")
+        
+        // IMPLEMENT
+//        withAnimation {
+//            offsets.map { muscleGroups[$0] }.forEach(managedObjContext.delete)
+//            DataController().save(context: managedObjContext)
+//        }
     #sourceLocation()
     }
 }
@@ -71,7 +89,8 @@ extension CreateNoteView {
                                 }, "#11263.[1].[9].property.[0].[0].arg[0].value.[0].arg[0].value.[2].arg[0].value.[0].arg[0].value.[1].arg[0].value.[0].arg[1].value.[0]")
 
 
-                            }, "#11263.[1].[9].property.[0].[0].arg[0].value.[0].arg[0].value.[2].arg[0].value.[0].arg[0].value.[1].arg[0].value.[0]")
+                            }
+                            .onDelete(perform: __designTimeSelection(deleteExercise, "#11263.[1].[9].property.[0].[0].arg[0].value.[0].arg[0].value.[2].arg[0].value.[0].arg[0].value.[1].arg[0].value.[0].modifier[0].arg[0].value")), "#11263.[1].[9].property.[0].[0].arg[0].value.[0].arg[0].value.[2].arg[0].value.[0].arg[0].value.[1].arg[0].value.[0]")
 //                            .listRowBackground(secondarySystem)
                         }, "#11263.[1].[9].property.[0].[0].arg[0].value.[0].arg[0].value.[2].arg[0].value.[0].arg[0].value.[1]")
                     }, "#11263.[1].[9].property.[0].[0].arg[0].value.[0].arg[0].value.[2].arg[0].value.[0]")
@@ -134,7 +153,8 @@ extension CreateNoteView {
             
         }
         .navigationBarTitle(__designTimeString("#11263.[1].[9].property.[0].[0].modifier[0].arg[0].value", fallback: ""), displayMode: .inline)
-        .navigationBarBackButtonHidden(__designTimeBoolean("#11263.[1].[9].property.[0].[0].modifier[1].arg[0].value", fallback: true)), "#11263.[1].[9].property.[0].[0]")
+        .navigationBarBackButtonHidden(__designTimeBoolean("#11263.[1].[9].property.[0].[0].modifier[1].arg[0].value", fallback: true))
+        .preferredColorScheme(__designTimeSelection(ColorScheme.light, "#11263.[1].[9].property.[0].[0].modifier[2].arg[0].value")), "#11263.[1].[9].property.[0].[0]")
         
     #sourceLocation()
     }

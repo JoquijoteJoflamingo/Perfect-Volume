@@ -74,6 +74,7 @@ struct EditMuscleGroupView: View {
             
             Spacer()
         }
+        .preferredColorScheme(ColorScheme.light)
     }
 }
 
