@@ -2,7 +2,7 @@
 //  NoteEntity+CoreDataClass.swift
 //  
 //
-//  Created by Joseph Schaubroeck on 8/24/22.
+//  Created by Joseph Schaubroeck on 8/25/22.
 //
 //  This file was automatically generated and should not be edited.
 //

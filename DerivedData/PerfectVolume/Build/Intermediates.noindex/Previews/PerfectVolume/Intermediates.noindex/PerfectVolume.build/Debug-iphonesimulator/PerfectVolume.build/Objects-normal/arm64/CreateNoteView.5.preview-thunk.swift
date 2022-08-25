@@ -4,7 +4,7 @@ import SwiftUI
 
 extension CreateNoteView_Previews {
     @_dynamicReplacement(for: previews) private static var __preview__previews: some View {
-        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 152)
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 147)
         __designTimeSelection(CreateNoteView(), "#11263.[2].[0].property.[0].[0]")
     #sourceLocation()
     }
@@ -12,7 +12,7 @@ extension CreateNoteView_Previews {
 
 extension CreateNoteView {
     @_dynamicReplacement(for: saveNote()) private func __preview__saveNote() {
-        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 142)
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 137)
         
         if  title != "" || !exercises.isEmpty {
             __designTimeSelection(DataController().addNote(title: __designTimeSelection(title, "#11263.[1].[13].[0].[0].[0].modifier[0].arg[0].value"), exercises: __designTimeSelection(exercises, "#11263.[1].[13].[0].[0].[0].modifier[0].arg[1].value"), date: __designTimeSelection(date, "#11263.[1].[13].[0].[0].[0].modifier[0].arg[2].value"), context: __designTimeSelection(managedObjContext, "#11263.[1].[13].[0].[0].[0].modifier[0].arg[3].value")), "#11263.[1].[13].[0].[0].[0]")
@@ -24,8 +24,8 @@ extension CreateNoteView {
 
 extension CreateNoteView {
     @_dynamicReplacement(for: addToNote(muscleGroup:)) private func __preview__addToNote(muscleGroup: MuscleGroupEntity) {
-        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 137)
-        __designTimeSelection(exercises.append(__designTimeSelection(DataController().addExercise(name: __designTimeSelection(exerciseName, "#11263.[1].[12].[0].modifier[0].arg[0].value.modifier[0].arg[0].value"), numSets: __designTimeSelection(Int(__designTimeSelection(exerciseNumSets, "#11263.[1].[12].[0].modifier[0].arg[0].value.modifier[0].arg[1].value.arg[0].value")), "#11263.[1].[12].[0].modifier[0].arg[0].value.modifier[0].arg[1].value"), muscleGroup: __designTimeSelection(muscleGroup, "#11263.[1].[12].[0].modifier[0].arg[0].value.modifier[0].arg[2].value"), context: __designTimeSelection(managedObjContext, "#11263.[1].[12].[0].modifier[0].arg[0].value.modifier[0].arg[3].value")), "#11263.[1].[12].[0].modifier[0].arg[0].value")), "#11263.[1].[12].[0]")
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 132)
+        __designTimeSelection(exercises.append(__designTimeSelection(DataController().addExercise(name: __designTimeSelection(exerciseName, "#11263.[1].[12].[0].modifier[0].arg[0].value.modifier[0].arg[0].value"), numSets: __designTimeSelection(Int(__designTimeSelection(exerciseNumSets, "#11263.[1].[12].[0].modifier[0].arg[0].value.modifier[0].arg[1].value.arg[0].value")), "#11263.[1].[12].[0].modifier[0].arg[0].value.modifier[0].arg[1].value"), muscleGroup: __designTimeSelection(muscleGroup, "#11263.[1].[12].[0].modifier[0].arg[0].value.modifier[0].arg[2].value"), date: __designTimeSelection(date, "#11263.[1].[12].[0].modifier[0].arg[0].value.modifier[0].arg[3].value"), context: __designTimeSelection(managedObjContext, "#11263.[1].[12].[0].modifier[0].arg[0].value.modifier[0].arg[4].value")), "#11263.[1].[12].[0].modifier[0].arg[0].value")), "#11263.[1].[12].[0]")
         __designTimeSelection(resetInput(), "#11263.[1].[12].[1]")
     #sourceLocation()
     }
@@ -33,7 +33,7 @@ extension CreateNoteView {
 
 extension CreateNoteView {
     @_dynamicReplacement(for: resetInput()) private func __preview__resetInput() {
-        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 132)
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift", line: 127)
         exerciseName = __designTimeString("#11263.[1].[11].[0].[0]", fallback: "")
         exerciseNumSets = __designTimeInteger("#11263.[1].[11].[1].[0]", fallback: 0)
     #sourceLocation()
@@ -49,11 +49,6 @@ extension CreateNoteView {
         }, "#11263.[1].[10].[0]")
         __designTimeSelection(exercises.remove(atOffsets: __designTimeSelection(offsets, "#11263.[1].[10].[1].modifier[0].arg[0].value")), "#11263.[1].[10].[1]")
         
-        // IMPLEMENT
-//        withAnimation {
-//            offsets.map { muscleGroups[$0] }.forEach(managedObjContext.delete)
-//            DataController().save(context: managedObjContext)
-//        }
     #sourceLocation()
     }
 }

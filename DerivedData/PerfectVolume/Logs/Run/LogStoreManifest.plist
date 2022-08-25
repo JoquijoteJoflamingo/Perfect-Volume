@@ -788,6 +788,40 @@
 			<key>uniqueIdentifier</key>
 			<string>830D58C7-BE64-4BBF-ACA6-495AB7965E03</string>
 		</dict>
+		<key>84459687-5A39-46C7-819A-C2AB640C9F58</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>84459687-5A39-46C7-819A-C2AB640C9F58.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>683092500.02374995</real>
+			<key>timeStoppedRecording</key>
+			<real>683092500.74084902</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>84459687-5A39-46C7-819A-C2AB640C9F58</string>
+		</dict>
 		<key>8449C991-549C-445A-8D4E-8086A07D3972</key>
 		<dict>
 			<key>className</key>
@@ -855,6 +889,40 @@
 			<string>Run PerfectVolume</string>
 			<key>uniqueIdentifier</key>
 			<string>84963C96-362F-4434-986B-3A2BA81A73B7</string>
+		</dict>
+		<key>8758CF81-20EC-4F98-95DA-68930F985E8C</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>8758CF81-20EC-4F98-95DA-68930F985E8C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>683092523.82661402</real>
+			<key>timeStoppedRecording</key>
+			<real>683092547.30570495</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>8758CF81-20EC-4F98-95DA-68930F985E8C</string>
 		</dict>
 		<key>8762677C-1FB4-40A8-B1C9-9D77E11C8447</key>
 		<dict>

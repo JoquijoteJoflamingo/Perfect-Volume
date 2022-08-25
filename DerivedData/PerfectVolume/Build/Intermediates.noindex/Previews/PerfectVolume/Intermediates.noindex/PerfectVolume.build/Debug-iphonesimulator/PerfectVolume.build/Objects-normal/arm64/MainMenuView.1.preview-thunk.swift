@@ -5,7 +5,7 @@ import SwiftUI
 
 extension MainMenuView_Previews {
     @_dynamicReplacement(for: previews) private static var __preview__previews: some View {
-        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift", line: 138)
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift", line: 164)
         MainMenuView()
     #sourceLocation()
     }
@@ -13,7 +13,7 @@ extension MainMenuView_Previews {
 
 extension MainMenuView {
     @_dynamicReplacement(for: deleteNote(offsets:)) private func __preview__deleteNote(offsets: IndexSet) {
-        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift", line: 129)
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift", line: 155)
         withAnimation {
             offsets.map { notes[$0] }.forEach(managedObjContext.delete)
             DataController().save(context: managedObjContext)
@@ -23,8 +23,34 @@ extension MainMenuView {
 }
 
 extension MainMenuView {
+    @_dynamicReplacement(for: decrementAfterSevenDays()) private func __preview__decrementAfterSevenDays() {
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift", line: 134)
+        // create a date that is one week before the current date
+        let today = Date()
+        let weekAgo: Date = Calendar.current.date(byAdding: .day, value: -__designTimeInteger("#11679.[2].[10].[1].value.[0]", fallback: 7), to: today) ?? Date()
+        
+        // go through each note
+        for note in notes {
+            
+            // if the note was for a date from more than 7 days ago
+            // decrement the muscle groups for each exercise
+            if note.date! < weekAgo && note.timerOn {
+                for noteExercise in note.exercises! {
+                    (noteExercise as AnyObject).muscleGroup?.setsWorked -= (noteExercise as AnyObject).numSets
+                }
+                
+                // set bool to false so this doesn't repeat
+                note.timerOn = false
+            }
+        }
+        DataController().save(context: managedObjContext)
+    #sourceLocation()
+    }
+}
+
+extension MainMenuView {
     @_dynamicReplacement(for: deleteMuscle(offsets:)) private func __preview__deleteMuscle(offsets: IndexSet) {
-        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift", line: 122)
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift", line: 128)
         withAnimation {
             offsets.map { muscleGroups[$0] }.forEach(managedObjContext.delete)
             DataController().save(context: managedObjContext)
@@ -35,7 +61,7 @@ extension MainMenuView {
 
 extension MainMenuView {
     @_dynamicReplacement(for: body) private var __preview__body: some View {
-        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift", line: 32)
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift", line: 35)
         NavigationView {
             ZStack {
                 Color(.white).ignoresSafeArea()
@@ -121,6 +147,9 @@ extension MainMenuView {
                 }
             }
         }
+        .onAppear {
+            decrementAfterSevenDays()
+        }
         .preferredColorScheme(ColorScheme.light)
     #sourceLocation()
     }
@@ -128,7 +157,7 @@ extension MainMenuView {
 
 extension MainMenuView {
     @_dynamicReplacement(for: dateFormatter) private var __preview__dateFormatter: DateFormatter {
-        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift", line: 26)
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift", line: 29)
         let formatter = DateFormatter()
         formatter.dateStyle = .short
         return formatter

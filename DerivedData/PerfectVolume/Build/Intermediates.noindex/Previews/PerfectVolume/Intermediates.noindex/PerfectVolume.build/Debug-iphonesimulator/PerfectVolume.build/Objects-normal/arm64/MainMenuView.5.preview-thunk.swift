@@ -5,7 +5,7 @@ import SwiftUI
 
 extension MainMenuView_Previews {
     @_dynamicReplacement(for: previews) private static var __preview__previews: some View {
-        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift", line: 138)
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift", line: 164)
         __designTimeSelection(MainMenuView(), "#11679.[3].[0].property.[0].[0]")
     #sourceLocation()
     }
@@ -13,18 +13,44 @@ extension MainMenuView_Previews {
 
 extension MainMenuView {
     @_dynamicReplacement(for: deleteNote(offsets:)) private func __preview__deleteNote(offsets: IndexSet) {
-        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift", line: 129)
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift", line: 155)
         __designTimeSelection(withAnimation {
-            __designTimeSelection(offsets.map { __designTimeSelection(notes[__designTimeSelection($0, "#11679.[2].[10].[0].arg[0].value.[0].modifier[0].arg[0].value.[0].[0].value")], "#11679.[2].[10].[0].arg[0].value.[0].modifier[0].arg[0].value.[0]") }.forEach(__designTimeSelection(managedObjContext.delete, "#11679.[2].[10].[0].arg[0].value.[0].modifier[1].arg[0].value")), "#11679.[2].[10].[0].arg[0].value.[0]")
-            __designTimeSelection(DataController().save(context: __designTimeSelection(managedObjContext, "#11679.[2].[10].[0].arg[0].value.[1].modifier[0].arg[0].value")), "#11679.[2].[10].[0].arg[0].value.[1]")
-        }, "#11679.[2].[10].[0]")
+            __designTimeSelection(offsets.map { __designTimeSelection(notes[__designTimeSelection($0, "#11679.[2].[11].[0].arg[0].value.[0].modifier[0].arg[0].value.[0].[0].value")], "#11679.[2].[11].[0].arg[0].value.[0].modifier[0].arg[0].value.[0]") }.forEach(__designTimeSelection(managedObjContext.delete, "#11679.[2].[11].[0].arg[0].value.[0].modifier[1].arg[0].value")), "#11679.[2].[11].[0].arg[0].value.[0]")
+            __designTimeSelection(DataController().save(context: __designTimeSelection(managedObjContext, "#11679.[2].[11].[0].arg[0].value.[1].modifier[0].arg[0].value")), "#11679.[2].[11].[0].arg[0].value.[1]")
+        }, "#11679.[2].[11].[0]")
+    #sourceLocation()
+    }
+}
+
+extension MainMenuView {
+    @_dynamicReplacement(for: decrementAfterSevenDays()) private func __preview__decrementAfterSevenDays() {
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift", line: 134)
+        // create a date that is one week before the current date
+        let today = Date()
+        let weekAgo: Date = Calendar.current.date(byAdding: .day, value: -__designTimeInteger("#11679.[2].[10].[1].value.[0]", fallback: 7), to: today) ?? Date()
+        
+        // go through each note
+        for note in __designTimeSelection(notes, "#11679.[2].[10].[2].sequence") {
+            
+            // if the note was for a date from more than 7 days ago
+            // decrement the muscle groups for each exercise
+            if note.date! < weekAgo && note.timerOn {
+                for noteExercise in note.exercises! {
+                    (noteExercise as AnyObject).muscleGroup?.setsWorked -= (noteExercise as AnyObject).numSets
+                }
+                
+                // set bool to false so this doesn't repeat
+                note.timerOn = false
+            }
+        }
+        __designTimeSelection(DataController().save(context: __designTimeSelection(managedObjContext, "#11679.[2].[10].[3].modifier[0].arg[0].value")), "#11679.[2].[10].[3]")
     #sourceLocation()
     }
 }
 
 extension MainMenuView {
     @_dynamicReplacement(for: deleteMuscle(offsets:)) private func __preview__deleteMuscle(offsets: IndexSet) {
-        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift", line: 122)
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift", line: 128)
         __designTimeSelection(withAnimation {
             __designTimeSelection(offsets.map { __designTimeSelection(muscleGroups[__designTimeSelection($0, "#11679.[2].[9].[0].arg[0].value.[0].modifier[0].arg[0].value.[0].[0].value")], "#11679.[2].[9].[0].arg[0].value.[0].modifier[0].arg[0].value.[0]") }.forEach(__designTimeSelection(managedObjContext.delete, "#11679.[2].[9].[0].arg[0].value.[0].modifier[1].arg[0].value")), "#11679.[2].[9].[0].arg[0].value.[0]")
             __designTimeSelection(DataController().save(context: __designTimeSelection(managedObjContext, "#11679.[2].[9].[0].arg[0].value.[1].modifier[0].arg[0].value")), "#11679.[2].[9].[0].arg[0].value.[1]")
@@ -35,7 +61,7 @@ extension MainMenuView {
 
 extension MainMenuView {
     @_dynamicReplacement(for: body) private var __preview__body: some View {
-        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift", line: 32)
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift", line: 35)
         __designTimeSelection(NavigationView {
             __designTimeSelection(ZStack {
                 __designTimeSelection(Color(.white).ignoresSafeArea(), "#11679.[2].[8].property.[0].[0].arg[0].value.[0].arg[0].value.[0]")
@@ -121,14 +147,17 @@ extension MainMenuView {
                 }, "#11679.[2].[8].property.[0].[0].arg[0].value.[0].arg[0].value.[1]")
             }, "#11679.[2].[8].property.[0].[0].arg[0].value.[0]")
         }
-        .preferredColorScheme(__designTimeSelection(ColorScheme.light, "#11679.[2].[8].property.[0].[0].modifier[0].arg[0].value")), "#11679.[2].[8].property.[0].[0]")
+        .onAppear {
+            __designTimeSelection(decrementAfterSevenDays(), "#11679.[2].[8].property.[0].[0].modifier[0].arg[0].value.[0]")
+        }
+        .preferredColorScheme(__designTimeSelection(ColorScheme.light, "#11679.[2].[8].property.[0].[0].modifier[1].arg[0].value")), "#11679.[2].[8].property.[0].[0]")
     #sourceLocation()
     }
 }
 
 extension MainMenuView {
     @_dynamicReplacement(for: dateFormatter) private var __preview__dateFormatter: DateFormatter {
-        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift", line: 26)
+        #sourceLocation(file: "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift", line: 29)
         let formatter = DateFormatter()
         formatter.dateStyle = .short
         return __designTimeSelection(formatter, "#11679.[2].[7].property.[0].[2]")
