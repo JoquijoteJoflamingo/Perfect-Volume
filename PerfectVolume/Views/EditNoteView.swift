@@ -127,7 +127,7 @@ struct EditNoteView: View {
     }
     
     func addToNote(muscleGroup: MuscleGroupEntity) {
-        exercises.append(DataController().addExercise(name: exerciseName, numSets: Int(exerciseNumSets), muscleGroup: muscleGroup, context: managedObjContext))
+        exercises.append(DataController().addExercise(name: exerciseName, numSets: Int(exerciseNumSets), muscleGroup: muscleGroup, date: date, context: managedObjContext))
         resetInput()
     }
     

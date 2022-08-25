@@ -2249,6 +2249,1016 @@
     },
     {
       "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "PerfectVolume",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "CoreData",
+      "printedName": "CoreData",
+      "declKind": "Import",
+      "moduleName": "PerfectVolume"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "PerfectVolume"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ExerciseEntity",
+      "printedName": "ExerciseEntity",
+      "children": [
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(entity:insertInto:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ExerciseEntity",
+              "printedName": "PerfectVolume.ExerciseEntity",
+              "usr": "c:@M@PerfectVolume@objc(cs)ExerciseEntity"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSEntityDescription",
+              "printedName": "CoreData.NSEntityDescription",
+              "usr": "c:objc(cs)NSEntityDescription"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "CoreData.NSManagedObjectContext?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSManagedObjectContext",
+                  "printedName": "CoreData.NSManagedObjectContext",
+                  "usr": "c:objc(cs)NSManagedObjectContext"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@PerfectVolume@objc(cs)ExerciseEntity(im)initWithEntity:insertIntoManagedObjectContext:",
+          "mangledName": "$s13PerfectVolume14ExerciseEntityC6entity10insertIntoACSo19NSEntityDescriptionC_So22NSManagedObjectContextCSgtcfc",
+          "moduleName": "PerfectVolume",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithEntity:insertIntoManagedObjectContext:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "fetchRequest",
+          "printedName": "fetchRequest()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "NSFetchRequest",
+              "printedName": "CoreData.NSFetchRequest<PerfectVolume.ExerciseEntity>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ExerciseEntity",
+                  "printedName": "PerfectVolume.ExerciseEntity",
+                  "usr": "c:@M@PerfectVolume@objc(cs)ExerciseEntity"
+                }
+              ],
+              "usr": "c:objc(cs)NSFetchRequest"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:13PerfectVolume14ExerciseEntityC12fetchRequestSo07NSFetchF0CyACGyFZ",
+          "mangledName": "$s13PerfectVolume14ExerciseEntityC12fetchRequestSo07NSFetchF0CyACGyFZ",
+          "moduleName": "PerfectVolume",
+          "static": true,
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl",
+            "NonObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "id",
+          "printedName": "id",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.UUID?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UUID",
+                  "printedName": "Foundation.UUID",
+                  "usr": "s:10Foundation4UUIDV"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(py)id",
+          "mangledName": "$s13PerfectVolume14ExerciseEntityC2id10Foundation4UUIDVSgvp",
+          "moduleName": "PerfectVolume",
+          "isOpen": true,
+          "declAttributes": [
+            "Dynamic",
+            "AccessControl",
+            "NSManaged",
+            "ObjC"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Foundation.UUID?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UUID",
+                      "printedName": "Foundation.UUID",
+                      "usr": "s:10Foundation4UUIDV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(im)id",
+              "mangledName": "$s13PerfectVolume14ExerciseEntityC2id10Foundation4UUIDVSgvg",
+              "moduleName": "PerfectVolume",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Foundation.UUID?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UUID",
+                      "printedName": "Foundation.UUID",
+                      "usr": "s:10Foundation4UUIDV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(im)setId:",
+              "mangledName": "$s13PerfectVolume14ExerciseEntityC2id10Foundation4UUIDVSgvs",
+              "moduleName": "PerfectVolume",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "name",
+          "printedName": "name",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(py)name",
+          "mangledName": "$s13PerfectVolume14ExerciseEntityC4nameSSSgvp",
+          "moduleName": "PerfectVolume",
+          "isOpen": true,
+          "declAttributes": [
+            "Dynamic",
+            "AccessControl",
+            "NSManaged",
+            "ObjC"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(im)name",
+              "mangledName": "$s13PerfectVolume14ExerciseEntityC4nameSSSgvg",
+              "moduleName": "PerfectVolume",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(im)setName:",
+              "mangledName": "$s13PerfectVolume14ExerciseEntityC4nameSSSgvs",
+              "moduleName": "PerfectVolume",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "numSets",
+          "printedName": "numSets",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int64",
+              "printedName": "Swift.Int64",
+              "usr": "s:s5Int64V"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(py)numSets",
+          "mangledName": "$s13PerfectVolume14ExerciseEntityC7numSetss5Int64Vvp",
+          "moduleName": "PerfectVolume",
+          "isOpen": true,
+          "declAttributes": [
+            "Dynamic",
+            "AccessControl",
+            "NSManaged",
+            "ObjC"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int64",
+                  "printedName": "Swift.Int64",
+                  "usr": "s:s5Int64V"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(im)numSets",
+              "mangledName": "$s13PerfectVolume14ExerciseEntityC7numSetss5Int64Vvg",
+              "moduleName": "PerfectVolume",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int64",
+                  "printedName": "Swift.Int64",
+                  "usr": "s:s5Int64V"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(im)setNumSets:",
+              "mangledName": "$s13PerfectVolume14ExerciseEntityC7numSetss5Int64Vvs",
+              "moduleName": "PerfectVolume",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "date",
+          "printedName": "date",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Date?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Date",
+                  "printedName": "Foundation.Date",
+                  "usr": "s:10Foundation4DateV"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(py)date",
+          "mangledName": "$s13PerfectVolume14ExerciseEntityC4date10Foundation4DateVSgvp",
+          "moduleName": "PerfectVolume",
+          "isOpen": true,
+          "declAttributes": [
+            "Dynamic",
+            "AccessControl",
+            "NSManaged",
+            "ObjC"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Foundation.Date?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Date",
+                      "printedName": "Foundation.Date",
+                      "usr": "s:10Foundation4DateV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(im)date",
+              "mangledName": "$s13PerfectVolume14ExerciseEntityC4date10Foundation4DateVSgvg",
+              "moduleName": "PerfectVolume",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Foundation.Date?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Date",
+                      "printedName": "Foundation.Date",
+                      "usr": "s:10Foundation4DateV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(im)setDate:",
+              "mangledName": "$s13PerfectVolume14ExerciseEntityC4date10Foundation4DateVSgvs",
+              "moduleName": "PerfectVolume",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "muscleGroup",
+          "printedName": "muscleGroup",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "PerfectVolume.MuscleGroupEntity?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "MuscleGroupEntity",
+                  "printedName": "PerfectVolume.MuscleGroupEntity",
+                  "usr": "c:@M@PerfectVolume@objc(cs)MuscleGroupEntity"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(py)muscleGroup",
+          "mangledName": "$s13PerfectVolume14ExerciseEntityC11muscleGroupAA06MusclefD0CSgvp",
+          "moduleName": "PerfectVolume",
+          "isOpen": true,
+          "declAttributes": [
+            "Dynamic",
+            "AccessControl",
+            "NSManaged",
+            "ObjC"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "PerfectVolume.MuscleGroupEntity?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "MuscleGroupEntity",
+                      "printedName": "PerfectVolume.MuscleGroupEntity",
+                      "usr": "c:@M@PerfectVolume@objc(cs)MuscleGroupEntity"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(im)muscleGroup",
+              "mangledName": "$s13PerfectVolume14ExerciseEntityC11muscleGroupAA06MusclefD0CSgvg",
+              "moduleName": "PerfectVolume",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "PerfectVolume.MuscleGroupEntity?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "MuscleGroupEntity",
+                      "printedName": "PerfectVolume.MuscleGroupEntity",
+                      "usr": "c:@M@PerfectVolume@objc(cs)MuscleGroupEntity"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(im)setMuscleGroup:",
+              "mangledName": "$s13PerfectVolume14ExerciseEntityC11muscleGroupAA06MusclefD0CSgvs",
+              "moduleName": "PerfectVolume",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "sets",
+          "printedName": "sets",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.NSSet?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSSet",
+                  "printedName": "Foundation.NSSet",
+                  "usr": "c:objc(cs)NSSet"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(py)sets",
+          "mangledName": "$s13PerfectVolume14ExerciseEntityC4setsSo5NSSetCSgvp",
+          "moduleName": "PerfectVolume",
+          "isOpen": true,
+          "declAttributes": [
+            "Dynamic",
+            "AccessControl",
+            "NSManaged",
+            "ObjC"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Foundation.NSSet?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "NSSet",
+                      "printedName": "Foundation.NSSet",
+                      "usr": "c:objc(cs)NSSet"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(im)sets",
+              "mangledName": "$s13PerfectVolume14ExerciseEntityC4setsSo5NSSetCSgvg",
+              "moduleName": "PerfectVolume",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Foundation.NSSet?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "NSSet",
+                      "printedName": "Foundation.NSSet",
+                      "usr": "c:objc(cs)NSSet"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(im)setSets:",
+              "mangledName": "$s13PerfectVolume14ExerciseEntityC4setsSo5NSSetCSgvs",
+              "moduleName": "PerfectVolume",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "printTest",
+          "printedName": "printTest()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:13PerfectVolume14ExerciseEntityC9printTestyyF",
+          "mangledName": "$s13PerfectVolume14ExerciseEntityC9printTestyyF",
+          "moduleName": "PerfectVolume",
+          "isOpen": true,
+          "declAttributes": [
+            "Dynamic"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "decrementAfterSevenDays",
+          "printedName": "decrementAfterSevenDays()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:13PerfectVolume14ExerciseEntityC23decrementAfterSevenDaysyyF",
+          "mangledName": "$s13PerfectVolume14ExerciseEntityC23decrementAfterSevenDaysyyF",
+          "moduleName": "PerfectVolume",
+          "isOpen": true,
+          "declAttributes": [
+            "Dynamic"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "decrementMuscleGroup",
+          "printedName": "decrementMuscleGroup()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(im)decrementMuscleGroup",
+          "mangledName": "$s13PerfectVolume14ExerciseEntityC20decrementMuscleGroupyyF",
+          "moduleName": "PerfectVolume",
+          "isOpen": true,
+          "declAttributes": [
+            "Dynamic",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "addToSets",
+          "printedName": "addToSets(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "SetDetailEntity",
+              "printedName": "PerfectVolume.SetDetailEntity",
+              "usr": "c:@M@PerfectVolume@objc(cs)SetDetailEntity"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(im)addSetsObject:",
+          "mangledName": "$s13PerfectVolume14ExerciseEntityC9addToSetsyyAA09SetDetailD0CF",
+          "moduleName": "PerfectVolume",
+          "isOpen": true,
+          "objc_name": "addSetsObject:",
+          "declAttributes": [
+            "Dynamic",
+            "AccessControl",
+            "NSManaged",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "removeFromSets",
+          "printedName": "removeFromSets(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "SetDetailEntity",
+              "printedName": "PerfectVolume.SetDetailEntity",
+              "usr": "c:@M@PerfectVolume@objc(cs)SetDetailEntity"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(im)removeSetsObject:",
+          "mangledName": "$s13PerfectVolume14ExerciseEntityC14removeFromSetsyyAA09SetDetailD0CF",
+          "moduleName": "PerfectVolume",
+          "isOpen": true,
+          "objc_name": "removeSetsObject:",
+          "declAttributes": [
+            "Dynamic",
+            "AccessControl",
+            "NSManaged",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "addToSets",
+          "printedName": "addToSets(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSSet",
+              "printedName": "Foundation.NSSet",
+              "usr": "c:objc(cs)NSSet"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(im)addSets:",
+          "mangledName": "$s13PerfectVolume14ExerciseEntityC9addToSetsyySo5NSSetCF",
+          "moduleName": "PerfectVolume",
+          "isOpen": true,
+          "objc_name": "addSets:",
+          "declAttributes": [
+            "Dynamic",
+            "AccessControl",
+            "NSManaged",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "removeFromSets",
+          "printedName": "removeFromSets(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSSet",
+              "printedName": "Foundation.NSSet",
+              "usr": "c:objc(cs)NSSet"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(im)removeSets:",
+          "mangledName": "$s13PerfectVolume14ExerciseEntityC14removeFromSetsyySo5NSSetCF",
+          "moduleName": "PerfectVolume",
+          "isOpen": true,
+          "objc_name": "removeSets:",
+          "declAttributes": [
+            "Dynamic",
+            "AccessControl",
+            "NSManaged",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@PerfectVolume@objc(cs)ExerciseEntity",
+      "mangledName": "$s13PerfectVolume14ExerciseEntityC",
+      "moduleName": "PerfectVolume",
+      "isOpen": true,
+      "objc_name": "ExerciseEntity",
+      "declAttributes": [
+        "AccessControl",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)NSManagedObject",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "CoreData.NSManagedObject",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Identifiable",
+          "printedName": "Identifiable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "ID",
+              "printedName": "ID",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Foundation.UUID?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UUID",
+                      "printedName": "Foundation.UUID",
+                      "usr": "s:10Foundation4UUIDV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s12IdentifiableP",
+          "mangledName": "$ss12IdentifiableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ObservableObject",
+          "printedName": "ObservableObject",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "ObjectWillChangePublisher",
+              "printedName": "ObjectWillChangePublisher",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ObservableObjectPublisher",
+                  "printedName": "Combine.ObservableObjectPublisher",
+                  "usr": "s:7Combine25ObservableObjectPublisherC"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7Combine16ObservableObjectP",
+          "mangledName": "$s7Combine16ObservableObjectP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
       "name": "SwiftUI",
       "printedName": "SwiftUI",
       "declKind": "Import",
@@ -5531,7 +6541,7 @@
         {
           "kind": "Function",
           "name": "addExercise",
-          "printedName": "addExercise(name:numSets:muscleGroup:context:)",
+          "printedName": "addExercise(name:numSets:muscleGroup:date:context:)",
           "children": [
             {
               "kind": "TypeNominal",
@@ -5559,14 +6569,20 @@
             },
             {
               "kind": "TypeNominal",
+              "name": "Date",
+              "printedName": "Foundation.Date",
+              "usr": "s:10Foundation4DateV"
+            },
+            {
+              "kind": "TypeNominal",
               "name": "NSManagedObjectContext",
               "printedName": "CoreData.NSManagedObjectContext",
               "usr": "c:objc(cs)NSManagedObjectContext"
             }
           ],
           "declKind": "Func",
-          "usr": "s:13PerfectVolume14DataControllerC11addExercise4name7numSets11muscleGroup7contextAA0F6EntityCSS_SiAA06MusclekM0CSo22NSManagedObjectContextCtF",
-          "mangledName": "$s13PerfectVolume14DataControllerC11addExercise4name7numSets11muscleGroup7contextAA0F6EntityCSS_SiAA06MusclekM0CSo22NSManagedObjectContextCtF",
+          "usr": "s:13PerfectVolume14DataControllerC11addExercise4name7numSets11muscleGroup4date7contextAA0F6EntityCSS_SiAA06MusclekN0C10Foundation4DateVSo22NSManagedObjectContextCtF",
+          "mangledName": "$s13PerfectVolume14DataControllerC11addExercise4name7numSets11muscleGroup4date7contextAA0F6EntityCSS_SiAA06MusclekN0C10Foundation4DateVSo22NSManagedObjectContextCtF",
           "moduleName": "PerfectVolume",
           "isOpen": true,
           "declAttributes": [
@@ -6919,6 +7935,28 @@
           "declKind": "Func",
           "usr": "s:13PerfectVolume12MainMenuViewV12deleteMuscle33_BC390E6A4ADB988145353E0D5760F09DLL7offsetsy10Foundation8IndexSetV_tF",
           "mangledName": "$s13PerfectVolume12MainMenuViewV12deleteMuscle33_BC390E6A4ADB988145353E0D5760F09DLL7offsetsy10Foundation8IndexSetV_tF",
+          "moduleName": "PerfectVolume",
+          "declAttributes": [
+            "Custom",
+            "Dynamic",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "decrementAfterSevenDays",
+          "printedName": "decrementAfterSevenDays()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:13PerfectVolume12MainMenuViewV23decrementAfterSevenDays33_BC390E6A4ADB988145353E0D5760F09DLLyyF",
+          "mangledName": "$s13PerfectVolume12MainMenuViewV23decrementAfterSevenDays33_BC390E6A4ADB988145353E0D5760F09DLLyyF",
           "moduleName": "PerfectVolume",
           "declAttributes": [
             "Custom",
@@ -12878,859 +13916,6 @@
     },
     {
       "kind": "TypeDecl",
-      "name": "ExerciseEntity",
-      "printedName": "ExerciseEntity",
-      "children": [
-        {
-          "kind": "Constructor",
-          "name": "init",
-          "printedName": "init(entity:insertInto:)",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "ExerciseEntity",
-              "printedName": "PerfectVolume.ExerciseEntity",
-              "usr": "c:@M@PerfectVolume@objc(cs)ExerciseEntity"
-            },
-            {
-              "kind": "TypeNominal",
-              "name": "NSEntityDescription",
-              "printedName": "CoreData.NSEntityDescription",
-              "usr": "c:objc(cs)NSEntityDescription"
-            },
-            {
-              "kind": "TypeNominal",
-              "name": "Optional",
-              "printedName": "CoreData.NSManagedObjectContext?",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "NSManagedObjectContext",
-                  "printedName": "CoreData.NSManagedObjectContext",
-                  "usr": "c:objc(cs)NSManagedObjectContext"
-                }
-              ],
-              "usr": "s:Sq"
-            }
-          ],
-          "declKind": "Constructor",
-          "usr": "c:@M@PerfectVolume@objc(cs)ExerciseEntity(im)initWithEntity:insertIntoManagedObjectContext:",
-          "mangledName": "$s13PerfectVolume14ExerciseEntityC6entity10insertIntoACSo19NSEntityDescriptionC_So22NSManagedObjectContextCSgtcfc",
-          "moduleName": "PerfectVolume",
-          "overriding": true,
-          "implicit": true,
-          "objc_name": "initWithEntity:insertIntoManagedObjectContext:",
-          "declAttributes": [
-            "Dynamic",
-            "ObjC",
-            "Override"
-          ],
-          "init_kind": "Designated"
-        },
-        {
-          "kind": "Function",
-          "name": "fetchRequest",
-          "printedName": "fetchRequest()",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "NSFetchRequest",
-              "printedName": "CoreData.NSFetchRequest<PerfectVolume.ExerciseEntity>",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "ExerciseEntity",
-                  "printedName": "PerfectVolume.ExerciseEntity",
-                  "usr": "c:@M@PerfectVolume@objc(cs)ExerciseEntity"
-                }
-              ],
-              "usr": "c:objc(cs)NSFetchRequest"
-            }
-          ],
-          "declKind": "Func",
-          "usr": "s:13PerfectVolume14ExerciseEntityC12fetchRequestSo07NSFetchF0CyACGyFZ",
-          "mangledName": "$s13PerfectVolume14ExerciseEntityC12fetchRequestSo07NSFetchF0CyACGyFZ",
-          "moduleName": "PerfectVolume",
-          "static": true,
-          "isOpen": true,
-          "declAttributes": [
-            "AccessControl",
-            "NonObjC"
-          ],
-          "funcSelfKind": "NonMutating"
-        },
-        {
-          "kind": "Var",
-          "name": "id",
-          "printedName": "id",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "Optional",
-              "printedName": "Foundation.UUID?",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "UUID",
-                  "printedName": "Foundation.UUID",
-                  "usr": "s:10Foundation4UUIDV"
-                }
-              ],
-              "usr": "s:Sq"
-            }
-          ],
-          "declKind": "Var",
-          "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(py)id",
-          "mangledName": "$s13PerfectVolume14ExerciseEntityC2id10Foundation4UUIDVSgvp",
-          "moduleName": "PerfectVolume",
-          "isOpen": true,
-          "declAttributes": [
-            "Dynamic",
-            "AccessControl",
-            "NSManaged",
-            "ObjC"
-          ],
-          "accessors": [
-            {
-              "kind": "Accessor",
-              "name": "Get",
-              "printedName": "Get()",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "Optional",
-                  "printedName": "Foundation.UUID?",
-                  "children": [
-                    {
-                      "kind": "TypeNominal",
-                      "name": "UUID",
-                      "printedName": "Foundation.UUID",
-                      "usr": "s:10Foundation4UUIDV"
-                    }
-                  ],
-                  "usr": "s:Sq"
-                }
-              ],
-              "declKind": "Accessor",
-              "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(im)id",
-              "mangledName": "$s13PerfectVolume14ExerciseEntityC2id10Foundation4UUIDVSgvg",
-              "moduleName": "PerfectVolume",
-              "implicit": true,
-              "isOpen": true,
-              "declAttributes": [
-                "Dynamic",
-                "ObjC"
-              ],
-              "accessorKind": "get"
-            },
-            {
-              "kind": "Accessor",
-              "name": "Set",
-              "printedName": "Set()",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "Void",
-                  "printedName": "()"
-                },
-                {
-                  "kind": "TypeNominal",
-                  "name": "Optional",
-                  "printedName": "Foundation.UUID?",
-                  "children": [
-                    {
-                      "kind": "TypeNominal",
-                      "name": "UUID",
-                      "printedName": "Foundation.UUID",
-                      "usr": "s:10Foundation4UUIDV"
-                    }
-                  ],
-                  "usr": "s:Sq"
-                }
-              ],
-              "declKind": "Accessor",
-              "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(im)setId:",
-              "mangledName": "$s13PerfectVolume14ExerciseEntityC2id10Foundation4UUIDVSgvs",
-              "moduleName": "PerfectVolume",
-              "implicit": true,
-              "isOpen": true,
-              "declAttributes": [
-                "Dynamic",
-                "ObjC"
-              ],
-              "accessorKind": "set"
-            }
-          ]
-        },
-        {
-          "kind": "Var",
-          "name": "name",
-          "printedName": "name",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "Optional",
-              "printedName": "Swift.String?",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "String",
-                  "printedName": "Swift.String",
-                  "usr": "s:SS"
-                }
-              ],
-              "usr": "s:Sq"
-            }
-          ],
-          "declKind": "Var",
-          "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(py)name",
-          "mangledName": "$s13PerfectVolume14ExerciseEntityC4nameSSSgvp",
-          "moduleName": "PerfectVolume",
-          "isOpen": true,
-          "declAttributes": [
-            "Dynamic",
-            "AccessControl",
-            "NSManaged",
-            "ObjC"
-          ],
-          "accessors": [
-            {
-              "kind": "Accessor",
-              "name": "Get",
-              "printedName": "Get()",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "Optional",
-                  "printedName": "Swift.String?",
-                  "children": [
-                    {
-                      "kind": "TypeNominal",
-                      "name": "String",
-                      "printedName": "Swift.String",
-                      "usr": "s:SS"
-                    }
-                  ],
-                  "usr": "s:Sq"
-                }
-              ],
-              "declKind": "Accessor",
-              "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(im)name",
-              "mangledName": "$s13PerfectVolume14ExerciseEntityC4nameSSSgvg",
-              "moduleName": "PerfectVolume",
-              "implicit": true,
-              "isOpen": true,
-              "declAttributes": [
-                "Dynamic",
-                "ObjC"
-              ],
-              "accessorKind": "get"
-            },
-            {
-              "kind": "Accessor",
-              "name": "Set",
-              "printedName": "Set()",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "Void",
-                  "printedName": "()"
-                },
-                {
-                  "kind": "TypeNominal",
-                  "name": "Optional",
-                  "printedName": "Swift.String?",
-                  "children": [
-                    {
-                      "kind": "TypeNominal",
-                      "name": "String",
-                      "printedName": "Swift.String",
-                      "usr": "s:SS"
-                    }
-                  ],
-                  "usr": "s:Sq"
-                }
-              ],
-              "declKind": "Accessor",
-              "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(im)setName:",
-              "mangledName": "$s13PerfectVolume14ExerciseEntityC4nameSSSgvs",
-              "moduleName": "PerfectVolume",
-              "implicit": true,
-              "isOpen": true,
-              "declAttributes": [
-                "Dynamic",
-                "ObjC"
-              ],
-              "accessorKind": "set"
-            }
-          ]
-        },
-        {
-          "kind": "Var",
-          "name": "numSets",
-          "printedName": "numSets",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "Int64",
-              "printedName": "Swift.Int64",
-              "usr": "s:s5Int64V"
-            }
-          ],
-          "declKind": "Var",
-          "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(py)numSets",
-          "mangledName": "$s13PerfectVolume14ExerciseEntityC7numSetss5Int64Vvp",
-          "moduleName": "PerfectVolume",
-          "isOpen": true,
-          "declAttributes": [
-            "Dynamic",
-            "AccessControl",
-            "NSManaged",
-            "ObjC"
-          ],
-          "accessors": [
-            {
-              "kind": "Accessor",
-              "name": "Get",
-              "printedName": "Get()",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "Int64",
-                  "printedName": "Swift.Int64",
-                  "usr": "s:s5Int64V"
-                }
-              ],
-              "declKind": "Accessor",
-              "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(im)numSets",
-              "mangledName": "$s13PerfectVolume14ExerciseEntityC7numSetss5Int64Vvg",
-              "moduleName": "PerfectVolume",
-              "implicit": true,
-              "isOpen": true,
-              "declAttributes": [
-                "Dynamic",
-                "ObjC"
-              ],
-              "accessorKind": "get"
-            },
-            {
-              "kind": "Accessor",
-              "name": "Set",
-              "printedName": "Set()",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "Void",
-                  "printedName": "()"
-                },
-                {
-                  "kind": "TypeNominal",
-                  "name": "Int64",
-                  "printedName": "Swift.Int64",
-                  "usr": "s:s5Int64V"
-                }
-              ],
-              "declKind": "Accessor",
-              "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(im)setNumSets:",
-              "mangledName": "$s13PerfectVolume14ExerciseEntityC7numSetss5Int64Vvs",
-              "moduleName": "PerfectVolume",
-              "implicit": true,
-              "isOpen": true,
-              "declAttributes": [
-                "Dynamic",
-                "ObjC"
-              ],
-              "accessorKind": "set"
-            }
-          ]
-        },
-        {
-          "kind": "Var",
-          "name": "muscleGroup",
-          "printedName": "muscleGroup",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "Optional",
-              "printedName": "PerfectVolume.MuscleGroupEntity?",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "MuscleGroupEntity",
-                  "printedName": "PerfectVolume.MuscleGroupEntity",
-                  "usr": "c:@M@PerfectVolume@objc(cs)MuscleGroupEntity"
-                }
-              ],
-              "usr": "s:Sq"
-            }
-          ],
-          "declKind": "Var",
-          "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(py)muscleGroup",
-          "mangledName": "$s13PerfectVolume14ExerciseEntityC11muscleGroupAA06MusclefD0CSgvp",
-          "moduleName": "PerfectVolume",
-          "isOpen": true,
-          "declAttributes": [
-            "Dynamic",
-            "AccessControl",
-            "NSManaged",
-            "ObjC"
-          ],
-          "accessors": [
-            {
-              "kind": "Accessor",
-              "name": "Get",
-              "printedName": "Get()",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "Optional",
-                  "printedName": "PerfectVolume.MuscleGroupEntity?",
-                  "children": [
-                    {
-                      "kind": "TypeNominal",
-                      "name": "MuscleGroupEntity",
-                      "printedName": "PerfectVolume.MuscleGroupEntity",
-                      "usr": "c:@M@PerfectVolume@objc(cs)MuscleGroupEntity"
-                    }
-                  ],
-                  "usr": "s:Sq"
-                }
-              ],
-              "declKind": "Accessor",
-              "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(im)muscleGroup",
-              "mangledName": "$s13PerfectVolume14ExerciseEntityC11muscleGroupAA06MusclefD0CSgvg",
-              "moduleName": "PerfectVolume",
-              "implicit": true,
-              "isOpen": true,
-              "declAttributes": [
-                "Dynamic",
-                "ObjC"
-              ],
-              "accessorKind": "get"
-            },
-            {
-              "kind": "Accessor",
-              "name": "Set",
-              "printedName": "Set()",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "Void",
-                  "printedName": "()"
-                },
-                {
-                  "kind": "TypeNominal",
-                  "name": "Optional",
-                  "printedName": "PerfectVolume.MuscleGroupEntity?",
-                  "children": [
-                    {
-                      "kind": "TypeNominal",
-                      "name": "MuscleGroupEntity",
-                      "printedName": "PerfectVolume.MuscleGroupEntity",
-                      "usr": "c:@M@PerfectVolume@objc(cs)MuscleGroupEntity"
-                    }
-                  ],
-                  "usr": "s:Sq"
-                }
-              ],
-              "declKind": "Accessor",
-              "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(im)setMuscleGroup:",
-              "mangledName": "$s13PerfectVolume14ExerciseEntityC11muscleGroupAA06MusclefD0CSgvs",
-              "moduleName": "PerfectVolume",
-              "implicit": true,
-              "isOpen": true,
-              "declAttributes": [
-                "Dynamic",
-                "ObjC"
-              ],
-              "accessorKind": "set"
-            }
-          ]
-        },
-        {
-          "kind": "Var",
-          "name": "sets",
-          "printedName": "sets",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "Optional",
-              "printedName": "Foundation.NSSet?",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "NSSet",
-                  "printedName": "Foundation.NSSet",
-                  "usr": "c:objc(cs)NSSet"
-                }
-              ],
-              "usr": "s:Sq"
-            }
-          ],
-          "declKind": "Var",
-          "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(py)sets",
-          "mangledName": "$s13PerfectVolume14ExerciseEntityC4setsSo5NSSetCSgvp",
-          "moduleName": "PerfectVolume",
-          "isOpen": true,
-          "declAttributes": [
-            "Dynamic",
-            "AccessControl",
-            "NSManaged",
-            "ObjC"
-          ],
-          "accessors": [
-            {
-              "kind": "Accessor",
-              "name": "Get",
-              "printedName": "Get()",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "Optional",
-                  "printedName": "Foundation.NSSet?",
-                  "children": [
-                    {
-                      "kind": "TypeNominal",
-                      "name": "NSSet",
-                      "printedName": "Foundation.NSSet",
-                      "usr": "c:objc(cs)NSSet"
-                    }
-                  ],
-                  "usr": "s:Sq"
-                }
-              ],
-              "declKind": "Accessor",
-              "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(im)sets",
-              "mangledName": "$s13PerfectVolume14ExerciseEntityC4setsSo5NSSetCSgvg",
-              "moduleName": "PerfectVolume",
-              "implicit": true,
-              "isOpen": true,
-              "declAttributes": [
-                "Dynamic",
-                "ObjC"
-              ],
-              "accessorKind": "get"
-            },
-            {
-              "kind": "Accessor",
-              "name": "Set",
-              "printedName": "Set()",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "Void",
-                  "printedName": "()"
-                },
-                {
-                  "kind": "TypeNominal",
-                  "name": "Optional",
-                  "printedName": "Foundation.NSSet?",
-                  "children": [
-                    {
-                      "kind": "TypeNominal",
-                      "name": "NSSet",
-                      "printedName": "Foundation.NSSet",
-                      "usr": "c:objc(cs)NSSet"
-                    }
-                  ],
-                  "usr": "s:Sq"
-                }
-              ],
-              "declKind": "Accessor",
-              "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(im)setSets:",
-              "mangledName": "$s13PerfectVolume14ExerciseEntityC4setsSo5NSSetCSgvs",
-              "moduleName": "PerfectVolume",
-              "implicit": true,
-              "isOpen": true,
-              "declAttributes": [
-                "Dynamic",
-                "ObjC"
-              ],
-              "accessorKind": "set"
-            }
-          ]
-        },
-        {
-          "kind": "Function",
-          "name": "addToSets",
-          "printedName": "addToSets(_:)",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "Void",
-              "printedName": "()"
-            },
-            {
-              "kind": "TypeNominal",
-              "name": "SetDetailEntity",
-              "printedName": "PerfectVolume.SetDetailEntity",
-              "usr": "c:@M@PerfectVolume@objc(cs)SetDetailEntity"
-            }
-          ],
-          "declKind": "Func",
-          "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(im)addSetsObject:",
-          "mangledName": "$s13PerfectVolume14ExerciseEntityC9addToSetsyyAA09SetDetailD0CF",
-          "moduleName": "PerfectVolume",
-          "isOpen": true,
-          "objc_name": "addSetsObject:",
-          "declAttributes": [
-            "Dynamic",
-            "AccessControl",
-            "NSManaged",
-            "ObjC"
-          ],
-          "funcSelfKind": "NonMutating"
-        },
-        {
-          "kind": "Function",
-          "name": "removeFromSets",
-          "printedName": "removeFromSets(_:)",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "Void",
-              "printedName": "()"
-            },
-            {
-              "kind": "TypeNominal",
-              "name": "SetDetailEntity",
-              "printedName": "PerfectVolume.SetDetailEntity",
-              "usr": "c:@M@PerfectVolume@objc(cs)SetDetailEntity"
-            }
-          ],
-          "declKind": "Func",
-          "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(im)removeSetsObject:",
-          "mangledName": "$s13PerfectVolume14ExerciseEntityC14removeFromSetsyyAA09SetDetailD0CF",
-          "moduleName": "PerfectVolume",
-          "isOpen": true,
-          "objc_name": "removeSetsObject:",
-          "declAttributes": [
-            "Dynamic",
-            "AccessControl",
-            "NSManaged",
-            "ObjC"
-          ],
-          "funcSelfKind": "NonMutating"
-        },
-        {
-          "kind": "Function",
-          "name": "addToSets",
-          "printedName": "addToSets(_:)",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "Void",
-              "printedName": "()"
-            },
-            {
-              "kind": "TypeNominal",
-              "name": "NSSet",
-              "printedName": "Foundation.NSSet",
-              "usr": "c:objc(cs)NSSet"
-            }
-          ],
-          "declKind": "Func",
-          "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(im)addSets:",
-          "mangledName": "$s13PerfectVolume14ExerciseEntityC9addToSetsyySo5NSSetCF",
-          "moduleName": "PerfectVolume",
-          "isOpen": true,
-          "objc_name": "addSets:",
-          "declAttributes": [
-            "Dynamic",
-            "AccessControl",
-            "NSManaged",
-            "ObjC"
-          ],
-          "funcSelfKind": "NonMutating"
-        },
-        {
-          "kind": "Function",
-          "name": "removeFromSets",
-          "printedName": "removeFromSets(_:)",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "Void",
-              "printedName": "()"
-            },
-            {
-              "kind": "TypeNominal",
-              "name": "NSSet",
-              "printedName": "Foundation.NSSet",
-              "usr": "c:objc(cs)NSSet"
-            }
-          ],
-          "declKind": "Func",
-          "usr": "c:@CM@PerfectVolume@objc(cs)ExerciseEntity(im)removeSets:",
-          "mangledName": "$s13PerfectVolume14ExerciseEntityC14removeFromSetsyySo5NSSetCF",
-          "moduleName": "PerfectVolume",
-          "isOpen": true,
-          "objc_name": "removeSets:",
-          "declAttributes": [
-            "Dynamic",
-            "AccessControl",
-            "NSManaged",
-            "ObjC"
-          ],
-          "funcSelfKind": "NonMutating"
-        }
-      ],
-      "declKind": "Class",
-      "usr": "c:@M@PerfectVolume@objc(cs)ExerciseEntity",
-      "mangledName": "$s13PerfectVolume14ExerciseEntityC",
-      "moduleName": "PerfectVolume",
-      "isOpen": true,
-      "objc_name": "ExerciseEntity",
-      "declAttributes": [
-        "AccessControl",
-        "ObjC"
-      ],
-      "superclassUsr": "c:objc(cs)NSManagedObject",
-      "inheritsConvenienceInitializers": true,
-      "superclassNames": [
-        "CoreData.NSManagedObject",
-        "ObjectiveC.NSObject"
-      ],
-      "conformances": [
-        {
-          "kind": "Conformance",
-          "name": "Identifiable",
-          "printedName": "Identifiable",
-          "children": [
-            {
-              "kind": "TypeWitness",
-              "name": "ID",
-              "printedName": "ID",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "Optional",
-                  "printedName": "Foundation.UUID?",
-                  "children": [
-                    {
-                      "kind": "TypeNominal",
-                      "name": "UUID",
-                      "printedName": "Foundation.UUID",
-                      "usr": "s:10Foundation4UUIDV"
-                    }
-                  ],
-                  "usr": "s:Sq"
-                }
-              ]
-            }
-          ],
-          "usr": "s:s12IdentifiableP",
-          "mangledName": "$ss12IdentifiableP"
-        },
-        {
-          "kind": "Conformance",
-          "name": "Equatable",
-          "printedName": "Equatable",
-          "usr": "s:SQ",
-          "mangledName": "$sSQ"
-        },
-        {
-          "kind": "Conformance",
-          "name": "Hashable",
-          "printedName": "Hashable",
-          "usr": "s:SH",
-          "mangledName": "$sSH"
-        },
-        {
-          "kind": "Conformance",
-          "name": "CVarArg",
-          "printedName": "CVarArg",
-          "usr": "s:s7CVarArgP",
-          "mangledName": "$ss7CVarArgP"
-        },
-        {
-          "kind": "Conformance",
-          "name": "_KeyValueCodingAndObservingPublishing",
-          "printedName": "_KeyValueCodingAndObservingPublishing",
-          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-        },
-        {
-          "kind": "Conformance",
-          "name": "_KeyValueCodingAndObserving",
-          "printedName": "_KeyValueCodingAndObserving",
-          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-        },
-        {
-          "kind": "Conformance",
-          "name": "CustomStringConvertible",
-          "printedName": "CustomStringConvertible",
-          "usr": "s:s23CustomStringConvertibleP",
-          "mangledName": "$ss23CustomStringConvertibleP"
-        },
-        {
-          "kind": "Conformance",
-          "name": "CustomDebugStringConvertible",
-          "printedName": "CustomDebugStringConvertible",
-          "usr": "s:s28CustomDebugStringConvertibleP",
-          "mangledName": "$ss28CustomDebugStringConvertibleP"
-        },
-        {
-          "kind": "Conformance",
-          "name": "ObservableObject",
-          "printedName": "ObservableObject",
-          "children": [
-            {
-              "kind": "TypeWitness",
-              "name": "ObjectWillChangePublisher",
-              "printedName": "ObjectWillChangePublisher",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "ObservableObjectPublisher",
-                  "printedName": "Combine.ObservableObjectPublisher",
-                  "usr": "s:7Combine25ObservableObjectPublisherC"
-                }
-              ]
-            }
-          ],
-          "usr": "s:7Combine16ObservableObjectP",
-          "mangledName": "$s7Combine16ObservableObjectP"
-        }
-      ]
-    },
-    {
-      "kind": "Import",
-      "name": "Foundation",
-      "printedName": "Foundation",
-      "declKind": "Import",
-      "moduleName": "PerfectVolume",
-      "declAttributes": [
-        "RawDocComment"
-      ]
-    },
-    {
-      "kind": "Import",
-      "name": "CoreData",
-      "printedName": "CoreData",
-      "declKind": "Import",
-      "moduleName": "PerfectVolume"
-    },
-    {
-      "kind": "Import",
-      "name": "Foundation",
-      "printedName": "Foundation",
-      "declKind": "Import",
-      "moduleName": "PerfectVolume",
-      "declAttributes": [
-        "RawDocComment"
-      ]
-    },
-    {
-      "kind": "Import",
-      "name": "CoreData",
-      "printedName": "CoreData",
-      "declKind": "Import",
-      "moduleName": "PerfectVolume"
-    },
-    {
-      "kind": "TypeDecl",
       "name": "NoteEntity",
       "printedName": "NoteEntity",
       "children": [
@@ -14007,6 +14192,85 @@
               "declKind": "Accessor",
               "usr": "c:@CM@PerfectVolume@objc(cs)NoteEntity(im)setId:",
               "mangledName": "$s13PerfectVolume10NoteEntityC2id10Foundation4UUIDVSgvs",
+              "moduleName": "PerfectVolume",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "timerOn",
+          "printedName": "timerOn",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@CM@PerfectVolume@objc(cs)NoteEntity(py)timerOn",
+          "mangledName": "$s13PerfectVolume10NoteEntityC7timerOnSbvp",
+          "moduleName": "PerfectVolume",
+          "isOpen": true,
+          "declAttributes": [
+            "Dynamic",
+            "AccessControl",
+            "NSManaged",
+            "ObjC"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@CM@PerfectVolume@objc(cs)NoteEntity(im)timerOn",
+              "mangledName": "$s13PerfectVolume10NoteEntityC7timerOnSbvg",
+              "moduleName": "PerfectVolume",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@CM@PerfectVolume@objc(cs)NoteEntity(im)setTimerOn:",
+              "mangledName": "$s13PerfectVolume10NoteEntityC7timerOnSbvs",
               "moduleName": "PerfectVolume",
               "implicit": true,
               "isOpen": true,

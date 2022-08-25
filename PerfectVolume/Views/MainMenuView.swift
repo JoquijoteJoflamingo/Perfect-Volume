@@ -16,7 +16,10 @@ struct MainMenuView: View {
     
     init() {
         UITableView.appearance().backgroundColor = .clear
+        
+        
     }
+    
     let secondarySystem : Color = Color(UIColor.secondarySystemBackground)
     
     @State var selectedIndex : Int = 0
@@ -114,6 +117,9 @@ struct MainMenuView: View {
                 }
             }
         }
+        .onAppear {
+            decrementAfterSevenDays()
+        }
         .preferredColorScheme(ColorScheme.light)
     }
     
@@ -124,7 +130,27 @@ struct MainMenuView: View {
             DataController().save(context: managedObjContext)
         }
     }
-    
+    private func decrementAfterSevenDays() {
+        // create a date that is one week before the current date
+        let today = Date()
+        let weekAgo: Date = Calendar.current.date(byAdding: .day, value: -7, to: today) ?? Date()
+        
+        // go through each note
+        for note in notes {
+            
+            // if the note was for a date from more than 7 days ago
+            // decrement the muscle groups for each exercise
+            if note.date! < weekAgo && note.timerOn {
+                for noteExercise in note.exercises! {
+                    (noteExercise as AnyObject).muscleGroup?.setsWorked -= (noteExercise as AnyObject).numSets
+                }
+                
+                // set bool to false so this doesn't repeat
+                note.timerOn = false
+            }
+        }
+        DataController().save(context: managedObjContext)
+    }
     private func deleteNote(offsets: IndexSet) {
         withAnimation {
             offsets.map { notes[$0] }.forEach(managedObjContext.delete)

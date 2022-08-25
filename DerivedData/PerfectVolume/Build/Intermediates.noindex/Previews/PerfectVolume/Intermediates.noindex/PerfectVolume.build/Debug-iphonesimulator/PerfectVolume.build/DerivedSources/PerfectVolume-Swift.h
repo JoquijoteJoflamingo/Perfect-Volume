@@ -234,14 +234,17 @@ SWIFT_CLASS_NAMED("ExerciseEntity")
 
 @class NSUUID;
 @class NSString;
+@class NSDate;
 @class MuscleGroupEntity;
 
 @interface ExerciseEntity (SWIFT_EXTENSION(PerfectVolume))
 @property (nonatomic, copy) NSUUID * _Nullable id;
 @property (nonatomic, copy) NSString * _Nullable name;
 @property (nonatomic) int64_t numSets;
+@property (nonatomic, copy) NSDate * _Nullable date;
 @property (nonatomic, strong) MuscleGroupEntity * _Nullable muscleGroup;
 @property (nonatomic, strong) NSSet * _Nullable sets;
+- (void)decrementMuscleGroup;
 @end
 
 
@@ -275,11 +278,11 @@ SWIFT_CLASS_NAMED("NoteEntity")
 - (void)removeExercises:(NSSet * _Nonnull)values;
 @end
 
-@class NSDate;
 
 @interface NoteEntity (SWIFT_EXTENSION(PerfectVolume))
 @property (nonatomic, copy) NSDate * _Nullable date;
 @property (nonatomic, copy) NSUUID * _Nullable id;
+@property (nonatomic) BOOL timerOn;
 @property (nonatomic, copy) NSString * _Nullable title;
 @property (nonatomic, strong) NSSet * _Nullable exercises;
 @end

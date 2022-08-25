@@ -10,6 +10,8 @@ import SwiftUI
 @main
 struct PerfectVolumeApp: App {
     @StateObject private var dataController = DataController()
+    
+    
     var body: some Scene {
         WindowGroup {
             MainMenuView()

@@ -13,6 +13,7 @@
 		298BC28228948F2B00A26F10 /* CreateMuscleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298BC28128948F2B00A26F10 /* CreateMuscleGroupView.swift */; };
 		298BC28428948F3700A26F10 /* EditMuscleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298BC28328948F3700A26F10 /* EditMuscleGroupView.swift */; };
 		298CA8912896DE6300234BB5 /* CreateNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298CA8902896DE6300234BB5 /* CreateNoteView.swift */; };
+		29A72A0828B5474A00CDD7F9 /* ExerciseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A72A0628B5474A00CDD7F9 /* ExerciseEntity.swift */; };
 		29C6E0DE289EE5B600E8B7E3 /* ExerciseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C6E0DD289EE5B600E8B7E3 /* ExerciseDetailView.swift */; };
 		29FF07E428938F850035DB45 /* PerfectVolumeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FF07E328938F850035DB45 /* PerfectVolumeApp.swift */; };
 		29FF07E628938F850035DB45 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FF07E528938F850035DB45 /* MainMenuView.swift */; };
@@ -30,6 +31,7 @@
 		298BC28128948F2B00A26F10 /* CreateMuscleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMuscleGroupView.swift; sourceTree = "<group>"; };
 		298BC28328948F3700A26F10 /* EditMuscleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMuscleGroupView.swift; sourceTree = "<group>"; };
 		298CA8902896DE6300234BB5 /* CreateNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNoteView.swift; sourceTree = "<group>"; };
+		29A72A0628B5474A00CDD7F9 /* ExerciseEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseEntity.swift; sourceTree = "<group>"; };
 		29C6E0DD289EE5B600E8B7E3 /* ExerciseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetailView.swift; sourceTree = "<group>"; };
 		29FF07E028938F850035DB45 /* PerfectVolume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerfectVolume.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29FF07E328938F850035DB45 /* PerfectVolumeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectVolumeApp.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				29FF07F8289457580035DB45 /* MuscleGroupEntity.swift */,
+				29A72A0628B5474A00CDD7F9 /* ExerciseEntity.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			files = (
 				298BC28428948F3700A26F10 /* EditMuscleGroupView.swift in Sources */,
 				29FF07F9289457580035DB45 /* MuscleGroupEntity.swift in Sources */,
+				29A72A0828B5474A00CDD7F9 /* ExerciseEntity.swift in Sources */,
 				298CA8912896DE6300234BB5 /* CreateNoteView.swift in Sources */,
 				294D4B5228962E670098A4BE /* Valid User Inputs.swift in Sources */,
 				294DA83828A0CF9500233775 /* FractionText.swift in Sources */,

@@ -2,7 +2,7 @@
 //  NoteEntity+CoreDataProperties.swift
 //  
 //
-//  Created by Joseph Schaubroeck on 8/22/22.
+//  Created by Joseph Schaubroeck on 8/24/22.
 //
 //  This file was automatically generated and should not be edited.
 //
@@ -19,6 +19,7 @@ extension NoteEntity {
 
     @NSManaged public var date: Date?
     @NSManaged public var id: UUID?
+    @NSManaged public var timerOn: Bool
     @NSManaged public var title: String?
     @NSManaged public var exercises: NSSet?
 

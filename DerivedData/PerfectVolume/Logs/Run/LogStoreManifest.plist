@@ -6,6 +6,108 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>0217B71A-AB80-4F15-B983-ED5A90BDC20B</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>0217B71A-AB80-4F15-B983-ED5A90BDC20B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>683088366.27069902</real>
+			<key>timeStoppedRecording</key>
+			<real>683088439.53281105</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>0217B71A-AB80-4F15-B983-ED5A90BDC20B</string>
+		</dict>
+		<key>0B123ECF-B385-4C72-9A2A-6FBD029A00B8</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>0B123ECF-B385-4C72-9A2A-6FBD029A00B8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>683080805.81714702</real>
+			<key>timeStoppedRecording</key>
+			<real>683080810.18159103</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>0B123ECF-B385-4C72-9A2A-6FBD029A00B8</string>
+		</dict>
+		<key>16EBDA64-A89F-4C11-ADED-404427D90D5C</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>16EBDA64-A89F-4C11-ADED-404427D90D5C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>683061402.14003599</real>
+			<key>timeStoppedRecording</key>
+			<real>683061457.93472898</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>16EBDA64-A89F-4C11-ADED-404427D90D5C</string>
+		</dict>
 		<key>188B9E1D-5FE2-4A61-B1DC-46DCCA4CB266</key>
 		<dict>
 			<key>className</key>
@@ -74,6 +176,74 @@
 			<key>uniqueIdentifier</key>
 			<string>1DF0FD27-2644-4328-97C8-6DDC3A3FDAF9</string>
 		</dict>
+		<key>1E752D81-1AEA-428B-B13E-629349CD841F</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>1E752D81-1AEA-428B-B13E-629349CD841F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>683004659.634992</real>
+			<key>timeStoppedRecording</key>
+			<real>683060828.96548605</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>1E752D81-1AEA-428B-B13E-629349CD841F</string>
+		</dict>
+		<key>21BD7C17-B44B-448F-8D41-21FF8E3D5634</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>21BD7C17-B44B-448F-8D41-21FF8E3D5634.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>682969026.82235301</real>
+			<key>timeStoppedRecording</key>
+			<real>682969031.23650897</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>21BD7C17-B44B-448F-8D41-21FF8E3D5634</string>
+		</dict>
 		<key>2D95B4EE-8B68-4984-A83C-374F2DBCF8A3</key>
 		<dict>
 			<key>className</key>
@@ -107,6 +277,108 @@
 			<string>Run PerfectVolume</string>
 			<key>uniqueIdentifier</key>
 			<string>2D95B4EE-8B68-4984-A83C-374F2DBCF8A3</string>
+		</dict>
+		<key>390F5B0B-0570-48AD-82CD-2B57392EB8A3</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>390F5B0B-0570-48AD-82CD-2B57392EB8A3.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>682968918.50785196</real>
+			<key>timeStoppedRecording</key>
+			<real>682968926.75311899</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>390F5B0B-0570-48AD-82CD-2B57392EB8A3</string>
+		</dict>
+		<key>400EDFF0-3068-4EB6-ADE6-FC185A47B5A9</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>400EDFF0-3068-4EB6-ADE6-FC185A47B5A9.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>683062293.21877003</real>
+			<key>timeStoppedRecording</key>
+			<real>683080618.16520405</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>400EDFF0-3068-4EB6-ADE6-FC185A47B5A9</string>
+		</dict>
+		<key>44F2E23B-B39D-4DCD-A1DB-1601815C0F3D</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>44F2E23B-B39D-4DCD-A1DB-1601815C0F3D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>683080619.22825599</real>
+			<key>timeStoppedRecording</key>
+			<real>683080674.42168701</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>44F2E23B-B39D-4DCD-A1DB-1601815C0F3D</string>
 		</dict>
 		<key>4720A936-25EC-4D83-A024-74ACB3502836</key>
 		<dict>
@@ -210,6 +482,40 @@
 			<key>uniqueIdentifier</key>
 			<string>569C9595-0B1E-405A-B458-5CCCB45BF384</string>
 		</dict>
+		<key>66DC3235-9985-4ED6-B598-370BD9883049</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>66DC3235-9985-4ED6-B598-370BD9883049.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>683080752.09553301</real>
+			<key>timeStoppedRecording</key>
+			<real>683080774.02941597</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>66DC3235-9985-4ED6-B598-370BD9883049</string>
+		</dict>
 		<key>6C04D4B2-B92A-4B9B-B96E-00B5C4C1110C</key>
 		<dict>
 			<key>className</key>
@@ -243,6 +549,40 @@
 			<string>Run PerfectVolume</string>
 			<key>uniqueIdentifier</key>
 			<string>6C04D4B2-B92A-4B9B-B96E-00B5C4C1110C</string>
+		</dict>
+		<key>708780E4-59A8-4B89-9F10-178733D4728E</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>708780E4-59A8-4B89-9F10-178733D4728E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>683088440.44370306</real>
+			<key>timeStoppedRecording</key>
+			<real>683088513.86618304</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>708780E4-59A8-4B89-9F10-178733D4728E</string>
 		</dict>
 		<key>734C374C-2085-4707-BF27-9403CFB551AC</key>
 		<dict>
@@ -278,6 +618,244 @@
 			<key>uniqueIdentifier</key>
 			<string>734C374C-2085-4707-BF27-9403CFB551AC</string>
 		</dict>
+		<key>7401289A-C83F-4F68-9335-F24308D91361</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>7401289A-C83F-4F68-9335-F24308D91361.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>683087777.97201204</real>
+			<key>timeStoppedRecording</key>
+			<real>683087902.56661904</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>7401289A-C83F-4F68-9335-F24308D91361</string>
+		</dict>
+		<key>75FC4B94-1239-4C36-A79E-F7F754D18E46</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>75FC4B94-1239-4C36-A79E-F7F754D18E46.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>683080702.69611096</real>
+			<key>timeStoppedRecording</key>
+			<real>683080751.80195904</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>75FC4B94-1239-4C36-A79E-F7F754D18E46</string>
+		</dict>
+		<key>79F495AF-F2D1-4585-AF12-2418597A88A5</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>79F495AF-F2D1-4585-AF12-2418597A88A5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>683061569.09375596</real>
+			<key>timeStoppedRecording</key>
+			<real>683061911.26171994</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>79F495AF-F2D1-4585-AF12-2418597A88A5</string>
+		</dict>
+		<key>800F6F46-E3AC-48C5-A61A-C0E95054A497</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>800F6F46-E3AC-48C5-A61A-C0E95054A497.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>682968966.46542597</real>
+			<key>timeStoppedRecording</key>
+			<real>682968974.18361402</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>800F6F46-E3AC-48C5-A61A-C0E95054A497</string>
+		</dict>
+		<key>830D58C7-BE64-4BBF-ACA6-495AB7965E03</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>830D58C7-BE64-4BBF-ACA6-495AB7965E03.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>682965925.64387906</real>
+			<key>timeStoppedRecording</key>
+			<real>682966179.00863194</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>830D58C7-BE64-4BBF-ACA6-495AB7965E03</string>
+		</dict>
+		<key>8449C991-549C-445A-8D4E-8086A07D3972</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>8449C991-549C-445A-8D4E-8086A07D3972.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>683003667.790766</real>
+			<key>timeStoppedRecording</key>
+			<real>683003675.27809405</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>8449C991-549C-445A-8D4E-8086A07D3972</string>
+		</dict>
+		<key>84963C96-362F-4434-986B-3A2BA81A73B7</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>84963C96-362F-4434-986B-3A2BA81A73B7.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>683060860.47924197</real>
+			<key>timeStoppedRecording</key>
+			<real>683060872.74680603</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>84963C96-362F-4434-986B-3A2BA81A73B7</string>
+		</dict>
 		<key>8762677C-1FB4-40A8-B1C9-9D77E11C8447</key>
 		<dict>
 			<key>className</key>
@@ -311,6 +889,108 @@
 			<string>Run PerfectVolume</string>
 			<key>uniqueIdentifier</key>
 			<string>8762677C-1FB4-40A8-B1C9-9D77E11C8447</string>
+		</dict>
+		<key>8FBA568E-B1E8-44D4-9DD3-5AD921FC26A6</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>8FBA568E-B1E8-44D4-9DD3-5AD921FC26A6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>683003734.719154</real>
+			<key>timeStoppedRecording</key>
+			<real>683004007.85044599</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>8FBA568E-B1E8-44D4-9DD3-5AD921FC26A6</string>
+		</dict>
+		<key>9217F2C1-6244-4BB6-8817-E5088082478C</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>9217F2C1-6244-4BB6-8817-E5088082478C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>683088519.81447101</real>
+			<key>timeStoppedRecording</key>
+			<real>683088571.18638802</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>9217F2C1-6244-4BB6-8817-E5088082478C</string>
+		</dict>
+		<key>93A5CE54-61BE-4F3B-B3D0-E7585E78FC23</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>93A5CE54-61BE-4F3B-B3D0-E7585E78FC23.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>683087940.21668506</real>
+			<key>timeStoppedRecording</key>
+			<real>683087945.25527203</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>93A5CE54-61BE-4F3B-B3D0-E7585E78FC23</string>
 		</dict>
 		<key>95728163-A77C-4E01-A861-8554866EA6CF</key>
 		<dict>
@@ -346,6 +1026,108 @@
 			<key>uniqueIdentifier</key>
 			<string>95728163-A77C-4E01-A861-8554866EA6CF</string>
 		</dict>
+		<key>9E1DC858-3313-46DF-B8AE-298999BF4B16</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>9E1DC858-3313-46DF-B8AE-298999BF4B16.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>683061912.27817595</real>
+			<key>timeStoppedRecording</key>
+			<real>683061961.112378</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>9E1DC858-3313-46DF-B8AE-298999BF4B16</string>
+		</dict>
+		<key>A392A952-9629-4AC6-96EB-D0D4488660F1</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>A392A952-9629-4AC6-96EB-D0D4488660F1.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>683062087.60179603</real>
+			<key>timeStoppedRecording</key>
+			<real>683062291.58646202</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>A392A952-9629-4AC6-96EB-D0D4488660F1</string>
+		</dict>
+		<key>A89D34F3-A0E7-44B1-83D2-54F8ABE64BFF</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>A89D34F3-A0E7-44B1-83D2-54F8ABE64BFF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>682966274.69422495</real>
+			<key>timeStoppedRecording</key>
+			<real>682966349.22459102</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>A89D34F3-A0E7-44B1-83D2-54F8ABE64BFF</string>
+		</dict>
 		<key>A9BCAEFF-186C-4AFA-A384-A38CE55B3430</key>
 		<dict>
 			<key>className</key>
@@ -380,6 +1162,142 @@
 			<key>uniqueIdentifier</key>
 			<string>A9BCAEFF-186C-4AFA-A384-A38CE55B3430</string>
 		</dict>
+		<key>A9DE3870-48F5-4C3B-A019-791BEF932E19</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>A9DE3870-48F5-4C3B-A019-791BEF932E19.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>683088637.71340799</real>
+			<key>timeStoppedRecording</key>
+			<real>683088642.61725998</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>A9DE3870-48F5-4C3B-A019-791BEF932E19</string>
+		</dict>
+		<key>AA8A87CB-D979-48BE-ACC4-7E2A19424731</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>AA8A87CB-D979-48BE-ACC4-7E2A19424731.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>683061372.05671096</real>
+			<key>timeStoppedRecording</key>
+			<real>683061376.72282398</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>AA8A87CB-D979-48BE-ACC4-7E2A19424731</string>
+		</dict>
+		<key>AB24DE33-8049-46C2-A76F-94AAC86BB8D6</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>AB24DE33-8049-46C2-A76F-94AAC86BB8D6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>683061200.74705505</real>
+			<key>timeStoppedRecording</key>
+			<real>683061277.91891396</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>AB24DE33-8049-46C2-A76F-94AAC86BB8D6</string>
+		</dict>
+		<key>B0441BB9-0FB6-49A3-AAD1-179F11E352AD</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B0441BB9-0FB6-49A3-AAD1-179F11E352AD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>683004096.95659101</real>
+			<key>timeStoppedRecording</key>
+			<real>683004259.06675601</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>B0441BB9-0FB6-49A3-AAD1-179F11E352AD</string>
+		</dict>
 		<key>B27632E4-7ED0-4FE1-B898-62589444DE32</key>
 		<dict>
 			<key>className</key>
@@ -413,6 +1331,244 @@
 			<string>Run PerfectVolume</string>
 			<key>uniqueIdentifier</key>
 			<string>B27632E4-7ED0-4FE1-B898-62589444DE32</string>
+		</dict>
+		<key>B358AF1D-19A9-41D1-B72D-10938FF11863</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B358AF1D-19A9-41D1-B72D-10938FF11863.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>683088579.09685695</real>
+			<key>timeStoppedRecording</key>
+			<real>683088586.43794203</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>B358AF1D-19A9-41D1-B72D-10938FF11863</string>
+		</dict>
+		<key>B60D003C-62ED-4C3A-B932-01096CEB4CE6</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B60D003C-62ED-4C3A-B932-01096CEB4CE6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>683060829.64208305</real>
+			<key>timeStoppedRecording</key>
+			<real>683060848.07933402</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>B60D003C-62ED-4C3A-B932-01096CEB4CE6</string>
+		</dict>
+		<key>B645FE17-437B-4C92-B0CE-74C139FD055D</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B645FE17-437B-4C92-B0CE-74C139FD055D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>683004268.91460204</real>
+			<key>timeStoppedRecording</key>
+			<real>683004364.53008604</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>B645FE17-437B-4C92-B0CE-74C139FD055D</string>
+		</dict>
+		<key>B8566A98-E83D-460A-8A5A-9FB2FF1F35EA</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B8566A98-E83D-460A-8A5A-9FB2FF1F35EA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>682968305.90318298</real>
+			<key>timeStoppedRecording</key>
+			<real>682968324.79168904</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>B8566A98-E83D-460A-8A5A-9FB2FF1F35EA</string>
+		</dict>
+		<key>BDC98724-BDBA-4638-897F-9F0E3D40915B</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>BDC98724-BDBA-4638-897F-9F0E3D40915B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>683088642.82181704</real>
+			<key>timeStoppedRecording</key>
+			<real>683088657.08584595</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>BDC98724-BDBA-4638-897F-9F0E3D40915B</string>
+		</dict>
+		<key>C1262FAB-2D0B-46B7-A0EC-5B0A9A432956</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>C1262FAB-2D0B-46B7-A0EC-5B0A9A432956.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>682966180.70622897</real>
+			<key>timeStoppedRecording</key>
+			<real>682966274.20451605</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>C1262FAB-2D0B-46B7-A0EC-5B0A9A432956</string>
+		</dict>
+		<key>C18D13E6-C750-4281-B8E5-9A62D7D15607</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>C18D13E6-C750-4281-B8E5-9A62D7D15607.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>683004553.47451305</real>
+			<key>timeStoppedRecording</key>
+			<real>683004590.83115005</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>C18D13E6-C750-4281-B8E5-9A62D7D15607</string>
 		</dict>
 		<key>C681A331-CFA0-4D10-A3A7-7FF117FB822F</key>
 		<dict>
@@ -516,6 +1672,40 @@
 			<key>uniqueIdentifier</key>
 			<string>CD68C22E-11B2-450C-B3A5-7EC9C538C538</string>
 		</dict>
+		<key>D7202F11-48B2-4BC7-BBBD-2B0F7ECC593A</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>D7202F11-48B2-4BC7-BBBD-2B0F7ECC593A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>683062018.849756</real>
+			<key>timeStoppedRecording</key>
+			<real>683062030.30397797</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>D7202F11-48B2-4BC7-BBBD-2B0F7ECC593A</string>
+		</dict>
 		<key>E79B810E-3E0F-4E82-AD3E-9E3B6245C5A1</key>
 		<dict>
 			<key>className</key>
@@ -550,6 +1740,40 @@
 			<key>uniqueIdentifier</key>
 			<string>E79B810E-3E0F-4E82-AD3E-9E3B6245C5A1</string>
 		</dict>
+		<key>E947B082-75DE-43DC-8345-D7414705447F</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>E947B082-75DE-43DC-8345-D7414705447F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>683080774.29212201</real>
+			<key>timeStoppedRecording</key>
+			<real>683080805.23593998</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>E947B082-75DE-43DC-8345-D7414705447F</string>
+		</dict>
 		<key>EA19A824-729D-4F16-AF35-73757FFE8CD7</key>
 		<dict>
 			<key>className</key>
@@ -583,6 +1807,40 @@
 			<string>Run PerfectVolume</string>
 			<key>uniqueIdentifier</key>
 			<string>EA19A824-729D-4F16-AF35-73757FFE8CD7</string>
+		</dict>
+		<key>EBF628C3-77A0-421C-B282-FB94C2BCB950</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>EBF628C3-77A0-421C-B282-FB94C2BCB950.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>683061993.146492</real>
+			<key>timeStoppedRecording</key>
+			<real>683062017.77580905</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>EBF628C3-77A0-421C-B282-FB94C2BCB950</string>
 		</dict>
 		<key>EDA34840-9D1E-4229-A67B-5C2871EDC721</key>
 		<dict>
@@ -652,6 +1910,40 @@
 			<key>uniqueIdentifier</key>
 			<string>EED6866C-2CB4-4E00-A930-A122BB73EE44</string>
 		</dict>
+		<key>EFC82360-E45B-40AD-806E-8E39BE4A7CB6</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>EFC82360-E45B-40AD-806E-8E39BE4A7CB6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>683088618.31169903</real>
+			<key>timeStoppedRecording</key>
+			<real>683088637.51883399</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>EFC82360-E45B-40AD-806E-8E39BE4A7CB6</string>
+		</dict>
 		<key>F11EE052-03F3-4028-BB22-31168D478232</key>
 		<dict>
 			<key>className</key>
@@ -685,6 +1977,74 @@
 			<string>Run PerfectVolume</string>
 			<key>uniqueIdentifier</key>
 			<string>F11EE052-03F3-4028-BB22-31168D478232</string>
+		</dict>
+		<key>F175FEB7-6655-480B-9EAD-E2B1EA27CC47</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>F175FEB7-6655-480B-9EAD-E2B1EA27CC47.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>682966349.42927599</real>
+			<key>timeStoppedRecording</key>
+			<real>682966354.16911995</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>F175FEB7-6655-480B-9EAD-E2B1EA27CC47</string>
+		</dict>
+		<key>F41DA19C-D8B3-43C4-8500-3474C8392B6C</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>F41DA19C-D8B3-43C4-8500-3474C8392B6C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>683088573.13785303</real>
+			<key>timeStoppedRecording</key>
+			<real>683088578.70227802</real>
+			<key>title</key>
+			<string>Run PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>F41DA19C-D8B3-43C4-8500-3474C8392B6C</string>
 		</dict>
 		<key>FB4CD60E-628D-4BE4-B071-6AC3739B7F33</key>
 		<dict>
