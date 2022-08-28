@@ -1,22 +1,22 @@
 version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
 options: "7c210285ad91bfaec743ad1cdc75c0a36a39d4994ee93a2203d801d0d6081829"
-build_start_time: [1661399699, 223167896]
-build_end_time: [1661399699, 814466953]
+build_start_time: [1661639415, 347543001]
+build_end_time: [1661639415, 657160997]
 inputs:
   ? "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/DerivedData/PerfectVolume/Build/Intermediates.noindex/PerfectVolume.build/Debug-iphonesimulator/PerfectVolume.build/DerivedSources/CoreDataGenerated/CoreDataContainer/CoreDataContainer+CoreDataModel.swift"
-  : [1661399699, 176470756]
+  : [1661639415, 276797771]
   ? "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/DerivedData/PerfectVolume/Build/Intermediates.noindex/PerfectVolume.build/Debug-iphonesimulator/PerfectVolume.build/DerivedSources/CoreDataGenerated/CoreDataContainer/NoteEntity+CoreDataClass.swift"
-  : [1661399699, 177841663]
+  : [1661639415, 278857231]
   ? "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/DerivedData/PerfectVolume/Build/Intermediates.noindex/PerfectVolume.build/Debug-iphonesimulator/PerfectVolume.build/DerivedSources/CoreDataGenerated/CoreDataContainer/NoteEntity+CoreDataProperties.swift"
-  : [1661399699, 178432941]
+  : [1661639415, 279369115]
   ? "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/DerivedData/PerfectVolume/Build/Intermediates.noindex/PerfectVolume.build/Debug-iphonesimulator/PerfectVolume.build/DerivedSources/CoreDataGenerated/CoreDataContainer/SetDetailEntity+CoreDataClass.swift"
-  : [1661399699, 178482294]
+  : [1661639415, 278014659]
   ? "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/DerivedData/PerfectVolume/Build/Intermediates.noindex/PerfectVolume.build/Debug-iphonesimulator/PerfectVolume.build/DerivedSources/CoreDataGenerated/CoreDataContainer/SetDetailEntity+CoreDataProperties.swift"
-  : [1661399699, 179169178]
+  : [1661639415, 278624057]
   ? "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/DerivedData/PerfectVolume/Build/Intermediates.noindex/PerfectVolume.build/Debug-iphonesimulator/PerfectVolume.build/DerivedSources/CoreDataGenerated/CoreDataContainer/Test+CoreDataClass.swift"
-  : [1661399699, 179407119]
+  : [1661639415, 278038501]
   ? "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/DerivedData/PerfectVolume/Build/Intermediates.noindex/PerfectVolume.build/Debug-iphonesimulator/PerfectVolume.build/DerivedSources/CoreDataGenerated/CoreDataContainer/Test+CoreDataProperties.swift"
-  : [1661399699, 179831981]
+  : [1661639415, 278628826]
   "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/DataModel/DataController.swift": [1661395107, 66813230]
   "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Models/ExerciseEntity.swift": [1661311468, 118619441]
   "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Models/MuscleGroupEntity.swift": [1661221191, 436606407]

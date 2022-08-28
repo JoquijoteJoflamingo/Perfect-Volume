@@ -16,9 +16,9 @@ struct MainMenuView: View {
     
     init() {
         UITableView.appearance().backgroundColor = .clear
-        
-        
     }
+    
+    // TEST COMMENT
     
     let secondarySystem : Color = Color(UIColor.secondarySystemBackground)
     
