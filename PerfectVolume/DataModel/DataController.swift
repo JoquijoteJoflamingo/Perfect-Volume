@@ -99,6 +99,7 @@ class DataController: ObservableObject {
     func editNote(note: NoteEntity, title: String, date: Date, exercises: [ExerciseEntity], context: NSManagedObjectContext) {
         note.title = title
         note.exercises = []
+        note.date = date
         for exercise in exercises {
             note.addToExercises(exercise)
         }

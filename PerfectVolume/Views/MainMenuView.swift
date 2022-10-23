@@ -12,7 +12,7 @@ struct MainMenuView: View {
     @Environment(\.managedObjectContext) var managedObjContext
     @FetchRequest(sortDescriptors: [SortDescriptor(\.setsWorked)]) var muscleGroups : FetchedResults<MuscleGroupEntity>
     
-    @FetchRequest(sortDescriptors: [SortDescriptor(\.title, order: .reverse)]) var notes : FetchedResults<NoteEntity>
+    @FetchRequest(sortDescriptors: [SortDescriptor(\.date, order: .reverse)]) var notes : FetchedResults<NoteEntity>
     
     init() {
         UITableView.appearance().backgroundColor = .clear
@@ -20,6 +20,7 @@ struct MainMenuView: View {
     
     // TEST COMMENT
     // TEST AGAIN
+    // TEST 3
     
     let secondarySystem : Color = Color(UIColor.secondarySystemBackground)
     
@@ -131,6 +132,7 @@ struct MainMenuView: View {
             DataController().save(context: managedObjContext)
         }
     }
+    
     private func decrementAfterSevenDays() {
         // create a date that is one week before the current date
         let today = Date()

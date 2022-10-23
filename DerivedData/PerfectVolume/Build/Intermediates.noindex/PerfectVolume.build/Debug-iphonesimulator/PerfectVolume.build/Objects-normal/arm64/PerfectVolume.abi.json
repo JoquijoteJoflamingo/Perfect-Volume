@@ -5404,7 +5404,8 @@
           "declAttributes": [
             "Custom",
             "HasInitialValue",
-            "HasStorage"
+            "HasStorage",
+            "RawDocComment"
           ],
           "fixedbinaryorder": 3,
           "isLet": true,
@@ -8609,8 +8610,8 @@
         },
         {
           "kind": "Function",
-          "name": "saveEditedNote",
-          "printedName": "saveEditedNote()",
+          "name": "editSave",
+          "printedName": "editSave()",
           "children": [
             {
               "kind": "TypeNominal",
@@ -8619,8 +8620,28 @@
             }
           ],
           "declKind": "Func",
-          "usr": "s:13PerfectVolume12EditNoteViewV010saveEditedD0yyF",
-          "mangledName": "$s13PerfectVolume12EditNoteViewV010saveEditedD0yyF",
+          "usr": "s:13PerfectVolume12EditNoteViewV8editSaveyyF",
+          "mangledName": "$s13PerfectVolume12EditNoteViewV8editSaveyyF",
+          "moduleName": "PerfectVolume",
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "saveAndDismiss",
+          "printedName": "saveAndDismiss()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:13PerfectVolume12EditNoteViewV14saveAndDismissyyF",
+          "mangledName": "$s13PerfectVolume12EditNoteViewV14saveAndDismissyyF",
           "moduleName": "PerfectVolume",
           "declAttributes": [
             "Custom"
@@ -10630,23 +10651,6 @@
           "mangledName": "$s7Combine16ObservableObjectP"
         }
       ]
-    },
-    {
-      "kind": "Import",
-      "name": "Foundation",
-      "printedName": "Foundation",
-      "declKind": "Import",
-      "moduleName": "PerfectVolume",
-      "declAttributes": [
-        "RawDocComment"
-      ]
-    },
-    {
-      "kind": "Import",
-      "name": "CoreData",
-      "printedName": "CoreData",
-      "declKind": "Import",
-      "moduleName": "PerfectVolume"
     },
     {
       "kind": "Import",

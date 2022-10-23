@@ -17,7 +17,6 @@ struct CreateNoteView: View {
     @State var exerciseName : String = ""
     @State var exerciseNumSets : Double = 0
     @State var date : Date = Date()
-    
     var body: some View {
         NavigationView {
             VStack {
@@ -49,7 +48,7 @@ struct CreateNoteView: View {
 
                             }
                             .onDelete(perform: deleteExercise)
-//                            .listRowBackground(secondarySystem)
+
                         }
                     }
                     

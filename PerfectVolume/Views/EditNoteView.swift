@@ -74,7 +74,7 @@ struct EditNoteView: View {
             .toolbar {
                 ToolbarItemGroup(placement: .navigationBarLeading) {
                     Button {
-                        saveEditedNote()
+                        saveAndDismiss()
                     } label: {
                         Image(systemName: "arrow.backward.square.fill")
                             .font(.system(size: 40))
@@ -119,7 +119,7 @@ struct EditNoteView: View {
             exercises[i].muscleGroup?.setsWorked -= exercises[i].numSets
         }
         exercises.remove(atOffsets: offsets)
-        
+        editSave()
     }
     func resetInput() {
         exerciseName = ""
@@ -129,9 +129,13 @@ struct EditNoteView: View {
     func addToNote(muscleGroup: MuscleGroupEntity) {
         exercises.append(DataController().addExercise(name: exerciseName, numSets: Int(exerciseNumSets), muscleGroup: muscleGroup, date: date, context: managedObjContext))
         resetInput()
+        editSave()
+    }
+    func editSave() {
+        DataController().editNote(note: note, title: title, date: date, exercises: exercises, context: managedObjContext)
     }
     
-    func saveEditedNote() {
+    func saveAndDismiss() {
         DataController().editNote(note: note, title: title, date: date, exercises: exercises, context: managedObjContext)
         self.presentationMode.wrappedValue.dismiss()
     }
