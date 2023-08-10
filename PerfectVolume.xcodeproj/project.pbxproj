@@ -30,6 +30,7 @@
 		293C343928BFCCBC00BD78DA /* NoteEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteEntity.swift; sourceTree = "<group>"; };
 		294D4B5128962E670098A4BE /* Valid User Inputs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Valid User Inputs.swift"; sourceTree = "<group>"; };
 		294DA83728A0CF9500233775 /* FractionText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractionText.swift; sourceTree = "<group>"; };
+		295EC2782A84AF47005F37A1 /* .gitignore.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = .gitignore.md; sourceTree = "<group>"; };
 		29692A7A2905D11E00E1B42E /* MainMenuTutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuTutorialView.swift; sourceTree = "<group>"; };
 		2970B3652899EC6D00CFA901 /* EditNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNoteView.swift; sourceTree = "<group>"; };
 		298BC28128948F2B00A26F10 /* CreateMuscleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMuscleGroupView.swift; sourceTree = "<group>"; };
@@ -93,6 +94,7 @@
 				29FF07F1289452970035DB45 /* DataModel */,
 				29FF07E728938F860035DB45 /* Assets.xcassets */,
 				29FF07E928938F860035DB45 /* Preview Content */,
+				295EC2782A84AF47005F37A1 /* .gitignore.md */,
 			);
 			path = PerfectVolume;
 			sourceTree = "<group>";
