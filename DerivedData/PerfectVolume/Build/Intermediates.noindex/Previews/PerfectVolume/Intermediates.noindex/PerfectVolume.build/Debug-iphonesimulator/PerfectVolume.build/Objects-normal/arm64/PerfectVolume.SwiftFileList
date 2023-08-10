@@ -1,18 +1,19 @@
-/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/EditMuscleGroupView.swift
-/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Models/MuscleGroupEntity.swift
-/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Models/ExerciseEntity.swift
-/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift
-/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Utilities/Valid\ User\ Inputs.swift
-/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Utilities/FractionText.swift
-/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/DataModel/DataController.swift
-/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift
-/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolumeApp.swift
-/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/ExerciseDetailView.swift
-/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/EditNoteView.swift
-/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/CreateMuscleGroupView.swift
-/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Models/NoteEntity.swift
-/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/DerivedData/PerfectVolume/Build/Intermediates.noindex/Previews/PerfectVolume/Intermediates.noindex/PerfectVolume.build/Debug-iphonesimulator/PerfectVolume.build/DerivedSources/CoreDataGenerated/CoreDataContainer/SetDetailEntity+CoreDataClass.swift
-/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/DerivedData/PerfectVolume/Build/Intermediates.noindex/Previews/PerfectVolume/Intermediates.noindex/PerfectVolume.build/Debug-iphonesimulator/PerfectVolume.build/DerivedSources/CoreDataGenerated/CoreDataContainer/SetDetailEntity+CoreDataProperties.swift
-/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/DerivedData/PerfectVolume/Build/Intermediates.noindex/Previews/PerfectVolume/Intermediates.noindex/PerfectVolume.build/Debug-iphonesimulator/PerfectVolume.build/DerivedSources/CoreDataGenerated/CoreDataContainer/Test+CoreDataClass.swift
-/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/DerivedData/PerfectVolume/Build/Intermediates.noindex/Previews/PerfectVolume/Intermediates.noindex/PerfectVolume.build/Debug-iphonesimulator/PerfectVolume.build/DerivedSources/CoreDataGenerated/CoreDataContainer/Test+CoreDataProperties.swift
-/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/DerivedData/PerfectVolume/Build/Intermediates.noindex/Previews/PerfectVolume/Intermediates.noindex/PerfectVolume.build/Debug-iphonesimulator/PerfectVolume.build/DerivedSources/CoreDataGenerated/CoreDataContainer/CoreDataContainer+CoreDataModel.swift
+/Users/josephschaubroeck/Desktop/Side-Projects/PerfectVolume/PerfectVolume/Views/EditMuscleGroupView.swift
+/Users/josephschaubroeck/Desktop/Side-Projects/PerfectVolume/PerfectVolume/Models/MuscleGroupEntity.swift
+/Users/josephschaubroeck/Desktop/Side-Projects/PerfectVolume/PerfectVolume/Models/ExerciseEntity.swift
+/Users/josephschaubroeck/Desktop/Side-Projects/PerfectVolume/PerfectVolume/Views/CreateNoteView.swift
+/Users/josephschaubroeck/Desktop/Side-Projects/PerfectVolume/PerfectVolume/Utilities/Valid\ User\ Inputs.swift
+/Users/josephschaubroeck/Desktop/Side-Projects/PerfectVolume/PerfectVolume/Utilities/FractionText.swift
+/Users/josephschaubroeck/Desktop/Side-Projects/PerfectVolume/PerfectVolume/Views/MainMenuTutorialView.swift
+/Users/josephschaubroeck/Desktop/Side-Projects/PerfectVolume/PerfectVolume/DataModel/DataController.swift
+/Users/josephschaubroeck/Desktop/Side-Projects/PerfectVolume/PerfectVolume/Views/MainMenuView.swift
+/Users/josephschaubroeck/Desktop/Side-Projects/PerfectVolume/PerfectVolumeApp.swift
+/Users/josephschaubroeck/Desktop/Side-Projects/PerfectVolume/PerfectVolume/Views/ExerciseDetailView.swift
+/Users/josephschaubroeck/Desktop/Side-Projects/PerfectVolume/PerfectVolume/Views/EditNoteView.swift
+/Users/josephschaubroeck/Desktop/Side-Projects/PerfectVolume/PerfectVolume/Views/CreateMuscleGroupView.swift
+/Users/josephschaubroeck/Desktop/Side-Projects/PerfectVolume/PerfectVolume/Models/NoteEntity.swift
+/Users/josephschaubroeck/Desktop/Side-Projects/PerfectVolume/DerivedData/PerfectVolume/Build/Intermediates.noindex/Previews/PerfectVolume/Intermediates.noindex/PerfectVolume.build/Debug-iphonesimulator/PerfectVolume.build/DerivedSources/CoreDataGenerated/CoreDataContainer/SetDetailEntity+CoreDataClass.swift
+/Users/josephschaubroeck/Desktop/Side-Projects/PerfectVolume/DerivedData/PerfectVolume/Build/Intermediates.noindex/Previews/PerfectVolume/Intermediates.noindex/PerfectVolume.build/Debug-iphonesimulator/PerfectVolume.build/DerivedSources/CoreDataGenerated/CoreDataContainer/SetDetailEntity+CoreDataProperties.swift
+/Users/josephschaubroeck/Desktop/Side-Projects/PerfectVolume/DerivedData/PerfectVolume/Build/Intermediates.noindex/Previews/PerfectVolume/Intermediates.noindex/PerfectVolume.build/Debug-iphonesimulator/PerfectVolume.build/DerivedSources/CoreDataGenerated/CoreDataContainer/Test+CoreDataClass.swift
+/Users/josephschaubroeck/Desktop/Side-Projects/PerfectVolume/DerivedData/PerfectVolume/Build/Intermediates.noindex/Previews/PerfectVolume/Intermediates.noindex/PerfectVolume.build/Debug-iphonesimulator/PerfectVolume.build/DerivedSources/CoreDataGenerated/CoreDataContainer/Test+CoreDataProperties.swift
+/Users/josephschaubroeck/Desktop/Side-Projects/PerfectVolume/DerivedData/PerfectVolume/Build/Intermediates.noindex/Previews/PerfectVolume/Intermediates.noindex/PerfectVolume.build/Debug-iphonesimulator/PerfectVolume.build/DerivedSources/CoreDataGenerated/CoreDataContainer/CoreDataContainer+CoreDataModel.swift

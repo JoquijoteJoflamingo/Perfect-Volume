@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>1783921B-AFB1-4B6C-A8F7-984FB3177248</key>
+		<key>8A3F5BA5-20D4-442A-943A-0EB429520FD5</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>1783921B-AFB1-4B6C-A8F7-984FB3177248.xcactivitylog</string>
+			<string>8A3F5BA5-20D4-442A-943A-0EB429520FD5.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -30,17 +30,17 @@
 			<key>schemeIdentifier-sharedScheme</key>
 			<integer>1</integer>
 			<key>signature</key>
-			<string>Build PerfectVolume</string>
+			<string>Build for Previews PerfectVolume</string>
 			<key>timeStartedRecording</key>
-			<real>684780187.83229494</real>
+			<real>698866848.59389901</real>
 			<key>timeStoppedRecording</key>
-			<real>684780205.55639696</real>
+			<real>698866851.31344199</real>
 			<key>title</key>
-			<string>Build PerfectVolume</string>
+			<string>Build for Previews PerfectVolume</string>
 			<key>uniqueIdentifier</key>
-			<string>1783921B-AFB1-4B6C-A8F7-984FB3177248</string>
+			<string>8A3F5BA5-20D4-442A-943A-0EB429520FD5</string>
 		</dict>
-		<key>6CDC39E4-A235-496D-B0C9-98DF2B4FF37D</key>
+		<key>910CBA07-FC78-4CB6-98F0-7DE9A8C87EA9</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -49,7 +49,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>6CDC39E4-A235-496D-B0C9-98DF2B4FF37D.xcactivitylog</string>
+			<string>910CBA07-FC78-4CB6-98F0-7DE9A8C87EA9.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -64,17 +64,17 @@
 			<key>schemeIdentifier-sharedScheme</key>
 			<integer>1</integer>
 			<key>signature</key>
-			<string>Build for Previews PerfectVolume</string>
+			<string>Clean PerfectVolume</string>
 			<key>timeStartedRecording</key>
-			<real>688189888.32852495</real>
+			<real>713338360.77200198</real>
 			<key>timeStoppedRecording</key>
-			<real>688189893.68165505</real>
+			<real>713338360.82792497</real>
 			<key>title</key>
-			<string>Build for Previews PerfectVolume</string>
+			<string>Clean PerfectVolume</string>
 			<key>uniqueIdentifier</key>
-			<string>6CDC39E4-A235-496D-B0C9-98DF2B4FF37D</string>
+			<string>910CBA07-FC78-4CB6-98F0-7DE9A8C87EA9</string>
 		</dict>
-		<key>EF70D6CD-C682-4394-B3B0-3F69A4E9A55F</key>
+		<key>D118B64D-F7C3-4583-AE38-BDFED46D719B</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -83,13 +83,13 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>EF70D6CD-C682-4394-B3B0-3F69A4E9A55F.xcactivitylog</string>
+			<string>D118B64D-F7C3-4583-AE38-BDFED46D719B.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>S</string>
+				<string>E</string>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>PerfectVolume project</string>
@@ -100,13 +100,81 @@
 			<key>signature</key>
 			<string>Build for Previews PerfectVolume</string>
 			<key>timeStartedRecording</key>
-			<real>688189907.65287805</real>
+			<real>713338351.84122205</real>
 			<key>timeStoppedRecording</key>
-			<real>688189909.32308805</real>
+			<real>713338352.87123406</real>
 			<key>title</key>
 			<string>Build for Previews PerfectVolume</string>
 			<key>uniqueIdentifier</key>
-			<string>EF70D6CD-C682-4394-B3B0-3F69A4E9A55F</string>
+			<string>D118B64D-F7C3-4583-AE38-BDFED46D719B</string>
+		</dict>
+		<key>D90787F8-EDF9-4706-A703-503984A4D69E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D90787F8-EDF9-4706-A703-503984A4D69E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build for Previews PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>713338364.88862896</real>
+			<key>timeStoppedRecording</key>
+			<real>713338379.61517704</real>
+			<key>title</key>
+			<string>Build for Previews PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>D90787F8-EDF9-4706-A703-503984A4D69E</string>
+		</dict>
+		<key>EFAB4160-303D-4269-94D2-64C8535F135C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>EFAB4160-303D-4269-94D2-64C8535F135C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PerfectVolume project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PerfectVolume</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build for Previews PerfectVolume</string>
+			<key>timeStartedRecording</key>
+			<real>713338356.48280001</real>
+			<key>timeStoppedRecording</key>
+			<real>713338356.50280297</real>
+			<key>title</key>
+			<string>Build for Previews PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>EFAB4160-303D-4269-94D2-64C8535F135C</string>
 		</dict>
 	</dict>
 </dict>

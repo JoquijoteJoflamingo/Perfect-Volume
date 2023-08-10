@@ -18,10 +18,6 @@ struct MainMenuView: View {
         UITableView.appearance().backgroundColor = .clear
     }
     
-    // TEST COMMENT
-    // TEST AGAIN
-    // TEST 3
-    
     let secondarySystem : Color = Color(UIColor.secondarySystemBackground)
     
     @State var selectedIndex : Int = 0
@@ -33,9 +29,11 @@ struct MainMenuView: View {
         return formatter
     }
     
+    @State var showTutorial : Bool = false
     var body: some View {
         NavigationView {
             ZStack {
+                
                 Color(.white).ignoresSafeArea()
                 
                 VStack {
@@ -52,8 +50,10 @@ struct MainMenuView: View {
                                             FractionText(numerator: Int(muscle.setsWorked), denominator: Int(muscle.maxTargetSets))
                                         }
                                     }
+                                    
                                 }
                                 .listRowBackground(muscle.rowColor)
+                                
                             }
                             .onDelete(perform: deleteMuscle)
                         }
@@ -66,6 +66,16 @@ struct MainMenuView: View {
                                 .font(.system(size: 40, weight: .bold))
                                 .foregroundColor(Color("Mint Green"))
                                 .padding()
+                        }
+                        .toolbar() {
+                            ToolbarItemGroup(placement: .navigationBarTrailing) {
+                                Button {
+                                    showTutorial.toggle()
+                                } label: {
+                                    Image(systemName: "questionmark.circle").font(.system(size: 20)).padding().foregroundColor(Color("Mint Green"))
+                                }
+
+                            }
                         }
                         .navigationTitle("Muscle Groups")
                         
@@ -117,13 +127,32 @@ struct MainMenuView: View {
                         }
                     }
                 }
+                .fullScreenCover(isPresented: $showTutorial) {
+                    Text("Test")
+                }
+                
+                
             }
+            
+            
         }
         .onAppear {
             decrementAfterSevenDays()
         }
         .preferredColorScheme(ColorScheme.light)
+        // this will turn on when help button is pressed
+//        .overlay(MainMenuOverlayView)
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     private func deleteMuscle(offsets: IndexSet) {

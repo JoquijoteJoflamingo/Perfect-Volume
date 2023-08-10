@@ -1,10 +1,26 @@
 {
-  "source": "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/ExerciseDetailView.swift",
+  "source": "/Users/josephschaubroeck/Desktop/Side-Projects/PerfectVolume/PerfectVolume/Views/ExerciseDetailView.swift",
   "tables": {
     "Localizable": [
       {
         "comment": "",
-        "key": "Hello, World!"
+        "key": "Set %lld"
+      },
+      {
+        "comment": "",
+        "key": "Reps"
+      },
+      {
+        "comment": "",
+        "key": "0"
+      },
+      {
+        "comment": "",
+        "key": "Weight"
+      },
+      {
+        "comment": "",
+        "key": "lbs"
       }
     ]
   },

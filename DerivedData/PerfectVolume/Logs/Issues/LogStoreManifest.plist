@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>294EA8E0-F064-423B-9E47-6E9D1A3E3908</key>
+		<key>908F1C00-831B-4731-B291-29A054553E1A</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,7 +15,35 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>294EA8E0-F064-423B-9E47-6E9D1A3E3908.xcactivitylog</string>
+			<string>908F1C00-831B-4731-B291-29A054553E1A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>PerfectVolume-gfufpyvgzqoybkaqelfboypysodl</string>
+			<key>timeStartedRecording</key>
+			<real>698866848.63265896</real>
+			<key>timeStoppedRecording</key>
+			<real>698866851.31116199</real>
+			<key>title</key>
+			<string>Build target PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>908F1C00-831B-4731-B291-29A054553E1A</string>
+		</dict>
+		<key>9663E375-A99D-4F58-85F0-6C9BFA6BB1F0</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>9663E375-A99D-4F58-85F0-6C9BFA6BB1F0.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -26,13 +54,41 @@
 			<key>signature</key>
 			<string>PerfectVolume-dlhrcxnxizrffqdpbdblynqbczpu</string>
 			<key>timeStartedRecording</key>
-			<real>688189907.88217199</real>
+			<real>688247073.44630599</real>
 			<key>timeStoppedRecording</key>
-			<real>688189909.31536198</real>
+			<real>688247074.71680605</real>
 			<key>title</key>
 			<string>Build target PerfectVolume</string>
 			<key>uniqueIdentifier</key>
-			<string>294EA8E0-F064-423B-9E47-6E9D1A3E3908</string>
+			<string>9663E375-A99D-4F58-85F0-6C9BFA6BB1F0</string>
+		</dict>
+		<key>9AD63F6A-60D0-4243-BCF9-6030B514AF06</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>9AD63F6A-60D0-4243-BCF9-6030B514AF06.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>PerfectVolume-bhdheacwuytbncbqltmozekurfnx</string>
+			<key>timeStartedRecording</key>
+			<real>713338364.92972803</real>
+			<key>timeStoppedRecording</key>
+			<real>713338379.61390996</real>
+			<key>title</key>
+			<string>Build target PerfectVolume</string>
+			<key>uniqueIdentifier</key>
+			<string>9AD63F6A-60D0-4243-BCF9-6030B514AF06</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

@@ -1,5 +1,5 @@
 {
-  "source": "/Users/josephschaubroeck/Desktop/CoreData_Swift/PerfectVolume/PerfectVolume/Views/MainMenuView.swift",
+  "source": "/Users/josephschaubroeck/Desktop/Side-Projects/PerfectVolume/PerfectVolume/Views/MainMenuView.swift",
   "tables": {
     "Localizable": [
       {
@@ -13,6 +13,10 @@
       {
         "comment": "",
         "key": "Error"
+      },
+      {
+        "comment": "",
+        "key": "Test"
       }
     ]
   },

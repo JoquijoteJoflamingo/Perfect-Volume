@@ -6272,6 +6272,287 @@
     },
     {
       "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "PerfectVolume",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "MainMenuTutorialView",
+      "printedName": "MainMenuTutorialView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13PerfectVolume20MainMenuTutorialViewV4bodyQrvp",
+          "mangledName": "$s13PerfectVolume20MainMenuTutorialViewV4bodyQrvp",
+          "moduleName": "PerfectVolume",
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13PerfectVolume20MainMenuTutorialViewV4bodyQrvg",
+              "mangledName": "$s13PerfectVolume20MainMenuTutorialViewV4bodyQrvg",
+              "moduleName": "PerfectVolume",
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "MainMenuTutorialView",
+              "printedName": "PerfectVolume.MainMenuTutorialView",
+              "usr": "s:13PerfectVolume20MainMenuTutorialViewV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:13PerfectVolume20MainMenuTutorialViewVACycfc",
+          "mangledName": "$s13PerfectVolume20MainMenuTutorialViewVACycfc",
+          "moduleName": "PerfectVolume",
+          "implicit": true,
+          "declAttributes": [
+            "Dynamic"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:13PerfectVolume20MainMenuTutorialViewV",
+      "mangledName": "$s13PerfectVolume20MainMenuTutorialViewV",
+      "moduleName": "PerfectVolume",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "MainMenuTutorialView_Previews",
+      "printedName": "MainMenuTutorialView_Previews",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "previews",
+          "printedName": "previews",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13PerfectVolume29MainMenuTutorialView_PreviewsV8previewsQrvpZ",
+          "mangledName": "$s13PerfectVolume29MainMenuTutorialView_PreviewsV8previewsQrvpZ",
+          "moduleName": "PerfectVolume",
+          "static": true,
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13PerfectVolume29MainMenuTutorialView_PreviewsV8previewsQrvgZ",
+              "mangledName": "$s13PerfectVolume29MainMenuTutorialView_PreviewsV8previewsQrvgZ",
+              "moduleName": "PerfectVolume",
+              "static": true,
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "MainMenuTutorialView_Previews",
+              "printedName": "PerfectVolume.MainMenuTutorialView_Previews",
+              "usr": "s:13PerfectVolume29MainMenuTutorialView_PreviewsV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:13PerfectVolume29MainMenuTutorialView_PreviewsVACycfc",
+          "mangledName": "$s13PerfectVolume29MainMenuTutorialView_PreviewsVACycfc",
+          "moduleName": "PerfectVolume",
+          "implicit": true,
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:13PerfectVolume29MainMenuTutorialView_PreviewsV",
+      "mangledName": "$s13PerfectVolume29MainMenuTutorialView_PreviewsV",
+      "moduleName": "PerfectVolume",
+      "declAttributes": [
+        "Custom"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "PreviewProvider",
+          "printedName": "PreviewProvider",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Previews",
+              "printedName": "Previews",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI15PreviewProviderP",
+          "mangledName": "$s7SwiftUI15PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_PreviewProvider",
+          "printedName": "_PreviewProvider",
+          "usr": "s:7SwiftUI16_PreviewProviderP",
+          "mangledName": "$s7SwiftUI16_PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
       "name": "Foundation",
       "printedName": "Foundation",
       "declKind": "Import",
@@ -7447,8 +7728,7 @@
           "declAttributes": [
             "Custom",
             "HasInitialValue",
-            "HasStorage",
-            "RawDocComment"
+            "HasStorage"
           ],
           "fixedbinaryorder": 3,
           "isLet": true,
@@ -7855,6 +8135,277 @@
                 "Dynamic"
               ],
               "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "showTutorial",
+          "printedName": "showTutorial",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13PerfectVolume12MainMenuViewV12showTutorialSbvp",
+          "mangledName": "$s13PerfectVolume12MainMenuViewV12showTutorialSbvp",
+          "moduleName": "PerfectVolume",
+          "declAttributes": [
+            "Custom",
+            "Dynamic",
+            "ProjectedValueProperty",
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13PerfectVolume12MainMenuViewV12showTutorialSbvg",
+              "mangledName": "$s13PerfectVolume12MainMenuViewV12showTutorialSbvg",
+              "moduleName": "PerfectVolume",
+              "implicit": true,
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13PerfectVolume12MainMenuViewV12showTutorialSbvs",
+              "mangledName": "$s13PerfectVolume12MainMenuViewV12showTutorialSbvs",
+              "moduleName": "PerfectVolume",
+              "implicit": true,
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13PerfectVolume12MainMenuViewV12showTutorialSbvM",
+              "mangledName": "$s13PerfectVolume12MainMenuViewV12showTutorialSbvM",
+              "moduleName": "PerfectVolume",
+              "implicit": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$showTutorial",
+          "printedName": "$showTutorial",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Binding",
+              "printedName": "SwiftUI.Binding<Swift.Bool>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "usr": "s:7SwiftUI7BindingV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13PerfectVolume12MainMenuViewV13$showTutorial7SwiftUI7BindingVySbGvp",
+          "mangledName": "$s13PerfectVolume12MainMenuViewV13$showTutorial7SwiftUI7BindingVySbGvp",
+          "moduleName": "PerfectVolume",
+          "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Binding",
+                  "printedName": "SwiftUI.Binding<Swift.Bool>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI7BindingV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13PerfectVolume12MainMenuViewV13$showTutorial7SwiftUI7BindingVySbGvg",
+              "mangledName": "$s13PerfectVolume12MainMenuViewV13$showTutorial7SwiftUI7BindingVySbGvg",
+              "moduleName": "PerfectVolume",
+              "implicit": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_showTutorial",
+          "printedName": "_showTutorial",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<Swift.Bool>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13PerfectVolume12MainMenuViewV13_showTutorial33_BC390E6A4ADB988145353E0D5760F09DLL7SwiftUI5StateVySbGvp",
+          "mangledName": "$s13PerfectVolume12MainMenuViewV13_showTutorial33_BC390E6A4ADB988145353E0D5760F09DLL7SwiftUI5StateVySbGvp",
+          "moduleName": "PerfectVolume",
+          "implicit": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 6,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "State",
+                  "printedName": "SwiftUI.State<Swift.Bool>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI5StateV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13PerfectVolume12MainMenuViewV13_showTutorial33_BC390E6A4ADB988145353E0D5760F09DLL7SwiftUI5StateVySbGvg",
+              "mangledName": "$s13PerfectVolume12MainMenuViewV13_showTutorial33_BC390E6A4ADB988145353E0D5760F09DLL7SwiftUI5StateVySbGvg",
+              "moduleName": "PerfectVolume",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "State",
+                  "printedName": "SwiftUI.State<Swift.Bool>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI5StateV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13PerfectVolume12MainMenuViewV13_showTutorial33_BC390E6A4ADB988145353E0D5760F09DLL7SwiftUI5StateVySbGvs",
+              "mangledName": "$s13PerfectVolume12MainMenuViewV13_showTutorial33_BC390E6A4ADB988145353E0D5760F09DLL7SwiftUI5StateVySbGvs",
+              "moduleName": "PerfectVolume",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13PerfectVolume12MainMenuViewV13_showTutorial33_BC390E6A4ADB988145353E0D5760F09DLL7SwiftUI5StateVySbGvM",
+              "mangledName": "$s13PerfectVolume12MainMenuViewV13_showTutorial33_BC390E6A4ADB988145353E0D5760F09DLL7SwiftUI5StateVySbGvM",
+              "moduleName": "PerfectVolume",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
             }
           ]
         },
